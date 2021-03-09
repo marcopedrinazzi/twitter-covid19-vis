@@ -74,7 +74,7 @@ Then we just have to execute in the terminal:<br>
 where api_keys.json contains the Twitter API Keys and Tokens in a JSON format.
 <br>
 The command above returns the following files:
-- A hydrated_tweets.json file which contains the full json object for each of the hydrated tweets
-- A hydrated_tweets.CSV file which contains partial fields extracted from the tweets.
-- A hydrated_tweets.zip file which contains a zipped version of the tweets_full.json file.
-- A hydrated_tweets_short.json which contains a shortened version of the hydrated tweets.
+- A <b>hydrated_tweets.json</b> file which contains the full json object for each of the hydrated tweets
+- A <b>hydrated_tweets.CSV</b> file which contains partial fields extracted from the tweets.
+- A <b>hydrated_tweets.zip</b> file which contains a zipped version of the tweets_full.json file.
+- A <b>hydrated_tweets_short.json</b> which contains a shortened version of the hydrated tweets.
