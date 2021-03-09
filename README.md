@@ -7,6 +7,52 @@ The dataset comes from this research work: Banda, J. M., Tekumalla, R., Wang, G.
 
 Dataset download: https://zenodo.org/record/4588081#.YEcuDi9aa8o
 
+<table>
+  <tr>
+    <th>Dataset Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>full_dataset.tsv.gz</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>full_dataset-clean.tsv.gz</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>statistics-full_dataset-clean .tsv</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>statistics-full_dataset.tsv</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>frequent_terms.csvs</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>frequent_bigrams.csv</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>frequent_trigrams.csv</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>emoji.zip</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>hashtag.zip</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>mentions.zip</td>
+    <td></td>
+  </tr>
+</table>
 
 <h2>Visualisation about Covid19 Misinformation on Twitter</h2>
 
