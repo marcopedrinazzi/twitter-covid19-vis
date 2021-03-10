@@ -34,8 +34,9 @@ We've changed the file names to:
 - A <b>general_hydrated_short.json</b> which contains a shortened version of the hydrated tweets.
 <br>
 
-<b>Parsing</b>
-We've done the JSON parsing using the tools from https://github.com/thepanacealab/SMMT/tree/master/data_preprocessing.
+<b>Parsing</b><br>
+
+We've done the JSON parsing using the tools from https://github.com/thepanacealab/SMMT/tree/master/data_preprocessing.<br>
 We've used <i>parse_json_lite.py</i> and <i>fields.py</i>, we have downloaded them using the following commands:<br>
 
 <code>wget https://raw.githubusercontent.com/thepanacealab/SMMT/master/data_preprocessing/parse_json_lite.py -O parse_json_lite.py</code>
