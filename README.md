@@ -59,6 +59,7 @@ By default the parse will extract all fields. It's possible limit to the only on
 <br>
 All the fields available can be found at https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet
 
+The parsing process produces a .tsv file with the results.
 
 
 <h2>Visualisation about Covid19 Misinformation on Twitter</h2>
