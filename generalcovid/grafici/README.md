@@ -2,4 +2,4 @@
 Word Cloud con immagine
 
 # Visualisations
-1. Word Cloud
+<b>Word Cloud</b>: file <i>wcloud.py</i>
