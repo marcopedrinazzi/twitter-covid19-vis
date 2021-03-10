@@ -64,19 +64,19 @@ def give_emoji_free_text(text):
     return emoji.get_emoji_regexp().sub(r'', text)
 
 
-tweet_df = pd.io.json.json_normalize(data)
+tweet_df = pd.json_normalize(data)
 # Cleaner solution in case some of the fields in the list are non existent and/or have typos
 tweet_df = tweet_df.loc[:, tweet_df.columns.isin(fieldsFilter)]
 
-tweet_df['text'] = tweet_df['text'].str.replace('\n','')
-tweet_df['text'] = tweet_df['text'].str.replace('\r','')
+tweet_df['full_text'] = tweet_df['full_text'].str.replace('\n','')
+tweet_df['full_text'] = tweet_df['full_text'].str.replace('\r','')
 
 if preprocess == 'p':
-    tweet_df['text'] = tweet_df['text'].apply(lambda x : remove_urls(x))
-    tweet_df['text'] = tweet_df['text'].apply(lambda x : remove_twitter_urls(x))
-    tweet_df['text'] = tweet_df['text'].apply(lambda x : remove_emoticons(x))
-    tweet_df['text'] = tweet_df['text'].apply(lambda x : remove_emoji(x))
-    tweet_df['text'] = tweet_df['text'].apply(lambda x : give_emoji_free_text(x))
+    tweet_df['full_text'] = tweet_df['full_text'].apply(lambda x : remove_urls(x))
+    tweet_df['full_text'] = tweet_df['full_text'].apply(lambda x : remove_twitter_urls(x))
+    tweet_df['full_text'] = tweet_df['full_text'].apply(lambda x : remove_emoticons(x))
+    tweet_df['full_text'] = tweet_df['full_text'].apply(lambda x : remove_emoji(x))
+    tweet_df['full_text'] = tweet_df['full_text'].apply(lambda x : give_emoji_free_text(x))
 
 
 
