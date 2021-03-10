@@ -8,7 +8,7 @@ The dataset comes from this research work: Shahi, G. K., Dirkson, A., & Majchrza
 The dataset that we've used is composed by one column: <b>tweet_id</b>
 
 We've done the hydratation (to get complete details (i.e. fields) of a tweet from its ID) thanks to this tool https://github.com/thepanacealab/SMMT. <br>
-We're interested in get_metadata.py, which we have downloaded using the following command:<br>
+We're interested in <i>get_metadata.py</i>, which we have downloaded using the following command:<br>
 
 <code>wget https://raw.githubusercontent.com/thepanacealab/SMMT/master/data_acquisition/get_metadata.py -O get_metadata.py</code>
 <br>
@@ -19,6 +19,7 @@ Then we just have to execute in the terminal:<br>
 
 where api_keys.json contains the Twitter API Keys and Tokens in a JSON format.
 <br>
+
 The command above returns the following files:
 - A <b>hydrated_tweets.json</b> file which contains the full json object for each of the hydrated tweets
 - A <b>hydrated_tweets.csv</b> file which contains partial fields extracted from the tweets.
@@ -31,6 +32,20 @@ We've changed the file names to:
 - A <b>general_hydrated.csv</b> file which contains partial fields extracted from the tweets.
 - A <b>general_hydrated.zip</b> file which contains a zipped version of the tweets_full.json file.
 - A <b>general_hydrated_short.json</b> which contains a shortened version of the hydrated tweets.
+<br>
+
+<b>Parsing</b>
+We've done the JSON parsing using the tools from https://github.com/thepanacealab/SMMT/tree/master/data_preprocessing.
+We've used <i>parse_json_lite.py</i> and <i>fields.py</i>, we have downloaded them using the following commands:<br>
+
+<code>wget https://raw.githubusercontent.com/thepanacealab/SMMT/master/data_preprocessing/parse_json_lite.py -O parse_json_lite.py</code>
+<br>
+
+<code>wget https://raw.githubusercontent.com/thepanacealab/SMMT/master/data_preprocessing/fields.py -O fields.py</code>
+<br>
+
+
+
 
 <h2>Visualisation about Covid19 Misinformation on Twitter</h2>
 
