@@ -5,7 +5,6 @@ import sys
 import string
 import re
 # This will load the fields list
-import fields
 from emot.emo_unicode import UNICODE_EMO, EMOTICONS
 import emoji
 from wordcloud import WordCloud, STOPWORDS
