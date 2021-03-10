@@ -32,4 +32,4 @@ The dataset comes from this research work: Shahi, G. K., Dirkson, A., & Majchrza
 
 The dataset that we've used is composed by two columns: <b>tweet_id</b> and <b>tweet_class</b><br>
 
-We've done the hydratation (to get complete details (i.e. fields) of a tweet from its ID) thanks to this tool https://github.com/thepanacealab/SMMT in the same way as above. <br>
+We've done the hydratation (to get complete details (i.e. fields) of a tweet from its ID) thanks to this tool https://github.com/thepanacealab/SMMT in the same way as explained above. <br>
