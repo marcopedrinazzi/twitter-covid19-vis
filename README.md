@@ -46,12 +46,12 @@ We've used <i>parse_json_lite.py</i> and <i>fields.py</i>, we have downloaded th
 <br>
 
 The parsing is done executing this command:<br>
-<code>python parse_json_lite.py filename.json</code><br>
+<code>python3 parse_json_lite.py filename.json</code><br>
 
 This utility takes two arguments. The first argument is the json file. The second argument is optional. If the second argument is given, it will preprocess the json file. The preprocessing includes removal of URLs, twitter specific Urls, Emojis, Emoticons.
 Note: For the preprocessing to work, the second argument must be p
 
-<code>python parse_json_lite.py filename.json p</code><br>
+<code>python3 parse_json_lite.py filename.json p</code><br>
 
 What fields do you want to extrat from your Tweet json?
 
