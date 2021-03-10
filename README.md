@@ -24,6 +24,8 @@ The command above returns the following files:
 - A <b>hydrated_tweets.CSV</b> file which contains partial fields extracted from the tweets.
 - A <b>hydrated_tweets.zip</b> file which contains a zipped version of the tweets_full.json file.
 - A <b>hydrated_tweets_short.json</b> which contains a shortened version of the hydrated tweets.
+<br>
+We've changed the file names to fit our purpose.
 
 <h2>Visualisation about Covid19 Misinformation on Twitter</h2>
 
@@ -33,3 +35,9 @@ The dataset comes from this research work: Shahi, G. K., Dirkson, A., & Majchrza
 The dataset that we've used is composed by two columns: <b>tweet_id</b> and <b>tweet_class</b><br>
 
 We've done the hydratation (to get complete details (i.e. fields) of a tweet from its ID) thanks to this tool https://github.com/thepanacealab/SMMT in the same way as explained above. <br>
+
+We've changed the file names returned by the hydratation process in:
+- A <b>fakecovid_hydrated.json</b> file which contains the full json object for each of the hydrated tweets
+- A <b>fakecovid_hydrated.csv</b> file which contains partial fields extracted from the tweets.
+- A <b>fakecovid_hydrated.zip</b> file which contains a zipped version of the tweets_full.json file.
+- A <b>fakecovid_hydrated_short.json</b> which contains a shortened version of the hydrated tweets.
