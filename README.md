@@ -21,11 +21,16 @@ where api_keys.json contains the Twitter API Keys and Tokens in a JSON format.
 <br>
 The command above returns the following files:
 - A <b>hydrated_tweets.json</b> file which contains the full json object for each of the hydrated tweets
-- A <b>hydrated_tweets.CSV</b> file which contains partial fields extracted from the tweets.
+- A <b>hydrated_tweets.csv</b> file which contains partial fields extracted from the tweets.
 - A <b>hydrated_tweets.zip</b> file which contains a zipped version of the tweets_full.json file.
 - A <b>hydrated_tweets_short.json</b> which contains a shortened version of the hydrated tweets.
 <br>
-We've changed the file names to fit our purpose.
+
+We've changed the file names to:
+- A <b>general_hydrated.json</b> file which contains the full json object for each of the hydrated tweets
+- A <b>general_hydrated.csv</b> file which contains partial fields extracted from the tweets.
+- A <b>general_hydrated.zip</b> file which contains a zipped version of the tweets_full.json file.
+- A <b>general_hydrated_short.json</b> which contains a shortened version of the hydrated tweets.
 
 <h2>Visualisation about Covid19 Misinformation on Twitter</h2>
 
