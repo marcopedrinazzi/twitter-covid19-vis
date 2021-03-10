@@ -45,6 +45,19 @@ We've used <i>parse_json_lite.py</i> and <i>fields.py</i>, we have downloaded th
 <code>wget https://raw.githubusercontent.com/thepanacealab/SMMT/master/data_preprocessing/fields.py -O fields.py</code>
 <br>
 
+The parsing is done executing this command:<br>
+<code>python parse_json_lite.py filename.json</code><br>
+
+This utility takes two arguments. The first argument is the json file. The second argument is optional. If the second argument is given, it will preprocess the json file. The preprocessing includes removal of URLs, twitter specific Urls, Emojis, Emoticons.
+Note: For the preprocessing to work, the second argument must be p
+
+<code>python parse_json_lite.py filename.json p</code><br>
+
+What fields do you want to extrat from your Tweet json?
+
+By default the parse will extract all fields. It's possible limit to the only ones required want by editing the <b>fields.py</b> file and only leaving the selected ones.
+<br>
+All the fields available can be found at https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet
 
 
 
