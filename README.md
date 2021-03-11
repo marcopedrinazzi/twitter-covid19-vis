@@ -2,8 +2,8 @@
 
 <b>Authors</b>: Simona Guida, Marco Pedrinazzi
 
-Data from: https://github.com/Gautamshahi/Misinformation_COVID-19 
-The dataset comes from this research work: Shahi, G. K., Dirkson, A., & Majchrzak, T. A. (2021). An exploratory study of covid-19 misinformation on twitter. Online social networks and media, 100104.
+Data from: https://github.com/Gautamshahi/Misinformation_COVID-19<br>
+The dataset comes from this research work: Shahi, G. K., Dirkson, A., & Majchrzak, T. A. (2021). An exploratory study of covid-19 misinformation on twitter. Online social networks and media, 100104. https://arxiv.org/abs/2005.05710<br>
 
 The dataset that we've used is composed by one column: <b>tweet_id</b>
 
@@ -47,7 +47,7 @@ The parsing process produces a .tsv file with the results.
 <h2>Visualisation about Covid19 Misinformation on Twitter</h2>
 
 Data from: https://github.com/Gautamshahi/Misinformation_COVID-19 <br>
-The dataset comes from this research work: Shahi, G. K., Dirkson, A., & Majchrzak, T. A. (2021). An exploratory study of covid-19 misinformation on twitter. Online social networks and media, 100104.<br>
+The dataset comes from this research work: Shahi, G. K., Dirkson, A., & Majchrzak, T. A. (2021). An exploratory study of covid-19 misinformation on twitter. Online social networks and media, 100104. https://arxiv.org/abs/2005.05710<br>
 
 The dataset that we've used is composed by two columns: <b>tweet_id</b> and <b>tweet_class</b><br>
 
