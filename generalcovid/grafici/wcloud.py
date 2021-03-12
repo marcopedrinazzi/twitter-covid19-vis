@@ -36,6 +36,10 @@ def remove_twitter_urls(text):
 def give_emoji_free_text(text):
     return emoji.get_emoji_regexp().sub(r'', text)
 
+def noamp(text):
+    clean = re.sub("&amp", "",text)
+    return (clean)
+
 
 data = []
 with open('general_result.json', 'r') as f:
@@ -52,6 +56,7 @@ for element in data:
     data[index]['full_text'] = remove_emoticons(data[index]['full_text'])
     data[index]['full_text'] = remove_emoji(data[index]['full_text'])
     data[index]['full_text'] = give_emoji_free_text(data[index]['full_text'])
+    data[index]['full_text'] = noamp(data[index]['full_text'])
     #new.append(data[index]['full_text'])
     #print(str(index)+" "+new[index])
     tokens=data[index]['full_text'].split()
@@ -64,7 +69,7 @@ wordcloud = WordCloud(width = 800, height = 800,
                background_color ='white', 
                 stopwords = stopwords, 
                 normalize_plurals=False,
-                 min_word_length = 3,
+                min_word_length = 3,
                min_font_size = 10).generate(comment_words) 
   
 #plot the WordCloud image                        
