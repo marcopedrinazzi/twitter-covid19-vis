@@ -44,7 +44,7 @@ with open('general_result.json', 'r') as f:
         data.append(json.loads(line))
 
 index=0
-new = []
+#new = []
 comment_words = ''
 stopwords = set(STOPWORDS) 
 for element in data:
@@ -72,6 +72,7 @@ wordcloud = WordCloud(background_color ='white',
                       contour_color= 'blue',
                 stopwords = STOPWORDS, 
                 normalize_plurals=False,
+                 min_word_length = 3,
                min_font_size = 10).generate(comment_words) 
   
 #plot the WordCloud image                        
