@@ -43,30 +43,24 @@ with open('general_result.json', 'r') as f:
         data.append(json.loads(line))
 
 index=0
-#new = []
 comment_words = ''
 stopwords = set(STOPWORDS) 
 for element in data:
-    data[index]['full_text'] = remove_urls(data[index]['full_text'])
-    data[index]['full_text'] = remove_twitter_urls(data[index]['full_text'])
-    data[index]['full_text'] = remove_emoticons(data[index]['full_text'])
-    data[index]['full_text'] = remove_emoji(data[index]['full_text'])
-    data[index]['full_text'] = give_emoji_free_text(data[index]['full_text'])
-    #new.append(data[index]['full_text'])
-    #print(str(index)+" "+new[index])
-    tokens=data[index]['full_text'].split()
-    #print(tokens)
-    comment_words += " ".join(tokens)+" "
+    for entity in data[index]['entities']['user_mentions']:
+        token=entity['screen_name']
+        mention="@"+token
+        comment_words += mention + " "
     index=index+1
 
-
+print(comment_words)
 wordcloud = WordCloud(width = 800, height = 800, 
                background_color ='white', 
-                stopwords = stopwords, 
-                normalize_plurals=False,
+               stopwords = stopwords, 
+               normalize_plurals=False,
                min_font_size = 10).generate(comment_words) 
   
 #plot the WordCloud image                        
+
 plt.figure(figsize = (8, 8), facecolor = None) 
 plt.imshow(wordcloud) 
 plt.axis("off") 
