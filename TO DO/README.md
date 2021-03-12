@@ -1,0 +1,1 @@
+La visualizzazione della location dei tweet con il campo "location" del JSON non ha senso perchè è un campo user-defined.
