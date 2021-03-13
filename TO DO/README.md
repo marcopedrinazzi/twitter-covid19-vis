@@ -1,3 +1,7 @@
+# FIX
+
+<h3>In alcune word cloud ci sono caratteri in arabo/cinese o comunque strani che vanno gestiti.</h3>
+
 # TO DO
 Word Cloud con immagine su <b>tutte</b> le Word Cloud<br>
 
