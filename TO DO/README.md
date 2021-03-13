@@ -13,6 +13,9 @@ Per la cosa degli amici:<br>
 <b>followers_count</b> The number of followers this account currently has. <br>
 <b>friends_count</b> The number of users this account is following (AKA their “followings”).<br>
 <b>verified</b> When true, indicates that the user has a verified account.<br>
-Ulteriormente per 
-<b>retweet_count</b> Number of times this Tweet has been retweeted. 
-<b>favorite_count</b> Indicates approximately how many times this Tweet has been liked by Twitter users. 
+
+Ulteriormente<br>
+<b>retweet_count</b> Number of times this Tweet has been retweeted. <br>
+<b>favorite_count</b> Indicates approximately how many times this Tweet has been liked by Twitter users. <br>
+
+<h3>CAMPI JSON SPIEGATI https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet</h3><br>
