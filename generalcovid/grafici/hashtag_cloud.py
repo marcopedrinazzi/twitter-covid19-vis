@@ -8,8 +8,7 @@ import re
 from emot.emo_unicode import UNICODE_EMO, EMOTICONS
 import emoji
 from wordcloud import WordCloud, STOPWORDS
-import matplotlib.pyplot as plt
-from PIL import Image
+import matplotlib.pyplot as plt 
 
 def remove_emoticons(text):
     emoticon_pattern = re.compile(u'(' + u'|'.join(k for k in EMOTICONS) + u')')
@@ -41,6 +40,7 @@ def noamp(text):
     clean = re.sub("&amp", "",text)
     return (clean)
 
+
 data = []
 with open('general_result.json', 'r') as f:
     for line in f:
@@ -49,39 +49,29 @@ with open('general_result.json', 'r') as f:
 index=0
 #new = []
 comment_words = ''
-stopwords = set(STOPWORDS) 
+stopwords = ["COVID19", "Coronavirus", "Corona", "Covid_19", "COVID","CoronaVirusOutbreak","COVID2019"] + list(STOPWORDS)
 for element in data:
-    data[index]['full_text'] = remove_urls(data[index]['full_text'])
-    data[index]['full_text'] = remove_twitter_urls(data[index]['full_text'])
-    data[index]['full_text'] = remove_emoticons(data[index]['full_text'])
-    data[index]['full_text'] = remove_emoji(data[index]['full_text'])
-    data[index]['full_text'] = give_emoji_free_text(data[index]['full_text'])
-    data[index]['full_text'] = noamp(data[index]['full_text'])
-    #new.append(data[index]['full_text'])
-    #print(str(index)+" "+new[index])
-    tokens=data[index]['full_text'].split()
-    #print(tokens)
-    comment_words += " ".join(tokens)+" "
+    for entity in data[index]['entities']['hashtags']:
+        entity['text'] = remove_emoticons(entity['text'])
+        entity['text'] = remove_emoji(entity['text'])
+        entity['text'] = give_emoji_free_text(entity['text'])
+        entity['text'] = noamp(entity['text'])
+        token=entity['text']
+        comment_words += token + " "
     index=index+1
 
-
-mask= np.array(Image.open('twitter.jpg'))
-
-
-wordcloud = WordCloud(background_color ='white',
-                mask=mask,
-                      width=mask.shape[1],
-               height=mask.shape[0],
-                      contour_width=1,
-                      contour_color= 'blue',
-                stopwords = STOPWORDS, 
-                normalize_plurals=False,
-                 min_word_length = 3,
+wordcloud = WordCloud(width = 800, height = 800, 
+               background_color ='white', 
+               stopwords = stopwords, 
+               normalize_plurals=False,
+                min_word_length = 3,
                min_font_size = 10).generate(comment_words) 
-  
+
 #plot the WordCloud image                        
-f=plt.figure(figsize = (8, 8), facecolor = None)
-plt.imshow(wordcloud,interpolation="bilinear") 
+
+plt.figure(figsize = (8, 8), facecolor = None) 
+plt.imshow(wordcloud) 
 plt.axis("off") 
 plt.tight_layout(pad = 0) 
-plt.show()
+
+plt.show() 
