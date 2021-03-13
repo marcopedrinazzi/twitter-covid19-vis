@@ -1,3 +1,8 @@
+# FIX
+
+<h3>In alcune word cloud ci sono caratteri in arabo/cinese o comunque strani che vanno gestiti.</h3>
+
+
 # Twitter Covid19 Visualisation
 
 <b>Authors</b>: Simona Guida, Marco Pedrinazzi
