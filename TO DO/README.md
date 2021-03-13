@@ -20,6 +20,13 @@ Ulteriormente<br>
 <b>favorite_count</b> Indicates approximately how many times this Tweet has been liked by Twitter users. <br>
 
 <h3>CAMPI JSON SPIEGATI<br>
+
+Tweet:
 https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet<br>
 
-https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/user</h3><br>
+User:
+https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/user<br>
+
+Entities:
+https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/entities
+</h3><br>
