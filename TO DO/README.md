@@ -1,8 +1,6 @@
 # FIX
 
-<h3>In alcune word cloud ci sono caratteri in arabo/cinese o comunque strani che vanno gestiti.
-
-WORD CLOUD IMMAGINE: l'img di twitter ha i contorni seghettati</h3>
+<h3>In alcune word cloud ci sono caratteri in arabo/cinese o comunque strani che vanno gestiti. </h3>
 
 # TO DO
 <h3>Considerare se l'istogramma è il grafo più adeguato per i file dates.py</h3><br>

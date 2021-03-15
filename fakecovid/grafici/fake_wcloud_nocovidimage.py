@@ -8,7 +8,7 @@ import re
 from emot.emo_unicode import UNICODE_EMO, EMOTICONS
 import emoji
 from wordcloud import WordCloud, STOPWORDS
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 from PIL import Image
 
 def remove_emoticons(text):
@@ -41,15 +41,16 @@ def noamp(text):
     clean = re.sub("&amp", "",text)
     return (clean)
 
+
 data = []
-with open('fakecovid_result.json', 'r') as f:
+with open('fakecovid.json', 'r') as f:
     for line in f:
         data.append(json.loads(line))
 
 index=0
 #new = []
 comment_words = ''
-stopwords = set(STOPWORDS) 
+stopwords = ["COVID19", "Coronavirus", "Corona", "Covid_19", "COVID","CoronaVirusOutbreak","COVID2019"] + list(STOPWORDS)
 for element in data:
     data[index]['full_text'] = remove_urls(data[index]['full_text'])
     data[index]['full_text'] = remove_twitter_urls(data[index]['full_text'])
@@ -64,24 +65,20 @@ for element in data:
     comment_words += " ".join(tokens)+" "
     index=index+1
 
-
 mask= np.array(Image.open('twitter.jpg'))
 
-
 wordcloud = WordCloud(background_color ='white',
-                mask=mask,
-                      width=mask.shape[1],
-               height=mask.shape[0],
-                      contour_width=1,
-                      contour_color= 'blue',
-                stopwords = STOPWORDS, 
-                normalize_plurals=False,
-                 min_word_length = 3,
-               min_font_size = 10).generate(comment_words) 
+            mask=mask,
+            width=mask.shape[1],
+            height=mask.shape[0],          
+            stopwords = stopwords, 
+            normalize_plurals=False,
+            min_word_length = 3,
+            min_font_size = 10).generate(comment_words)
   
 #plot the WordCloud image                        
-f=plt.figure(figsize = (8, 8), facecolor = None)
+plt.figure(figsize = (8, 8), facecolor = None) 
 plt.imshow(wordcloud,interpolation="bilinear") 
 plt.axis("off") 
 plt.tight_layout(pad = 0) 
-plt.show()
+plt.show() 

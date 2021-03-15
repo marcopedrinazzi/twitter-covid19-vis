@@ -50,7 +50,7 @@ with open('general_result.json', 'r') as f:
 index=0
 #new = []
 comment_words = ''
-stopwords = set(STOPWORDS) 
+stopwords = ["COVID19", "Coronavirus", "Corona", "Covid_19", "COVID","CoronaVirusOutbreak","COVID2019"] + list(STOPWORDS)
 for element in data:
     data[index]['full_text'] = remove_urls(data[index]['full_text'])
     data[index]['full_text'] = remove_twitter_urls(data[index]['full_text'])
@@ -65,12 +65,12 @@ for element in data:
     comment_words += " ".join(tokens)+" "
     index=index+1
 
-mask= np.array(Image.open('virus.jpg'))
+mask= np.array(Image.open('twitter.jpg'))
 
 wordcloud = WordCloud(background_color ='white',
             mask=mask,
             width=mask.shape[1],
-            height=mask.shape[0],
+            height=mask.shape[0],          
             stopwords = stopwords, 
             normalize_plurals=False,
             min_word_length = 3,
