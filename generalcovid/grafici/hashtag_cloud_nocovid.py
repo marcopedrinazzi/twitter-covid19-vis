@@ -49,7 +49,7 @@ with open('general_result.json', 'r') as f:
 index=0
 #new = []
 comment_words = ''
-stopwords = set(STOPWORDS)
+stopwords = ["COVID19", "Coronavirus", "Corona", "Covid_19", "COVID","CoronaVirusOutbreak","COVID2019"] + list(STOPWORDS)
 for element in data:
     for entity in data[index]['entities']['hashtags']:
         entity['text'] = remove_emoticons(entity['text'])

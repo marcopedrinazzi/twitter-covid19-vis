@@ -42,7 +42,7 @@ def noamp(text):
 
 
 data = []
-with open('general_result.json', 'r') as f:
+with open('fakecovid_result.json', 'r') as f:
     for line in f:
         data.append(json.loads(line))
 
@@ -67,6 +67,7 @@ wordcloud = WordCloud(width = 800, height = 800,
                 min_word_length = 3,
                min_font_size = 10).generate(comment_words) 
 
+print(wordcloud.process_text(comment_words))
 #plot the WordCloud image                        
 
 plt.figure(figsize = (8, 8), facecolor = None) 

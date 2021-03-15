@@ -42,7 +42,7 @@ https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-mode
 
 # NOTE DELLA PROF - Lezione del 12/03
 
-• Fare un Word Cloud delle parole e degli hashtag più frequenti nei fake tweet, anche NON inerenti al Covid.<br>
+<strike>• Fare un Word Cloud delle parole e degli hashtag più frequenti nei fake tweet, anche NON inerenti al Covid.</strike><br>
 
 • Quali sono le parole che maggiormente compaiono insieme in un tweet; ad esempio: hospital + death, homework + children, smartwork + lunch.<br>
 
@@ -50,7 +50,7 @@ https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-mode
 - andare a visualizzare le parole che occorrono di più (tramite un wordle)
 - selezionare solo queste parole e vedere quali di queste co-occorrono, ossia compaiono insieme.<br>
 
-• Si potrebbero contare quali sono gli username più frequenti.<br>
+<b>Creata Word Cloud per tutti e due i casi</b> <strike>• Si potrebbero contare quali sono gli username più frequenti.</strike><br>
 
 # NOTE DELLA PROF - Lezione del 15/03
 
