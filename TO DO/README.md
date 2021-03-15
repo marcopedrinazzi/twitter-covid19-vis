@@ -7,6 +7,8 @@ WORD CLOUD IMMAGINE: l'img di twitter ha i contorni seghettati</h3>
 # TO DO
 <h3>Considerare se l'istogramma è il grafo più adeguato per i file dates.py</h3><br>
 
+<h3>Fare un istogramma per far vedere numericamente quante volte appare ogni parola in ogni word cloud</h3><br>
+
 Word Cloud con immagine su <b>tutte</b> le Word Cloud<br>
 
 Portare le word cloud fatte fin ora anche nella cartella fakecovid e testarle<br>
