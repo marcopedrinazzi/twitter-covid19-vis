@@ -1,6 +1,8 @@
 # FIX
 
-<h3>In alcune word cloud ci sono caratteri in arabo/cinese o comunque strani che vanno gestiti.</h3>
+<h3>In alcune word cloud ci sono caratteri in arabo/cinese o comunque strani che vanno gestiti.
+
+WORD CLOUD IMMAGINE: l'img di twitter ha i contorni seghettati</h3>
 
 # TO DO
 <h3>Considerare se l'istogramma è il grafo più adeguato per i file dates.py</h3><br>
@@ -49,3 +51,7 @@ https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-mode
 - selezionare solo queste parole e vedere quali di queste co-occorrono, ossia compaiono insieme.<br>
 
 • Si potrebbero contare quali sono gli username più frequenti.<br>
+
+# NOTE DELLA PROF - Lezione del 15/03
+
+<b>Graph visualisation su twitter?</b>

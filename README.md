@@ -1,6 +1,10 @@
 # FIX
 
-<h3>In alcune word cloud ci sono caratteri in arabo/cinese o comunque strani che vanno gestiti.</h3>
+<h3>In alcune word cloud ci sono caratteri in arabo/cinese o comunque strani che vanno gestiti.<br>
+
+WORD CLOUD IMMAGINE: l'img di twitter ha i contorni seghettati
+
+</h3>
 
 
 # Twitter Covid19 Visualisation
