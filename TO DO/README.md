@@ -34,3 +34,15 @@ https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-mode
 Entities:
 https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/entities
 </h3><br>
+
+#NOTE DELLA PROF - Lezione del 12/03
+
+• Fare un Word Cloud delle parole e degli hashtag più frequenti nei fake tweet, anche NON inerenti al Covid.<br>
+
+• Quali sono le parole che maggiormente compaiono insieme in un tweet; ad esempio: hospital + death, homework + children, smartwork + lunch.<br>
+
+• Rispetto alle fake news è interessante capire quali sono gli hashtag che co-occorrono maggiormente, quindi per farlo bisogna:
+- andare a visualizzare le parole che occorrono di più (tramite un wordle)
+- selezionare solo queste parole e vedere quali di queste co-occorrono, ossia compaiono insieme.<br>
+
+• Si potrebbero contare quali sono gli username più frequenti.<br>
