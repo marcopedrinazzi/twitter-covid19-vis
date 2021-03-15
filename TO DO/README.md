@@ -35,7 +35,8 @@ Entities:
 https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/entities
 </h3><br>
 
-#NOTE DELLA PROF - Lezione del 12/03
+
+# NOTE DELLA PROF - Lezione del 12/03
 
 • Fare un Word Cloud delle parole e degli hashtag più frequenti nei fake tweet, anche NON inerenti al Covid.<br>
 
