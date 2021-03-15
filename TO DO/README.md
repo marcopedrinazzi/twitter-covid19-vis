@@ -3,6 +3,8 @@
 <h3>In alcune word cloud ci sono caratteri in arabo/cinese o comunque strani che vanno gestiti.</h3>
 
 # TO DO
+<h3>Considerare se l'istogramma è il grafo più adeguato per i file dates.py</h3><br>
+
 Word Cloud con immagine su <b>tutte</b> le Word Cloud<br>
 
 Portare le word cloud fatte fin ora anche nella cartella fakecovid e testarle<br>
