@@ -39,14 +39,7 @@ We've executed the following command to get the needed results:<br>
 <code> twarc --tweet_mode extended hydrate fakecovid_dataset_one_column.csv > fakecovid_result.json
 </code><br>
 
-<b>Parsing</b><br>
-
-The parsing is done through some Python code on each file. 
-
-<br>
-<br>
-
-# tweet_id RIMOSSI (perché non inerenti al Covid) da fakecovid_result.json
+Afte the hydratation, we've found some tweets which weren't about COVID19, so we've deleted them from <i>fakecovid_result.json</i>. We've removed the following tweets:<br>
 1027222566581231617		(2018)<br>
 1179751464215949313		(2019)<br>
 539901552937664513		(2014)<br>
@@ -139,3 +132,7 @@ The parsing is done through some Python code on each file.
 1207528337180020736		(2019)<br>
 1003387827395186688		(2018)<br>
 <br>
+
+<b>Parsing</b><br>
+
+The parsing is done through some Python code on each file. 
