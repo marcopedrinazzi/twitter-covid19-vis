@@ -1,9 +1,6 @@
 # FIX
 
 <h3>In alcune word cloud ci sono caratteri in arabo/cinese o comunque strani che vanno gestiti.<br>
-
-IL DATASET FAKECOVID JSON HA DENTRO TWEET NON DEL 2020. VANNO TOLTI O COMUNQUE CAPIRE SE SONO PERTINENTI.
-
 </h3>
 
 
