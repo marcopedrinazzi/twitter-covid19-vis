@@ -1,4 +1,5 @@
 # FIX
+<h3>@marco: applica il noweird.py dove serve</h3><br>
 
 <h4>bigrams e trigrams da controllare bene. Ci sono alcuni risultati che non mi aspetto. altra punteggiatura non permette di riconoscere le parole, da capire.</h4>
 
@@ -34,7 +35,7 @@ The dataset that we've used is composed by two columns: <b>tweet_id</b> and <b>t
 We've done the hydratation (to get complete details (i.e. fields) of a tweet from its ID) thanks to this tool https://github.com/DocNow/twarc. In this case we've produced a one version column of the dataset with only the <b>tweet_id</b> to complete the hydratation.
 We've executed the following command to get the needed results:<br>
 
-<code> twarc --tweet_mode extended hydrate fakecovid_dataset_one_column.csv > fakecovid_result.json
+<code> twarc --tweet_mode extended hydrate fakecovid_dataset_one_column.csv > fakecovid_result.jsonl
 </code><br>
 
 Afte the hydratation, we've found some tweets which weren't about COVID19, so we've deleted them from <i>fakecovid_result.json</i>. We've removed the following tweets:<br>
