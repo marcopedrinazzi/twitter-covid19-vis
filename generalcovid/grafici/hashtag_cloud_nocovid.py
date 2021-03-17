@@ -9,6 +9,7 @@ from emot.emo_unicode import UNICODE_EMO, EMOTICONS
 import emoji
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt 
+import nltk
 
 def remove_emoticons(text):
     emoticon_pattern = re.compile(u'(' + u'|'.join(k for k in EMOTICONS) + u')')
@@ -48,25 +49,31 @@ with open('general_result.json', 'r') as f:
 
 index=0
 #new = []
-comment_words = ''
-stopwords = ["COVID19", "Coronavirus", "Corona", "Covid_19", "COVID","CoronaVirusOutbreak","COVID2019"] + list(STOPWORDS)
+cmt_list = []
+stopwords = ["covid19", "coronavirus", "corona", "covid_19", "covid","coronavirusoutbreak","covid2019", "virus"] + list(STOPWORDS)
 for element in data:
     for entity in data[index]['entities']['hashtags']:
+        entity['text'] = entity['text'].lower()
         entity['text'] = remove_emoticons(entity['text'])
         entity['text'] = remove_emoji(entity['text'])
         entity['text'] = give_emoji_free_text(entity['text'])
         entity['text'] = noamp(entity['text'])
-        token=entity['text']
-        comment_words += token + " "
+        entity['text'] =  entity['text'].encode('ascii', 'ignore').decode()#new - no unicode
+        entity['text'] = re.sub('\s{2,}', " ",  entity['text'])#new
+        if entity['text'] not in stopwords:
+            token=entity['text']
+            cmt_list.append(token)
+        
     index=index+1
+
+fdist = dict(nltk.FreqDist(cmt_list))
+print(fdist)
 
 wordcloud = WordCloud(width = 800, height = 800, 
                background_color ='white', 
-               stopwords = stopwords, 
-               normalize_plurals=False,
                 min_word_length = 3,
                 font_path = 'GothamMedium.ttf',
-               min_font_size = 10).generate(comment_words) 
+               min_font_size = 10).generate_from_frequencies(fdist) 
 
 #plot the WordCloud image                        
 

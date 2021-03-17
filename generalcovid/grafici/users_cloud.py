@@ -9,7 +9,7 @@ from emot.emo_unicode import UNICODE_EMO, EMOTICONS
 import emoji
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt 
-
+import nltk
 
 data = []
 with open('general_result.json', 'r') as f:
@@ -18,21 +18,24 @@ with open('general_result.json', 'r') as f:
 
 index=0
 comment_words = ''
+cmt_list = []
 stopwords = set(STOPWORDS) 
 for element in data:
     token=data[index]['user']['screen_name']
-    comment_words += token + " "
+    cmt_list.append(token)
+    #comment_words += token + " "
     index=index+1
+
+fdist = dict(nltk.FreqDist(cmt_list))
+print(fdist)
 
 wordcloud = WordCloud(width = 800, height = 800, 
                background_color ='white', 
-                stopwords = stopwords, 
-                normalize_plurals=False,
                 font_path = 'GothamMedium.ttf',
                 min_word_length = 3,
-               min_font_size = 10).generate(comment_words) 
+               min_font_size = 10).generate_from_frequencies(fdist) 
 
-print(wordcloud.process_text(comment_words))
+
 #plot the WordCloud image                        
 plt.figure(figsize = (8, 8), facecolor = None) 
 plt.imshow(wordcloud) 
