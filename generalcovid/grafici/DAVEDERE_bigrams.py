@@ -85,6 +85,7 @@ wordcloud_bi = WordCloud(width = 800, height = 800,
                 stopwords = stopwords, 
                 normalize_plurals=False,
                 min_word_length = 3,
+                font_path = 'GothamMedium.ttf',
                min_font_size = 10).generate_from_frequencies(bi) 
   
 #plot the WordCloud image                        

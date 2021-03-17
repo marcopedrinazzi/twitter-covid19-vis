@@ -72,6 +72,7 @@ wordcloud = WordCloud(background_color ='white',
             width=mask.shape[1],
             height=mask.shape[0],
             stopwords = stopwords, 
+            font_path = 'GothamMedium.ttf',
             normalize_plurals=False,
             min_word_length = 3,
             min_font_size = 10).generate(comment_words) 

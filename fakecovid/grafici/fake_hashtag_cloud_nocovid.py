@@ -62,6 +62,7 @@ for element in data:
 
 wordcloud = WordCloud(width = 800, height = 800, 
                background_color ='white', 
+               font_path = 'GothamMedium.ttf',
                stopwords = stopwords, 
                normalize_plurals=False,
                 min_word_length = 3,

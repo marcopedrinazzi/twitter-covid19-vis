@@ -28,6 +28,7 @@ wordcloud = WordCloud(width = 800, height = 800,
                background_color ='white', 
                 stopwords = stopwords, 
                 normalize_plurals=False,
+                font_path = 'GothamMedium.ttf',
                 min_word_length = 3,
                min_font_size = 10).generate(comment_words) 
   
