@@ -1,10 +1,5 @@
 # FIX
 
-<h3>In alcune word cloud ci sono caratteri in arabo/cinese o comunque strani che vanno gestiti.<br>
-
-Valutare se i filtri nuovi in (ngrams.py) sono adatti anche alle nuove wordcloud
-</h3><br>
-
 <h4>bigrams e trigrams da controllare bene. Ci sono alcuni risultati che non mi aspetto. altra punteggiatura non permette di riconoscere le parole, da capire.</h4>
 
 # Twitter Covid19 Visualisation
