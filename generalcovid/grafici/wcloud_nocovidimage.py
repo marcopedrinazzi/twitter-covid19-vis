@@ -10,6 +10,8 @@ import emoji
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt 
 from PIL import Image
+import nltk
+from nltk.corpus import stopwords
 
 def remove_emoticons(text):
     emoticon_pattern = re.compile(u'(' + u'|'.join(k for k in EMOTICONS) + u')')
@@ -38,7 +40,7 @@ def give_emoji_free_text(text):
     return emoji.get_emoji_regexp().sub(r'', text)
 
 def noamp(text):
-    clean = re.sub("&amp", "",text)
+    clean = re.sub("&amp", " ",text)
     return (clean)
 
 
@@ -50,7 +52,9 @@ with open('general_result.json', 'r') as f:
 index=0
 #new = []
 comment_words = ''
-stopwords = ["COVID19", "Coronavirus", "Corona", "Covid_19", "COVID","CoronaVirusOutbreak","COVID2019"] + list(STOPWORDS)
+stop_words_es = stopwords.words('spanish')
+stop_words_en = stopwords.words('english') + ["COVID19", "Coronavirus", "Corona", "Covid_19", "COVID","CoronaVirusOutbreak","COVID2019","virus"]
+stop_words = stop_words_en + stop_words_es
 for element in data:
     data[index]['full_text'] = remove_urls(data[index]['full_text'])
     data[index]['full_text'] = remove_twitter_urls(data[index]['full_text'])
@@ -71,7 +75,7 @@ wordcloud = WordCloud(background_color ='white',
             mask=mask,
             width=mask.shape[1],
             height=mask.shape[0],          
-            stopwords = stopwords, 
+            stopwords = stop_words, 
             normalize_plurals=False,
             min_word_length = 3,
             font_path = 'GothamMedium.ttf',

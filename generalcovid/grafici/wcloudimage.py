@@ -10,6 +10,8 @@ import emoji
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt 
 from PIL import Image
+import nltk
+from nltk.corpus import stopwords
 
 def remove_emoticons(text):
     emoticon_pattern = re.compile(u'(' + u'|'.join(k for k in EMOTICONS) + u')')
@@ -38,7 +40,7 @@ def give_emoji_free_text(text):
     return emoji.get_emoji_regexp().sub(r'', text)
 
 def noamp(text):
-    clean = re.sub("&amp", "",text)
+    clean = re.sub("&amp", " ",text)
     return (clean)
 
 
@@ -50,18 +52,29 @@ with open('general_result.json', 'r') as f:
 index=0
 #new = []
 comment_words = ''
-stopwords = set(STOPWORDS) 
+stop_words_es = stopwords.words('spanish')
+stop_words_en = stopwords.words('english')
+stop_words = stop_words_en + stop_words_es
 for element in data:
+    data[index]['full_text'] = data[index]['full_text'].lower()#new - metto tutto minuscolo
+    #data[index]['full_text'] = contractions.fix(data[index]['full_text'])
+    data[index]['full_text'] = re.sub("\'\w+", '', data[index]['full_text'])#new - rimuove tutto quello dopo '
     data[index]['full_text'] = remove_urls(data[index]['full_text'])
     data[index]['full_text'] = remove_twitter_urls(data[index]['full_text'])
     data[index]['full_text'] = remove_emoticons(data[index]['full_text'])
     data[index]['full_text'] = remove_emoji(data[index]['full_text'])
     data[index]['full_text'] = give_emoji_free_text(data[index]['full_text'])
-    data[index]['full_text'] = noamp(data[index]['full_text'])
-    #new.append(data[index]['full_text'])
-    #print(str(index)+" "+new[index])
+    data[index]['full_text'] = noamp(data[index]['full_text'])#new - no amp con lo spazio
+    data[index]['full_text'] = re.sub("#\S+", " ",  data[index]['full_text'])#new - remove hashtag
+    data[index]['full_text'] = re.sub("@\S+", " ",  data[index]['full_text'])#new - no mentions
+    data[index]['full_text'] = data[index]['full_text'].translate(str.maketrans('', '', string.punctuation))#new - no puntuaction
+    data[index]['full_text'] = data[index]['full_text'].encode('ascii', 'ignore').decode()#new - no unicode
+    data[index]['full_text'] = re.sub("rt", " ", data[index]['full_text'])#new - no RT
+    data[index]['full_text'] = re.sub('\s{2,}', " ", data[index]['full_text'])#new - remove big spaces
+
+    
     tokens=data[index]['full_text'].split()
-    #print(tokens)
+
     comment_words += " ".join(tokens)+" "
     index=index+1
 
@@ -71,7 +84,7 @@ wordcloud = WordCloud(background_color ='white',
             mask=mask,
             width=mask.shape[1],
             height=mask.shape[0],
-            stopwords = stopwords, 
+            stopwords = stop_words,
             normalize_plurals=False,
             min_word_length = 3,
             font_path = 'GothamMedium.ttf',

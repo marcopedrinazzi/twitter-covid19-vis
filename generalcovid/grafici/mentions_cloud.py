@@ -21,6 +21,7 @@ stopwords = set(STOPWORDS)
 for element in data:
     for entity in data[index]['entities']['user_mentions']:
         token=entity['screen_name']
+        print(token)
         comment_words += token + " "
     index=index+1
 
@@ -33,6 +34,7 @@ wordcloud = WordCloud(width = 800, height = 800,
                 font_path = 'GothamMedium.ttf',
                min_font_size = 10).generate(comment_words) 
 
+print(wordcloud.process_text(comment_words))
 #plot the WordCloud image                        
 
 plt.figure(figsize = (8, 8), facecolor = None) 
