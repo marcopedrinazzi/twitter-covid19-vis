@@ -1,8 +1,4 @@
 # FIX
-<h3>@marco: PULIRE BENE HASHTAG C'è ANCORA QUALCOSA IN INDIANO</h3><br>
-<h3>@marco: da pulire ancora tutta fakecovid</h3><br>
-<h3>@marco: applica il noweird.py dove serve. Applicato in general alle wcloud wcloudimage e le versioni no covid</h3><br>
-<h3>mentions, hashtag da vedere meglio la tokenization. Non spezza bene sugli spazi</h3><br>
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
 <h3>DA APPRODONFIRE: Filtrare per lingua if(data[index]lang==.......) then ==> filtro else scarto. Lo script per la lingua <i>lang.py</i> utile comunque da presentare e quindi va tenuto</h3>
 <h4>bigrams e trigrams da controllare bene. Ci sono alcuni risultati che non mi aspetto. altra punteggiatura non permette di riconoscere le parole, da capire.</h4>
