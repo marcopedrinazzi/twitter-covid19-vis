@@ -4,7 +4,6 @@ import json
 import sys
 import string
 import re
-# This will load the fields list
 from emot.emo_unicode import UNICODE_EMO, EMOTICONS
 import emoji
 from wordcloud import WordCloud, STOPWORDS
@@ -17,8 +16,7 @@ with open('general_result.json', 'r') as f:
         data.append(json.loads(line))
 
 index=0
-#comment_words = ''
-stopwords = set(STOPWORDS)
+#stopwords = set(STOPWORDS)
 cmt_list = []
 for element in data:
     for entity in data[index]['entities']['user_mentions']:
@@ -28,7 +26,7 @@ for element in data:
 
 
 fdist = dict(nltk.FreqDist(cmt_list))
-print(fdist)
+#print(fdist)
 
 wordcloud = WordCloud(width = 800, height = 800, 
                background_color ='white', 

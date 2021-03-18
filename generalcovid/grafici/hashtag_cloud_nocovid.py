@@ -4,7 +4,6 @@ import json
 import sys
 import string
 import re
-# This will load the fields list
 from emot.emo_unicode import UNICODE_EMO, EMOTICONS
 import emoji
 from wordcloud import WordCloud, STOPWORDS
@@ -17,9 +16,7 @@ with open('general_result.json', 'r') as f:
         data.append(json.loads(line))
 
 index=0
-#new = []
 cmt_list = []
-#stopwords = ["covid19", "coronavirus", "corona", "covid_19", "covid","coronavirusoutbreak","covid2019", "virus", "covid 19", "covid__19"] + list(STOPWORDS)
 stopwords = ["covid19", "coronavirus", "corona", "covid_19", "covid","coronavirusoutbreak","covid2019", "virus", "covid__19", "covidー19", "coronaviruspandemic"]
 for element in data:
     for entity in data[index]['entities']['hashtags']:
