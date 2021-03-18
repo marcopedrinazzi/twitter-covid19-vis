@@ -4,7 +4,6 @@ import json
 import sys
 import string
 import re
-# This will load the fields list
 from emot.emo_unicode import UNICODE_EMO, EMOTICONS
 import emoji
 from wordcloud import WordCloud, STOPWORDS
@@ -49,7 +48,6 @@ with open('general_result.json', 'r') as f:
         data.append(json.loads(line))
 
 index=0
-#new = []
 comment_words = ''
 stop_words_es = stopwords.words('spanish')
 stop_words_en = stopwords.words('english')
