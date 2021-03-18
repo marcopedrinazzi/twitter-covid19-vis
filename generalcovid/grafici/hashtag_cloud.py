@@ -50,19 +50,15 @@ with open('general_result.json', 'r') as f:
 index=0
 #new = []
 comment_words = ''
-stopwords = set(STOPWORDS)
+#stopwords = set(STOPWORDS)
 cmt_list = []
+printable = set(string.printable)
 for element in data:
     for entity in data[index]['entities']['hashtags']:
         entity['text'] = entity['text'].lower()
-        entity['text'] = remove_emoticons(entity['text'])
-        entity['text'] = remove_emoji(entity['text'])
-        entity['text'] = give_emoji_free_text(entity['text'])
-        entity['text'] = noamp(entity['text'])
-        entity['text'] =  entity['text'].encode('ascii', 'ignore').decode()#new - no unicode
-        entity['text'] = re.sub('\s{2,}', " ",  entity['text'])#new
         token=entity['text']
         cmt_list.append(token)
+        
     index=index+1
 
 fdist = dict(nltk.FreqDist(cmt_list))

@@ -50,16 +50,11 @@ with open('general_result.json', 'r') as f:
 index=0
 #new = []
 cmt_list = []
-stopwords = ["covid19", "coronavirus", "corona", "covid_19", "covid","coronavirusoutbreak","covid2019", "virus"] + list(STOPWORDS)
+#stopwords = ["covid19", "coronavirus", "corona", "covid_19", "covid","coronavirusoutbreak","covid2019", "virus", "covid 19", "covid__19"] + list(STOPWORDS)
+stopwords = ["covid19", "coronavirus", "corona", "covid_19", "covid","coronavirusoutbreak","covid2019", "virus", "covid__19", "covidー19", "coronaviruspandemic"]
 for element in data:
     for entity in data[index]['entities']['hashtags']:
         entity['text'] = entity['text'].lower()
-        entity['text'] = remove_emoticons(entity['text'])
-        entity['text'] = remove_emoji(entity['text'])
-        entity['text'] = give_emoji_free_text(entity['text'])
-        entity['text'] = noamp(entity['text'])
-        entity['text'] =  entity['text'].encode('ascii', 'ignore').decode()#new - no unicode
-        entity['text'] = re.sub('\s{2,}', " ",  entity['text'])#new
         if entity['text'] not in stopwords:
             token=entity['text']
             cmt_list.append(token)

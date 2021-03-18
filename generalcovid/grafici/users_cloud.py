@@ -17,7 +17,7 @@ with open('general_result.json', 'r') as f:
         data.append(json.loads(line))
 
 index=0
-comment_words = ''
+#comment_words = ''
 cmt_list = []
 stopwords = set(STOPWORDS) 
 for element in data:
