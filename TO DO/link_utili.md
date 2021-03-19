@@ -17,3 +17,6 @@ https://github.com/bryan-md/wordcloud/blob/main/wordcloud.ipynb
 
 # How to create a Twitter Graph in Python
 https://towardsdatascience.com/creating-beautiful-twitter-graphs-with-python-c9b73bd6f887
+
+# PYTHON GRAPH GALLERY
+https://www.python-graph-gallery.com/
