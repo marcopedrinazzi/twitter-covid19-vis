@@ -57,3 +57,7 @@ https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-mode
 # NOTE DELLA PROF - Lezione del 15/03
 
 <b>Graph visualisation su twitter?</b>
+
+# NOTE DELLA PROF - Lezione del 19/03
+
+<b>Le parole di un testo che riguardano uno stesso concetto possono essere dei nodi vicini all'interno di un grafo</b>.
