@@ -46,16 +46,16 @@ def noamp(text):
 
 
 data = []
-with open('fakecovid_result.json', 'r') as f:
+with open('fakecovid_result_translated_full.json', 'r') as f:
     for line in f:
         data.append(json.loads(line))
 
 index=0
 #new = []
 comment_words = ''
-stop_words_es = stopwords.words('spanish')
-stop_words_en = stopwords.words('english')
-stop_words = stop_words_en + stop_words_es
+#stop_words_es = stopwords.words('spanish')
+stop_words = stopwords.words('english')
+#stop_words = stop_words_en + stop_words_es
 for element in data:
     data[index]['full_text'] = data[index]['full_text'].lower()#new - metto tutto minuscolo
     #data[index]['full_text'] = contractions.fix(data[index]['full_text'])

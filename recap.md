@@ -14,32 +14,32 @@
   <tr>
     <td>Word Cloud - Hashtag</td>
     <td>Si</td>
-    <td>Si</td>
+    <td>No</td>
   </tr>
   <tr>
     <td>Word Cloud - Hashtag No Covid</td>
     <td>Si</td>
-    <td>Si</td>
+    <td>No</td>
   </tr>
   <tr>
   	<td>Word Cloud - Tweet Covid</td>
   	<td>Si</td>
-  	<td>Si</td>
+  	<td>No</td>
   </tr>
   <tr>
     <td>Word Cloud - Tweet No Covid</td>
     <td>Si</td>
-    <td>Si</td>
+    <td>No</td>
   </tr>
   <tr>
     <td>Word Cloud - Users</td>
     <td>Si</td>
-    <td>Si</td>
+    <td>No</td>
   </tr>
   <tr>
     <td>Word Cloud - Mentions</td>
     <td>Si</td>
-    <td>Si</td>
+    <td>No</td>
   </tr>
   <tr>
     <td>Word Cloud - Bigrams</td>
