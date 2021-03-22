@@ -12,7 +12,7 @@ import json
 import sys
 import string
 from google_trans_new import google_translator  
-
+import time
 
 data = []
 with open('fakecovid_result.json', 'r') as f:
