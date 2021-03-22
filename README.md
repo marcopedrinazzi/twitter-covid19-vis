@@ -1,4 +1,6 @@
 # TODO
+<h2>https://altair-viz.github.io/gallery/index.html#</h2>
+
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
 <h2>TENERE AGGIORNATI I NOTEBOOK</h2>
