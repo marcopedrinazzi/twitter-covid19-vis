@@ -1,9 +1,15 @@
 # TODO
+
+<h2>!!!!!@marco testare bigrams trigrams con il dataset FAKECOVID tradotto e testare tutto il resto con il dataset nuovo FAKECOVID</h2>
+
+<h2>@marco tradurre il dataset general!!!!!!!!</h2>
+
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
 <h2>TENERE AGGIORNATI I NOTEBOOK</h2>
+
 
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
