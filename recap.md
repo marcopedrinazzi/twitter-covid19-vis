@@ -47,6 +47,11 @@
     <td>No</td>
   </tr>
   <tr>
+    <td>Word Cloud - Trigrams</td>
+    <td>Si</td>
+    <td>No</td>
+  </tr>
+  <tr>
     <td>ScatterText - Most used words in Covid and No Covid Tweets</td>
     <td>No</td>
     <td>No</td>
@@ -105,6 +110,11 @@
   </tr>
   <tr>
     <td>Word Cloud - Bigrams</td>
+    <td>Si</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Word Cloud - Trigrams</td>
     <td>Si</td>
     <td>No</td>
   </tr>
