@@ -26,8 +26,10 @@ index=0
 translator = google_translator()  
 for element in data:
     data[index]['full_text']=translator.translate(data[index]['full_text'],lang_tgt='en')
+    time.sleep(10)
     for entity in data[index]['entities']['hashtags']:
         entity['text']=translator.translate(entity['text'],lang_tgt='en')
+        time.sleep(5)
     index=index+1
 
 
