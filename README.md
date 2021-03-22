@@ -1,6 +1,8 @@
 # TODO
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
+<h2>TENERE AGGIORNATI I NOTEBOOK</h2>
+
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
 <h3>DA APPRODONFIRE: Filtrare per lingua if(data[index]lang==.......) then ==> filtro else scarto. Lo script per la lingua <i>lang.py</i> utile comunque da presentare e quindi va tenuto</h3>
