@@ -68,7 +68,7 @@ for element in data:
     data[index]['full_text'] = re.sub("@\S+", " ",  data[index]['full_text'])#new - no mentions
     data[index]['full_text'] = data[index]['full_text'].translate(str.maketrans('', '', string.punctuation))#new - no puntuaction
     data[index]['full_text'] = data[index]['full_text'].encode('ascii', 'ignore').decode()#new - no unicode
-    data[index]['full_text'] = re.sub("rt", " ", data[index]['full_text'])#new - no RT
+    data[index]['full_text'] = re.sub("^rt ", " ", data[index]['full_text'])#new - no RT
     data[index]['full_text'] = re.sub('\s{2,}', " ", data[index]['full_text'])#new - remove big spaces
 
     
