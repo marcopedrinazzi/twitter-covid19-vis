@@ -56,7 +56,7 @@ https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-mode
 
 # NOTE DELLA PROF - Lezione del 15/03
 
-<b>Graph visualisation su twitter?</b>
+<b>Graph visualisation su twitter?</b> ==> TRA I FOLLOWER/LIKE ?
 
 <b>Progetto ragazzi anno scorso</b>
 https://mariandoerk.de/edgemaps/
@@ -69,3 +69,7 @@ https://blog.insightdatascience.com/graph-based-machine-learning-6e2bd8926a0
 <b>Le parole di un testo che riguardano uno stesso concetto possono essere dei nodi vicini all'interno di un grafo</b>.
 
 https://programmersought.com/article/37174369966/
+
+# NOTE DELLA PROF - Lezione del 22/03
+
+<b>Graph visualisation su twitter?</b> ==> TRA I FOLLOWER/LIKE ? ==> NETWORK VIS
