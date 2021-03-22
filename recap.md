@@ -1,8 +1,5 @@
 # GENERAL COVID
 
-<br>
-<br>
-
 <table>
   <tr>
     <td>Grafico</td>
@@ -62,12 +59,8 @@
 </table>
 
 <br>
-<br>
 
 # FAKE COVID
-
-<br>
-<br>
 
 <table>
   <tr>
