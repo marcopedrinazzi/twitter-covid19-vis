@@ -1,6 +1,8 @@
 # TODO
 
-<h2>@marco testare bigrams trigrams con il dataset tradotto e testare tutto il resto con il dataset nuovo</h2>
+<h2>!!!!!@marco testare bigrams trigrams con il dataset FAKECOVID tradotto e testare tutto il resto con il dataset nuovo FAKECOVID</h2>
+
+<h2>@marco tradurre il dataset general!!!!!!!!</h2>
 
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
 
