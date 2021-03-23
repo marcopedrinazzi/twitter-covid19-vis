@@ -7,6 +7,11 @@
     <td>Jupyter</td>
   </tr>
   <tr>
+    <td>Bar chart - TOP 15 parole per ogni word cloud</td>
+    <td>Si - in fake_users_barchart_of_cloud.py</td>
+    <td>No</td>
+  </tr>
+  <tr>
     <td>Bar chart - Tweet per day</td>
     <td>Si</td>
     <td>No</td>
@@ -74,6 +79,11 @@
     <td>Jupyter</td>
   </tr>
   <tr>
+    <td>Bar chart - TOP 15 parole per ogni word cloud</td>
+    <td>Si - in fake_users_barchart_of_cloud.py</td>
+    <td>No</td>
+  </tr>
+  <tr>
     <td>Bar chart - Tweet per day</td>
     <td>Si</td>
     <td>No</td>
@@ -81,42 +91,42 @@
   <tr>
     <td>Word Cloud - Hashtag</td>
     <td>Si</td>
-    <td>No</td>
+    <td>Si - <b>Da migliorare</b></td>
   </tr>
   <tr>
     <td>Word Cloud - Hashtag No Covid</td>
     <td>Si</td>
-    <td>No</td>
+    <td>Si - <b>Da migliorare</b></td>
   </tr>
   <tr>
   	<td>Word Cloud - Tweet Covid</td>
   	<td>Si</td>
-  	<td>No</td>
+  	<td>Si - <b>Da migliorare</b></td>
   </tr>
   <tr>
     <td>Word Cloud - Tweet No Covid</td>
     <td>Si</td>
-    <td>No</td>
+    <td>Si - <b>Da migliorare</b></td>
   </tr>
   <tr>
     <td>Word Cloud - Users</td>
     <td>Si</td>
-    <td>No</td>
+    <td>Si - <b>Da migliorare</b></td>
   </tr>
   <tr>
     <td>Word Cloud - Mentions</td>
     <td>Si</td>
-    <td>No</td>
+    <td>Si - <b>Da migliorare</b></td>
   </tr>
   <tr>
     <td>Word Cloud - Bigrams</td>
     <td>Si</td>
-    <td>No</td>
+    <td>Si - <b>Da migliorare</b></td>
   </tr>
   <tr>
     <td>Word Cloud - Trigrams</td>
     <td>Si</td>
-    <td>No</td>
+    <td>Si - <b>Da migliorare</b></td>
   </tr>
   <tr>
     <td>ScatterText - Most used words in Covid and No Covid Tweets</td>

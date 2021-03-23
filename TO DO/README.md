@@ -7,12 +7,6 @@
 <h3>Considerare se l'istogramma è il grafo più adeguato per i file dates.py</h3><br>
 <strike>Grafico numero di tweet per data</strike><br>
 
-<h3>Fare un istogramma per far vedere numericamente quante volte appare ogni parola in ogni word cloud</h3><br>
-
-Word Cloud con immagine su <b>tutte</b> le Word Cloud<br>
-
-Contare le parole più frequenti, hashtag più frequenti, menzioni più frequenti e fare i relativi istogrammi (?)<br>
-
 La visualizzazione della location dei tweet con il campo "location" del JSON non ha senso perchè è un campo user-defined.<br>
 
 Per la cosa degli amici:<br>
