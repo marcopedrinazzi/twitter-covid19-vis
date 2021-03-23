@@ -6,6 +6,7 @@
 
 <h2>@marco notebook general da fare</h2>
 
+<h2>@marco notebook del preprocessing da fare. Dire anche i tweet rimossi </h2>
 
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
 
