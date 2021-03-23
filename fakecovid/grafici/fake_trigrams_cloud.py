@@ -18,6 +18,7 @@ from operator import itemgetter
 import itertools
 import contractions
 from nltk.corpus import stopwords
+import num2words
 #nltk.download('punkt')
 
 def remove_emoticons(text):
@@ -47,7 +48,7 @@ def give_emoji_free_text(text):
     return emoji.get_emoji_regexp().sub(r'', text)
 
 def noamp(text):
-    clean = re.sub("&amp", "",text)
+    clean = re.sub("&amp", " ",text)
     return (clean)
 
 
@@ -76,6 +77,7 @@ for element in data:
     data[index]['full_text'] = data[index]['full_text'].translate(str.maketrans('', '', string.punctuation))#new - no puntuaction
     data[index]['full_text'] = data[index]['full_text'].encode('ascii', 'ignore').decode()#new - no unicode
     data[index]['full_text'] = re.sub("^rt ", " ", data[index]['full_text'])#new - no RT
+    data[index]['full_text'] = re.sub(r'\b\d\b', lambda x: num2words.num2words(int(x.group(0))), data[index]['full_text'])
     data[index]['full_text'] = re.sub('\s{2,}', " ", data[index]['full_text'])#new - remove big spaces
     trigram_tokens=list(nltk.trigrams(nltk.word_tokenize(data[index]['full_text'])))
     print(trigram_tokens)
@@ -96,8 +98,6 @@ for x, y in tri.items():
 
 wordcloud_tri = WordCloud(width = 800, height = 800, 
                background_color ='white', 
-                stopwords = stopwords, 
-                normalize_plurals=False,
                 min_word_length = 3,
                 font_path = 'GothamMedium.ttf',
                min_font_size = 10).generate_from_frequencies(tri) 
