@@ -2,6 +2,11 @@
 
 <h2>@marco tradurre il dataset general!!!!!!!!</h2>
 
+<h2>@marco colori nelle word cloud. Da capire</h2>
+
+<h2>@marco notebook general da fare</h2>
+
+
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
