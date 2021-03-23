@@ -17,7 +17,7 @@ from googletrans import Translator
 
 
 data = []
-with open('fakecovid_result_translated_text_only.json', 'r') as f:
+with open('../general_result.json', 'r') as f:
     for line in f:
         data.append(json.loads(line))
 
@@ -28,19 +28,19 @@ index=0
 #translator_altro = Translator()
 translator = google_translator()  
 for element in data:
-    #translated_full = translator.translate(data[index]['full_text'],lang_tgt='en')
-    #data[index]['full_text']=translated_full
-    #time.sleep(1)
+    translated_full = translator.translate(data[index]['full_text'],lang_tgt='en')
+    data[index]['full_text']=translated_full
+    time.sleep(1)
     print(str(index)+" indice")
-    for entity in data[index]['entities']['hashtags']:
-        translated = translator.translate(entity['text'],lang_tgt='en')#lang_tgt è l'alt
-        entity['text']=translated
-        time.sleep(1)
-        print("sleep dopo hashtag")
+    #for entity in data[index]['entities']['hashtags']:
+    #    translated = translator.translate(entity['text'],lang_tgt='en')#lang_tgt è l'alt
+    #    entity['text']=translated
+    #    time.sleep(1)
+    #    print("sleep dopo hashtag")
     index=index+1
 
 
-with open('fakecovid_result_translated_full.json', 'a') as f_w:
+with open('general_result_translated_textonly.json', 'a') as f_w:
     for line_w in data:
         print(line)
         json.dump(line_w, f_w)
