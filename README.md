@@ -1,7 +1,5 @@
 # TODO
 
-<h2>!!!!!@marco testare bigrams trigrams con il dataset FAKECOVID tradotto e testare tutto il resto con il dataset nuovo FAKECOVID</h2>
-
 <h2>@marco tradurre il dataset general!!!!!!!!</h2>
 
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
@@ -10,11 +8,9 @@
 
 <h2>TENERE AGGIORNATI I NOTEBOOK</h2>
 
-
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
-<h3>DA APPRODONFIRE: Filtrare per lingua if(data[index]lang==.......) then ==> filtro else scarto. Lo script per la lingua <i>lang.py</i> utile comunque da presentare e quindi va tenuto</h3>
-<h4>bigrams e trigrams da controllare bene. Ci sono alcuni risultati che non mi aspetto. altra punteggiatura non permette di riconoscere le parole, da capire.</h4>
+
 
 # Twitter Covid19 Visualisation
 

@@ -1,7 +1,5 @@
 # FIX
 
-<h3><strike>In alcune word cloud ci sono caratteri in arabo/cinese o comunque strani che vanno gestiti. </strike></h3>
-
 # TO DO
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
@@ -12,8 +10,6 @@
 <h3>Fare un istogramma per far vedere numericamente quante volte appare ogni parola in ogni word cloud</h3><br>
 
 Word Cloud con immagine su <b>tutte</b> le Word Cloud<br>
-
-Portare le word cloud fatte fin ora anche nella cartella fakecovid e testarle<br>
 
 Contare le parole più frequenti, hashtag più frequenti, menzioni più frequenti e fare i relativi istogrammi (?)<br>
 
