@@ -80,8 +80,8 @@
   </tr>
   <tr>
     <td>Bar chart - TOP 15 parole per ogni word cloud</td>
-    <td>Si - in fake_users_barchart_of_cloud.py</td>
-    <td>No</td>
+    <td>Si</td>
+    <td>Si - <b>Da migliorare</b></td>
   </tr>
   <tr>
     <td>Bar chart - Tweet per day</td>
