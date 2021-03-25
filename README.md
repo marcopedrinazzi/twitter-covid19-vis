@@ -4,15 +4,13 @@
 
 <h2>@marco HEATMAP I BIANCHI? PER I COLORI https://vega.github.io/vega/docs/schemes/</h2>
 
-<h2>@marco CLEANER E CLASSIFIED DA VEDERE SCRIVERE</h2>
+<h2>@marco CLASSIFIED DA VEDERE SCRIVERE</h2>
 
-<h2>@marco tradurre il dataset general!!!!!!!!</h2>
+<h2>@marco tradurre il dataset general!!!!!!!! e scrivere in un notebook. Rcicordarsi di filtrare per lingua</h2>
 
 <h2>@marco colori nelle word cloud. Da capire</h2>
 
 <h2>@marco notebook general da fare</h2>
-
-<h2>@marco notebook del preprocessing da fare. Dire anche i tweet rimossi </h2>
 
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
 
