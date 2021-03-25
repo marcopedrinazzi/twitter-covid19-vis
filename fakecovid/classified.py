@@ -78,6 +78,11 @@ for el in col_one_list:
    
     index = index + 1
 
+i=0
+for el in col_two_list:
+    col_two_list[i] = count_false[i] + count_part[i] + count_unproven[i] + count_other[i] + count_true[i]
+    i = i + 1
+
 print("count false len "+str(len(count_false)))
 df['usernames']=namelist
 df['count_false']=count_false
@@ -85,14 +90,26 @@ df['count_pf']=count_part
 df['count_unp']=count_unproven
 df['count_oth']=count_other
 df['count_tru']=count_true
-del df['count']
+df['count'] = col_two_list
+#del df['count']
 
-d1 = df.groupby('usernames')
-print(type(d1))
 #print(df.to_string())
 #df['type']=typelist
 
-#df = df.sort_values(by=['count'],ascending=False)
-#print(df)
+df = df.sort_values(by=['count'],ascending=[False])
 
+print(df.head(21))
+
+chart = alt.Chart(df).transform_fold(
+    ['count_false', 'count_pf', 'count_unp', 'count_oth', 'count_tru'],
+).mark_bar().encode( 
+    x='usernames:N',
+    #y='value:Q',
+    y='value:Q', 
+    color='key:N'
+).transform_filter(
+    alt.FieldRangePredicate(field='count', range=[5, 35])
+)
+
+chart.show()
 
