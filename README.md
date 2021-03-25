@@ -1,7 +1,5 @@
 # TODO
 
-<h2>@marco il file in home bar chart of cloud è ok ed è una copia di quello in general. Questo è super ok e riguarda i general</h2>
-
 <h2>@marco HEATMAP I BIANCHI? PER I COLORI https://vega.github.io/vega/docs/schemes/</h2>
 
 <h2>@marco CLASSIFIED DA VEDERE SCRIVERE</h2>
@@ -10,13 +8,9 @@
 
 <h2>@marco colori nelle word cloud. Da capire</h2>
 
-<h2>@marco notebook general da fare</h2>
-
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
-
-<h2>TENERE AGGIORNATI I NOTEBOOK</h2>
 
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
