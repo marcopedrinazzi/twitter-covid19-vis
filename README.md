@@ -2,6 +2,8 @@
 
 <h2>@marco il file in home bar chart of cloud è ok ed è una copia di quello in general. Questo è super ok e riguarda i general</h2>
 
+<h2>@marco HEATMAP I BIANCHI? PER I COLORI https://vega.github.io/vega/docs/schemes/</h2>
+
 <h2>@marco CLEANER E CLASSIFIED DA VEDERE SCRIVERE</h2>
 
 <h2>@marco tradurre il dataset general!!!!!!!!</h2>
