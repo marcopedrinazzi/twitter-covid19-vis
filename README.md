@@ -7,11 +7,13 @@
 
 
 
-<h2>@marco tradurre il dataset general!!!!!!!! e scrivere in un notebook. Rcicordarsi di filtrare per lingua</h2>
+<h2>@marco tradurre il dataset general!!!!!!!! e scrivere in un notebook. Ricordarsi di filtrare per lingua</h2>
 
 <h2>@marco colori nelle word cloud. Da capire</h2>
 
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
+
+<h2>@simona rimuovere commenti irrilevanti dai notebook</h2>
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
