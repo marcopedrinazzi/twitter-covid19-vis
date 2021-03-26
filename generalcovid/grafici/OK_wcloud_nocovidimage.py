@@ -51,7 +51,7 @@ with open('fakecovid_result_translated_full.json', 'r') as f:
 
 index=0
 comment_words = ''
-stop_words = stopwords.words('english') + ["COVID19", "Coronavirus", "Corona", "Covid_19", "COVID","CoronaVirusOutbreak","COVID2019","virus"]
+stop_words = stopwords.words('english') + ["COVID19", "Coronavirus", "Corona", "Covid_19", "COVID","CoronaVirusOutbreak","COVID2019","virus","pandemiac"]
 for element in data:
     data[index]['full_text'] = data[index]['full_text'].lower()#new - metto tutto minuscolo
     #data[index]['full_text'] = contractions.fix(data[index]['full_text'])
