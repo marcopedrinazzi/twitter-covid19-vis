@@ -15,6 +15,8 @@
 
 <h2>@simona rimuovere commenti irrilevanti dai notebook</h2>
 
+<h2>@simona rimuovere librerie non necessarie da tutti gli script</h2>
+
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
 # FIX
