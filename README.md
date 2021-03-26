@@ -1,7 +1,5 @@
 # TODO
 
-# !!!!!!!!!!!!!!!!SIMONA RISPONDI SU WHATSAPPP!!!!!!!!!!!!!!!
-
 <h2>@marco !!!!!!!!!!!!!!!!!!CLASSIFIED DA RIFINIRE!!!!!!!!!!!!! è in fakecovid</h2>
 
 
