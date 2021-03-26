@@ -22,6 +22,8 @@
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
 
+<h3>Il notebook sui Bigrams e Trigrams riporta il seguente errore: module 'contractions' has no attribute 'fix'</h3><br>
+
 # Twitter Covid19 Visualisation
 
 <b>Authors</b>: Simona Guida, Marco Pedrinazzi
