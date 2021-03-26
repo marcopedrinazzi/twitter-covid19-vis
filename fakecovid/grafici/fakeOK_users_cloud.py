@@ -28,6 +28,9 @@ for element in data:
     #comment_words += token + " "
     index=index+1
 
+fdist = dict(nltk.FreqDist(cmt_list))
+print(fdist)
+
 mask= np.array(Image.open('circle.jpg'))
 
 wordcloud = WordCloud(background_color ='white', 
