@@ -1,9 +1,8 @@
 # TODO
 
-<h2>@marco !!!!!!!!!!!!!!!!!!CLASSIFIED DA RIFINIRE!!!!!!!!!!!!! è in fakecovid</h2>
+<h2>@marco classified da aggiungere ai vari notebook</h2>
 
-
-<h2>@marco tradurre il dataset general!!!!!!!! e scrivere in un notebook. Ricordarsi di filtrare per lingua</h2>
+<h2>@marco aggiornare notebook pre processing con traduttore new (da creare notebook in general)</h2>
 
 <h2>@marco colori nelle word cloud. Da capire</h2>
 
@@ -20,8 +19,8 @@
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
 
-<h3>Il notebook sui Bigrams e Trigrams riporta il seguente errore: module 'contractions' has no attribute 'fix'. <br>
-Inoltre rimuovendo il commento a num2words NECESSARIA, viene riportato questo errore: No module named 'num2words' </h3><br>
+<h5> @SOLO per simona : Il notebook sui Bigrams e Trigrams riporta il seguente errore: module 'contractions' has no attribute 'fix'. <br>
+Inoltre rimuovendo il commento a num2words NECESSARIA, viene riportato questo errore: No module named 'num2words' </h5><br>
 
 
 # Twitter Covid19 Visualisation
