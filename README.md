@@ -1,8 +1,11 @@
 # TODO
 
+<h2>@marco !!!!!!!!!!!!!!!!!!CLASSIFIED DA RIFINIRE!!!!!!!!!!!!! è in fakecovid</h2>
+
+
 <h2>@marco HEATMAP I BIANCHI? PER I COLORI https://vega.github.io/vega/docs/schemes/</h2>
 
-<h2>@marco CLASSIFIED DA VEDERE SCRIVERE</h2>
+
 
 <h2>@marco tradurre il dataset general!!!!!!!! e scrivere in un notebook. Rcicordarsi di filtrare per lingua</h2>
 

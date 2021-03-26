@@ -6,7 +6,7 @@ import datetime
 from dateutil.parser import parse
 
 data = []
-with open('fakecovid_result_translated_full.json', 'r') as f:
+with open('../dataset/fakecovid_result_translated_full.json', 'r') as f:
     for line in f:
         data.append(json.loads(line))
 
