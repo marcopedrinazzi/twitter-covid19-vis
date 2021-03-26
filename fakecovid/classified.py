@@ -85,11 +85,11 @@ for el in col_two_list:
 
 print("count false len "+str(len(count_false)))
 df['usernames']=namelist
-df['count_false']=count_false
-df['count_pf']=count_part
-df['count_unp']=count_unproven
-df['count_oth']=count_other
-df['count_tru']=count_true
+df['Count False Tweets']=count_false
+df['Count Partially False Tweets']=count_part
+df['Count Unproven Tweets']=count_unproven
+df['Counter Other Tweets']=count_other
+df['Counter True Tweets']=count_true
 df['count'] = col_two_list
 #del df['count']
 
@@ -98,18 +98,30 @@ df['count'] = col_two_list
 
 df = df.sort_values(by=['count'],ascending=[False])
 
-print(df.head(21))
+print(df.head(21).to_string())
 
-chart = alt.Chart(df).transform_fold(
-    ['count_false', 'count_pf', 'count_unp', 'count_oth', 'count_tru'],
-).mark_bar().encode( 
-    x='usernames:N',
-    #y='value:Q',
-    y='value:Q', 
-    color='key:N'
+#versione vertical
+#chart = alt.Chart(df).transform_fold(
+#    ['Count False Tweets', 'Count Partially False Tweets', 'Count Unproven Tweets', 'Counter Other Tweets', 'Counter True Tweets'],
+#).mark_bar().encode( 
+#   x='usernames:N',
+#    y='value:Q', 
+#    color='key:N'
+#).transform_filter(
+#    alt.FieldRangePredicate(field='count', range=[5, 35])
+#)
+
+
+bars = alt.Chart(df).transform_fold(
+    ['Count False Tweets', 'Count Partially False Tweets', 'Count Unproven Tweets', 'Counter Other Tweets', 'Counter True Tweets'],
+).mark_bar().encode(
+    x=alt.X('value:Q'),
+    y=alt.Y('usernames:N'),
+    color=alt.Color('key:N')
 ).transform_filter(
     alt.FieldRangePredicate(field='count', range=[5, 35])
 )
 
-chart.show()
+bars.show()
+
 
