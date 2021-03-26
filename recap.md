@@ -86,7 +86,7 @@
   <tr>
     <td>Heatmap - Tweet per day</td>
     <td>Si</td>
-    <td>No</td>
+    <td>Si</td>
   </tr>
   <tr>
     <td>Word Cloud - Hashtag</td>
