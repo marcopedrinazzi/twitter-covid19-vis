@@ -22,7 +22,9 @@
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
 
-<h3>Il notebook sui Bigrams e Trigrams riporta il seguente errore: module 'contractions' has no attribute 'fix'</h3><br>
+<h3>Il notebook sui Bigrams e Trigrams riporta il seguente errore: module 'contractions' has no attribute 'fix'
+Inoltre rimuovendo il commento a num2words NECESSARIA, viene riportato questo errore: No module named 'num2words' </h3><br>
+
 
 # Twitter Covid19 Visualisation
 
