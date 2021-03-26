@@ -45,7 +45,7 @@ def noamp(text):
 
 
 data = []
-with open('fakecovid_result_translated_full.json', 'r') as f:
+with open('general_result.json', 'r') as f:
     for line in f:
         data.append(json.loads(line))
 
