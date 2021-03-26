@@ -5,9 +5,8 @@ import altair as alt
 import datetime
 from dateutil.parser import parse
 
-
 data = []
-with open('../dataset/fakecovid_result_translated_full.json', 'r') as f:
+with open('fakecovid_result_translated_full.json', 'r') as f:
     for line in f:
         data.append(json.loads(line))
 
@@ -24,18 +23,10 @@ for element in data:
 
 
 count=Counter(lista)
-
-start = datetime.datetime.strptime("2020/01/01", "%Y/%m/%d")
-end = datetime.datetime.strptime("2020/10/01", "%Y/%m/%d")
-date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days)]
-
-for date in date_generated:
-    if date.strftime("%Y/%m/%d") not in count:
-        print(date.strftime("%Y/%m/%d") )
-        count[date.strftime("%Y/%m/%d")] = 0
-
 df = pd.DataFrame.from_dict(count, orient='index').reset_index()
 df = df.rename(columns={'index':'data', 0:'tweet_count'})
+
+print(df)
 
 chart = alt.Chart(
     df,
@@ -43,7 +34,7 @@ chart = alt.Chart(
 ).mark_rect().encode(
     x='date(data):O',
     y='month(data):O',
-    color=alt.Color('tweet_count:Q', scale=alt.Scale(scheme="bluepurple")),
+    color=alt.Color('tweet_count:Q', scale=alt.Scale(scheme="inferno")),
     tooltip=[
         alt.Tooltip('monthdate(data):T', title='Date'),
         alt.Tooltip('tweet_count:Q', title='Tweet Count')
