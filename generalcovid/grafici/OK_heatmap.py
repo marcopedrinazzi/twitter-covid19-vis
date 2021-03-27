@@ -7,7 +7,7 @@ from dateutil.parser import parse
 
 
 data = []
-with open('general_result.json', 'r') as f:
+with open('../dataset/general_result.json', 'r') as f:
     for line in f:
         data.append(json.loads(line))
 

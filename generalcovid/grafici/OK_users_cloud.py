@@ -14,7 +14,7 @@ from PIL import Image
 import altair as alt
 
 data = []
-with open('general_result.json', 'r') as f:
+with open('../dataset/general_result.json', 'r') as f:
     for line in f:
         data.append(json.loads(line))
 
