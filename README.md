@@ -8,10 +8,6 @@
 
 <h2>@marco colori nelle word cloud. Da capire</h2>
 
-<h2>DETTAGLIO SECONDARIO - priorità minma - @simona rimuovere commenti irrilevanti dai notebook</h2>
-
-<h2>DETTAGLO SECONDARIO - - priorità minma - @simona rimuovere librerie non necessarie da tutti gli script</h2>
-
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
 
