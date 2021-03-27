@@ -98,7 +98,7 @@ df['count'] = col_two_list
 
 df = df.sort_values(by=['count'],ascending=[False])
 
-print(df.head(21).to_string())
+#print(df.head(21).to_string())
 
 #versione vertical
 #chart = alt.Chart(df).transform_fold(
