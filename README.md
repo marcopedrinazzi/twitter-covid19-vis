@@ -2,8 +2,6 @@
 
 <h2>@marco classified da aggiungere ai vari notebook</h2>
 
-<strike><h2>@marco aggiornare notebook pre processing con traduttore new (da creare notebook in general)</h2></strike>
-
 <h2>@marco colori nelle word cloud. Da capire</h2>
 
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
