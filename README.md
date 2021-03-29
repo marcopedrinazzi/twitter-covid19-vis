@@ -32,7 +32,8 @@ This work is licensed under a
 Data from: https://github.com/Gautamshahi/Misinformation_COVID-19<br>
 The dataset comes from this research work: Shahi, G. K., Dirkson, A., & Majchrzak, T. A. (2021). An exploratory study of covid-19 misinformation on twitter. Online social networks and media, 100104. https://arxiv.org/abs/2005.05710<br>
 
-The dataset that we've used is composed by one column: <b>tweet_id</b>
+The dataset that we've used is composed by one column: <b>tweet_id</b><br>
+
 If you want to access a tweet from its ID you can use any user name and the url will redirect to the correct twitter handle.<br>
 For instance, if I go to: <br>
 twitter.com/anyuser/status/541278904204668929<br>
@@ -61,6 +62,7 @@ Data from: https://github.com/Gautamshahi/Misinformation_COVID-19 <br>
 The dataset comes from this research work: Shahi, G. K., Dirkson, A., & Majchrzak, T. A. (2021). An exploratory study of covid-19 misinformation on twitter. Online social networks and media, 100104. https://arxiv.org/abs/2005.05710<br>
 
 The dataset that we've used is composed by two columns: <b>tweet_id</b> and <b>tweet_class</b><br>
+
 If you want to access a tweet from its ID you can use any user name and the url will redirect to the correct twitter handle.<br>
 For instance, if I go to: <br>
 twitter.com/anyuser/status/541278904204668929<br>
