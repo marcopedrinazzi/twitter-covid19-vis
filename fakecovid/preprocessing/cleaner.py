@@ -3,11 +3,11 @@ import pandas as pd
 import json
 pd.options.mode.chained_assignment = None
 
-csv_dataframe = pd.read_csv('dataset/fakecovid_dataset_clean.csv',sep=";")
+csv_dataframe = pd.read_csv('../dataset/fakecovid_filtered_dataset_clean_final.csv',sep=";")
 csv_dataframe['tweet_id'] = csv_dataframe['tweet_id'].astype(str)
 
 data = []
-with open('dataset/fakecovid_result_translated_full.json', 'r') as f:
+with open('../dataset/fakecovid_result_final_translated_full.json', 'r') as f:
     for line in f:
         data.append(json.loads(line))
 
@@ -20,5 +20,5 @@ for element in data:
 
 boolean_series = csv_dataframe.tweet_id.isin(id_list)
 filtered_df = csv_dataframe[boolean_series]
-filtered_df.to_csv('fakecovid_filtered_dataset_clean.csv',sep=';',index=False)
+filtered_df.to_csv('FINAL_fakecovid_final_filtered_dataset_clean.csv',sep=';',index=False)
 
