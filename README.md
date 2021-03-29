@@ -33,6 +33,11 @@ Data from: https://github.com/Gautamshahi/Misinformation_COVID-19<br>
 The dataset comes from this research work: Shahi, G. K., Dirkson, A., & Majchrzak, T. A. (2021). An exploratory study of covid-19 misinformation on twitter. Online social networks and media, 100104. https://arxiv.org/abs/2005.05710<br>
 
 The dataset that we've used is composed by one column: <b>tweet_id</b>
+If you want to access a tweet from its ID you can use any user name and the url will redirect to the correct twitter handle.<br>
+For instance, if I go to: <br>
+twitter.com/anyuser/status/541278904204668929<br>
+The link redirects to:<br>
+https://twitter.com/MarkTabNet/status/541278904204668929<br>
 
 We've done the hydratation (to get complete details (i.e. fields) of a tweet from its ID) thanks to this tool https://github.com/DocNow/twarc <br>
 We've executed the following command to get the needed results:<br>
@@ -47,12 +52,20 @@ The <i>general_result.json</i> file isn't available online due to the limits of 
 
 The parsing is done through some Python code on each file. 
 
+
+
+
 <h2>Visualisation about Covid19 Misinformation on Twitter</h2>
 
 Data from: https://github.com/Gautamshahi/Misinformation_COVID-19 <br>
 The dataset comes from this research work: Shahi, G. K., Dirkson, A., & Majchrzak, T. A. (2021). An exploratory study of covid-19 misinformation on twitter. Online social networks and media, 100104. https://arxiv.org/abs/2005.05710<br>
 
 The dataset that we've used is composed by two columns: <b>tweet_id</b> and <b>tweet_class</b><br>
+If you want to access a tweet from its ID you can use any user name and the url will redirect to the correct twitter handle.<br>
+For instance, if I go to: <br>
+twitter.com/anyuser/status/541278904204668929<br>
+The link redirects to:<br>
+https://twitter.com/MarkTabNet/status/541278904204668929<br>
 
 We've done the hydratation (to get complete details (i.e. fields) of a tweet from its ID) thanks to this tool https://github.com/DocNow/twarc. In this case we've produced a one version column of the dataset with only the <b>tweet_id</b> to complete the hydratation.
 We've executed the following command to get the needed results:<br>
