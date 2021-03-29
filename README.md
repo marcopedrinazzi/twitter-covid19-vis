@@ -36,9 +36,9 @@ The dataset that we've used is composed by one column: <b>tweet_id</b><br>
 
 If you want to access a tweet from its ID you can use any user name and the url will redirect to the correct twitter handle.<br>
 For instance, if I go to: <br>
-twitter.com/anyuser/status/541278904204668929<br>
+https://twitter.com/anyuser/status/1341161857931874304<br>
 The link redirects to:<br>
-https://twitter.com/MarkTabNet/status/541278904204668929<br>
+https://twitter.com/Twitter/status/1341161863103488003<br>
 
 We've done the hydratation (to get complete details (i.e. fields) of a tweet from its ID) thanks to this tool https://github.com/DocNow/twarc <br>
 We've executed the following command to get the needed results:<br>
@@ -65,9 +65,9 @@ The dataset that we've used is composed by two columns: <b>tweet_id</b> and <b>t
 
 If you want to access a tweet from its ID you can use any user name and the url will redirect to the correct twitter handle.<br>
 For instance, if I go to: <br>
-twitter.com/anyuser/status/541278904204668929<br>
+https://twitter.com/anyuser/status/1341161857931874304<br>
 The link redirects to:<br>
-https://twitter.com/MarkTabNet/status/541278904204668929<br>
+https://twitter.com/Twitter/status/1341161863103488003<br>
 
 We've done the hydratation (to get complete details (i.e. fields) of a tweet from its ID) thanks to this tool https://github.com/DocNow/twarc. In this case we've produced a one version column of the dataset with only the <b>tweet_id</b> to complete the hydratation.
 We've executed the following command to get the needed results:<br>
