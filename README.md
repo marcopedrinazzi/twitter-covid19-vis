@@ -11,9 +11,28 @@
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
 
-<h5> @SOLO per simona : Il notebook sui Bigrams e Trigrams riporta il seguente errore: module 'contractions' has no attribute 'fix'. <br>
-Inoltre rimuovendo il commento a num2words NECESSARIA, viene riportato questo errore: No module named 'num2words' </h5><br>
+<h5> @SOLO per simona : NON apportare modifiche ai notebook con il modulo contractions → problema di installazione della libreria  <br>
+</h5><br>
 
+# IDEE
+
+• Dalla sezione "Top domains": https://storybench.shinyapps.io/covid-tweets/
+Tabella con link nei tweet e relativo verified e non verified account che ha riportato il link nel tweet, e nelle due colonne si può fare un data bar che mostra la frequenza di quante volte è stato inserito quel link. <br>
+
+• Ora del giorno in cui si sono scritti più tweet <br>
+
+• Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) <br>
+
+• Diverse lingue dei tweet <br>
+
+• Brand and non-brand accounts oppure verified → TwiRole library (https://github.com/liuqingli/TwiRole - <code>user_classifier.py</code>)
+(si possono sfruttare i dati della tabella 2 pag. 9 del paper per fare visualizzazioni) <br>
+
+• Frequenza retweet differenziando per categoria false, partially… <br>
+
+• Scatter text delle emoji più utilizzate dagli account verified e non <br>
+
+• Bar chart delle emoji più utilizzate <br>
 
 # Twitter Covid19 Visualisation
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
