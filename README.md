@@ -23,7 +23,7 @@ Tabella con link nei tweet e relativo verified e non verified account che ha rip
 
 • Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) <br>
 
-• Diverse lingue dei tweet <br>
+<strike><h3>• Diverse lingue dei tweet FINIRE IL MAPPING COLORE </h3></strike><br>
 
 • Brand and non-brand accounts oppure verified → TwiRole library (https://github.com/liuqingli/TwiRole - <code>user_classifier.py</code>)
 (si possono sfruttare i dati della tabella 2 pag. 9 del paper per fare visualizzazioni) <br>
