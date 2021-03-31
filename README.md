@@ -28,7 +28,7 @@ Tabella con link nei tweet e relativo verified e non verified account che ha rip
 • Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) <br>
 
 • Brand and non-brand accounts oppure verified → TwiRole library (https://github.com/liuqingli/TwiRole - <code>user_classifier.py</code>)
-(si possono sfruttare i dati della tabella 2 pag. 9 del paper per fare visualizzazioni) <br>
+<b>(si possono sfruttare i dati della tabella 2 pag. 9 del paper per fare visualizzazioni)</b> <br>
 
 • Frequenza retweet differenziando per categoria false, partially… <br>
 
@@ -42,6 +42,10 @@ Tabella con link nei tweet e relativo verified e non verified account che ha rip
 - Grafo usando in_reply_to_user_id (suddividendolo anche per categoria magari) e anche quoted_status_id
 - Top links
 - Line chart popolurarity of words
+- Bot analysis https://github.com/IUNetSci/botometer-python https://botometer.osome.iu.edu
+- Popularity of account: Favourites count, follower count, account age (created_at nell'account) and verified status
+- <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
+- The diffusion of misinformation tweets can be analysed in terms of likes and retweet [78]. Likes indicate how many times a user clicked the tweet as a favourite while retweet is when a user retweets a tweet or retweet with comment. We have visualised the number of likes and retweet gained by each misinformation tweet with the timeline. There is con- siderable variance in the count of retweet and likes, so we decided to normalise the data. We normalise the count of likes and retweet using Min-Max Normalization in the scale of [0, 1]. We normalised the count of retweet and likes for the overall month together and plotted the normalised count of retweet and liked for both false and partially false and plot- ted it for each month. In Figure 6 (p. 11), we presented our result from January to July 2020, one plot for each month. The blue colour indicates the retweet of the false category, whereas orange colour indicates the retweet of the partially false category. Similarly, the green colour shows the likes of the false category, whereas red colour shows the likes of the partially false category. <b>Vedi pagina 11</b>
 - 
 # Twitter Covid19 Visualisation
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
