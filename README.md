@@ -1,5 +1,7 @@
 # TODO
 
+<h2>@simona Language bar chart in notebook pre processing da finire (vedi whatsapp) </h2><br>
+
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
@@ -22,8 +24,6 @@ Tabella con link nei tweet e relativo verified e non verified account che ha rip
 • Ora del giorno in cui si sono scritti più tweet <br>
 
 • Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) <br>
-
-<strike><h3>• Diverse lingue dei tweet FINIRE IL MAPPING COLORE </h3></strike><br>
 
 • Brand and non-brand accounts oppure verified → TwiRole library (https://github.com/liuqingli/TwiRole - <code>user_classifier.py</code>)
 (si possono sfruttare i dati della tabella 2 pag. 9 del paper per fare visualizzazioni) <br>
