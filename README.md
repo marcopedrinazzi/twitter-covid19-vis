@@ -23,8 +23,6 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 • Dalla sezione "Top domains": https://storybench.shinyapps.io/covid-tweets/ 
 Tabella con link nei tweet e relativo verified e non verified account che ha riportato il link nel tweet, e nelle due colonne si può fare un data bar che mostra la frequenza di quante volte è stato inserito quel link. <br>
 
-• Ora del giorno in cui si sono scritti più tweet <br>
-
 • Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) <br>
 
 • Brand and non-brand accounts oppure verified → TwiRole library (https://github.com/liuqingli/TwiRole - <code>user_classifier.py</code>)
