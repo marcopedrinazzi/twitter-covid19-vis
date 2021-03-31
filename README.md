@@ -18,7 +18,9 @@
 
 # IDEE
 
-• Dalla sezione "Top domains": https://storybench.shinyapps.io/covid-tweets/
+https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
+
+• Dalla sezione "Top domains": https://storybench.shinyapps.io/covid-tweets/ 
 Tabella con link nei tweet e relativo verified e non verified account che ha riportato il link nel tweet, e nelle due colonne si può fare un data bar che mostra la frequenza di quante volte è stato inserito quel link. <br>
 
 • Ora del giorno in cui si sono scritti più tweet <br>
@@ -34,6 +36,13 @@ Tabella con link nei tweet e relativo verified e non verified account che ha rip
 
 • Bar chart delle emoji più utilizzate <br>
 
+- Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
+- https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html --> tabella espandibile con entry categoria (fake, partially fkae) - contenuto - link al tweet. Importante credo per il contenuto
+- Pie chart Distribution % (2020-03-01 - 2020-03-05): Tweet with more than one type, accounted for under each type.
+- Grafo usando in_reply_to_user_id (suddividendolo anche per categoria magari) e anche quoted_status_id
+- Top links
+- Line chart popolurarity of words
+- 
 # Twitter Covid19 Visualisation
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
