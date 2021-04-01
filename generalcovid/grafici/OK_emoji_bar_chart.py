@@ -1,5 +1,5 @@
 import pandas as pd
-import numpy as np
+#import numpy as np
 import json
 import itertools  
 from collections import Counter
@@ -11,7 +11,7 @@ import demoji
 #demoji.download_codes()
 
 data = []
-with open('general_result_translated_full.json', 'r') as f:
+with open('dataset/general_result_translated_full.json', 'r') as f:
     for line in f:
         data.append(json.loads(line))
 
@@ -40,6 +40,6 @@ chart = alt.Chart(
     sort=[alt.SortField('count', order='descending')]
 ).transform_filter(
     (alt.datum.rank < 15)
-).properties(width=700, height=300,  title = "Most frequent emojis in the dataset")
+).properties(width=700, height=300,  title = "Most 15 frequent emojis in the dataset")
 
 chart.show()
