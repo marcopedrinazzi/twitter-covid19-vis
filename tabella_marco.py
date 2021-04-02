@@ -8,6 +8,10 @@ from collections import Counter
 import csv
 import dash
 import nltk
+import dash_core_components as dcc
+import dash_html_components as html
+from dash.dependencies import Input, Output
+import dash_table
 
 csv_dataframe = pd.read_csv('dataset/FINAL_fakecovid_final_filtered_dataset_clean.csv',sep=";")
 csv_dataframe['tweet_id'] = csv_dataframe['tweet_id'].astype(str)
@@ -93,15 +97,34 @@ df = pd.DataFrame(
      'Link': id
     })
 
-fig = go.Figure(data=[go.Table(
-    header=dict(values=list(df.columns),
-               fill_color='paleturquoise',
-                align='center'),
-    cells=dict(values=[df.Category,df.Date,df.Tweet, df.Link],
-               fill_color='lavender',
-               align='left'))
+app = dash.Dash(__name__)
+
+app.layout = html.Div([
+    dash_table.DataTable(
+        id='datatable-interactivity',
+        columns=[
+            {"name": i, "id": i} for i in df.columns
+        ],
+        data=df.to_dict('records'),
+        style_cell=dict(textAlign='left'),
+        style_header=dict(backgroundColor="paleturquoise"),
+        style_data={
+            'whiteSpace': 'normal',
+            'height': 'auto'
+        },
+        filter_action="native",
+        sort_action="native",
+        sort_mode="multi",
+        page_action="native",
+        page_current= 0,
+        page_size= 10,
+        fill_width=False
+    ),
+    html.Div(id='datatable-interactivity-container')
 ])
 
 
-pyo.iplot(fig)
+
+if __name__ == '__main__':
+    app.run_server(debug=True)
 
