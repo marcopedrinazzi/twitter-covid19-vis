@@ -65,10 +65,10 @@ for el in col_one_list:
         indx = namelist.index(tok[0])
         if tok[1] == "false":
             count_false[indx] = col_two_list[index]
-            category.append(col_two_list[index])
+            category.append(tok[1])
         elif tok[1] == "partiallyfalse":
             count_part[indx] = col_two_list[index]
-            category.append(col_two_list[index])
+            category.append(tok[1])
         else:
             print("errore count")
    
