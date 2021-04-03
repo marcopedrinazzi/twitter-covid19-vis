@@ -12,6 +12,12 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import dash_table
+import re
+
+def remove_urls(text):
+    result = re.sub(r"http\S+", "", text)
+    return(result)
+
 
 csv_dataframe = pd.read_csv('dataset/FINAL_fakecovid_final_filtered_dataset_clean.csv',sep=";")
 csv_dataframe['tweet_id'] = csv_dataframe['tweet_id'].astype(str)
@@ -42,7 +48,7 @@ for element in data:
     d = d.strftime('%Y/%m/%d')
     date.append(d)
     
-    txt.append(data[index]['full_text'])
+    txt.append(remove_urls(data[index]['full_text']))
     id.append("http://twitter.com/anyuser/status/"+data[index]['id_str'])
     
     index=index+1
@@ -69,7 +75,7 @@ for el in col_one_list:
         indx = namelist.index(tok[0])
         if tok[1] == "false":
             count_false[indx] = col_two_list[index]
-            category.append(tok[1])
+            category.append("fake")
         elif tok[1] == "partiallyfalse":
             count_part[indx] = col_two_list[index]
             category.append(tok[1])
@@ -98,7 +104,7 @@ df = pd.DataFrame(
     })
 
 app = dash.Dash(__name__)
-
+#https://dash.plotly.com/datatable/filtering
 app.layout = html.Div([
     dash_table.DataTable(
         id='datatable-interactivity',
@@ -106,8 +112,14 @@ app.layout = html.Div([
             {"name": i, "id": i} for i in df.columns
         ],
         data=df.to_dict('records'),
-        style_cell=dict(textAlign='left'),
-        style_header=dict(backgroundColor="paleturquoise"),
+        style_cell={
+            'textAlign':'left'
+        },
+        style_header={
+            'backgroundColor':"paleturquoise",
+            'whiteSpace': 'normal',
+            'height': 'auto'
+        },
         style_data={
             'whiteSpace': 'normal',
             'height': 'auto'
