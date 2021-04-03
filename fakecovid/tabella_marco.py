@@ -112,8 +112,13 @@ app.layout = html.Div([
             {"name": i, "id": i} for i in df.columns
         ],
         data=df.to_dict('records'),
+        style_filter={
+            "backgroundColor":"white"
+        },
         style_cell={
-            'textAlign':'left'
+            'textAlign':'left',
+            'whiteSpace': 'normal',
+            'height': 'auto'
         },
         style_header={
             'backgroundColor':"paleturquoise",
