@@ -72,29 +72,15 @@ for el in col_one_list:
     tok = el.split()
     namelist.append(tok[0])
     if tok[0] in namelist:
-        indx = namelist.index(tok[0])
         if tok[1] == "false":
-            count_false[indx] = col_two_list[index]
             category.append("fake")
         elif tok[1] == "partiallyfalse":
-            count_part[indx] = col_two_list[index]
             category.append(tok[1])
         else:
             print("errore count")
    
     index = index + 1
 
-i=0
-for el in col_two_list:
-    col_two_list[i] = count_false[i] + count_part[i]
-    i = i + 1
-
-df['id_str']=namelist
-df['Count False Tweets']=count_false
-df['Count Partially False Tweets']=count_part
-df['count'] = col_two_list
-
-df = df.sort_values(by=['count'],ascending=[False])
 
 df = pd.DataFrame(
     {'Category': category,
