@@ -60,23 +60,42 @@ app.layout = html.Div([
         style_filter={
             "backgroundColor":"white"
         },
+        style_data_conditional=[
+        {
+            'if': {
+                'column_id': 'Date',
+            },
+            'width':'200px'
+        },
+        {
+            'if': {
+                'column_id': 'Tweet',
+            },
+            'width':'2500px'
+        },
+        {
+            'if': {
+                'column_id': 'Link',
+            },
+            'font-size':'16px'
+        }],
         style_cell={
             'textAlign':'left',
-            'font-family': 'Calibri',
+            'font-family': 'Helvetica Neue',
             'whiteSpace': 'normal',
-            'padding': '10px',
-            'border':'0.8px solid darkslategray',
+            'padding-bottom': '15px',
+            'border':'0px solid darkslategray',
             'font-size':'16px',
             'height': 'auto'
         },
         style_header={
-            'backgroundColor':"moccasin",
-            'font-family':'Calibri',
+            'backgroundColor':"white",
+            'font-family':'Helvetica Neue',
             'font-weight': 'bold',
             'whiteSpace': 'normal',
             'padding': '10px',
-            'border':'0.8px solid darkslategray',
-            'font-size':'20px',
+            'border-bottom':'1px solid darkslategray',
+            'font-size':'18px',
             'height': 'auto'
         },
         style_data={
