@@ -23,20 +23,38 @@ with open('dataset/fakecovid_result_final_translated_full.json', 'r') as f:
 
 index=0
 urls = []
+titles = []
 for element in data:
-    print("indice "+str(index))
-    print(data[index]['entities']['urls'])
+    print(index)
     if data[index]['entities']['urls'] is not None:
         for entity in data[index]['entities']['urls']:
-            r = requests.get(entity['expanded_url'], timeout=10)
-            #TIMEOUT
+             #TIMEOUT
             #https://stackoverflow.com/questions/16511337/correct-way-to-try-except-using-python-requests-module
-            soup = BeautifulSoup(r.text,features="lxml")
-            if soup.title is None:
-                urls.append("none " + entity['expanded_url'])
+
+            # SERVONO DAVVERO SOLO QUESTI CAMPI?
+            try:
+                r = requests.get(entity['expanded_url'], timeout=10)
+            except requests.exceptions.Timeout:
+                titles.append("TIMEOUT ERROR")
+                urls.append(entity['expanded_url'])
+            except requests.ConnectionError:
+                titles.append("CONNECTION ERROR")
+                urls.append(entity['expanded_url'])
             else:
-                urls.append(soup.title.text + " " + entity['expanded_url'])
+                soup = BeautifulSoup(r.text,features="lxml")
+                if soup.title is None:
+                    titles.append("NO TITLE ERROR")
+                    urls.append(entity['expanded_url'])
+                else:
+                    titles.append(soup.title.text)
+                    urls.append(entity['expanded_url'])
         
     index=index+1
 
-print(urls)
+
+df = pd.DataFrame(
+    {'Title': titles,
+    'Urls': urls
+    })
+
+df.to_csv('urls.csv', sep=',', index=False)
