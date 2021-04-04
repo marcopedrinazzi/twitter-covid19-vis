@@ -1,11 +1,11 @@
-#import itertools
+import itertools
 import pandas as pd
 import json
-#import plotly.graph_objects as go
-#import plotly.offline as pyo
+import plotly.graph_objects as go
+import plotly.offline as pyo
 from dateutil.parser import parse
-#from collections import Counter
-#import csv
+from collections import Counter
+import csv
 import dash
 import nltk
 import dash_core_components as dcc
@@ -13,9 +13,6 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import dash_table
 import re
-
-# external CSS stylesheets
-external_stylesheets = ['assets/style.css']
 
 def remove_urls(text):
     result = re.sub(r"http\S+", "", text)
@@ -52,7 +49,7 @@ df = pd.DataFrame(
      'Link': id
     })
 
-app = dash.Dash(__name__,external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__)
 #https://dash.plotly.com/datatable/filtering
 app.layout = html.Div([
     dash_table.DataTable(
@@ -66,21 +63,12 @@ app.layout = html.Div([
         },
         style_cell={
             'textAlign':'left',
-            'font-family': 'Calibri',
             'whiteSpace': 'normal',
-            'padding': '16px',
-            'border':'0.5px solid darkslategray',
-            'font-size':'15px',
             'height': 'auto'
         },
         style_header={
-            'backgroundColor':"moccasin",
-            'font-family':'Calibri',
-            'font-weight': 'bold',
+            'backgroundColor':"paleturquoise",
             'whiteSpace': 'normal',
-            'padding': '16px',
-            'border':'0.5px solid darkslategray',
-            'font-size':'19px',
             'height': 'auto'
         },
         style_data={
@@ -98,12 +86,8 @@ app.layout = html.Div([
     html.Div(id='datatable-interactivity-container')
 ])
 
-# In style.css sfruttare gli id indicati.
-#https://dash.plotly.com/external-resources
-#https://dash.plotly.com/layout
-#https://community.plotly.com/t/dash-datatable-style-filter-doesnt-seem-to-work/15691
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)
 

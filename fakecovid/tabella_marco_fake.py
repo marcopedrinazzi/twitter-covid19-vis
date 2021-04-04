@@ -34,14 +34,15 @@ index= 0
 category = []
 date = []
 txt = []
-id = []
-cmt_list = []
+link = []
 
 for element in data:
     token_id = data[index]['id_str']                          
-    indice_csv = lista_unica_csv.index(token_id)                
-    final_token = token_id + " " +lista_unica_csv[indice_csv+1].lower().replace(" ", "")
-    cmt_list.append(final_token)
+    indice_csv = lista_unica_csv.index(token_id)   
+    value_cat =  lista_unica_csv[indice_csv+1].lower()
+    if value_cat == "false":
+        value_cat = "fake"
+    category.append(value_cat.replace(" ", ""))
     
     token=data[index]['created_at']
     d = parse(token)
@@ -49,45 +50,16 @@ for element in data:
     date.append(d)
     
     txt.append(remove_urls(data[index]['full_text']))
-    id.append("http://twitter.com/anyuser/status/"+data[index]['id_str'])
-    
+    link.append("[http://twitter.com/anyuser/status/"+data[index]['id_str']+"](http://twitter.com/anyuser/status/"+data[index]['id_str']+")")
     index=index+1
-    
-    
-fdist = dict(nltk.FreqDist(cmt_list))
-df = pd.DataFrame.from_dict(fdist, orient='index').reset_index()
-df = df.rename(columns={'index':'id_str', 0:'count'})
-col_one_list = df['id_str'].tolist()
-col_two_list = df['count'].tolist()
-
-typelist=[]
-namelist=[]
-
-index = 0
-
-count_false = [0] * len(col_one_list)
-count_part = [0] * len(col_one_list)
-
-for el in col_one_list:
-    tok = el.split()
-    namelist.append(tok[0])
-    if tok[0] in namelist:
-        if tok[1] == "false":
-            category.append("fake")
-        elif tok[1] == "partiallyfalse":
-            category.append(tok[1])
-        else:
-            print("errore count")
-   
-    index = index + 1
-
 
 df = pd.DataFrame(
-    {'Category': category,
+    {'Type': category,
     'Date': date,
     'Tweet': txt,
-     'Link': id
+    'Link': link
     })
+
 
 app = dash.Dash(__name__)
 #https://dash.plotly.com/datatable/filtering
@@ -95,19 +67,28 @@ app.layout = html.Div([
     dash_table.DataTable(
         id='datatable-interactivity',
         columns=[
-            {"name": i, "id": i} for i in df.columns
-        ],
+            {'name': 'Type', 'id': 'Type'},
+            {'name': 'Date', 'id': 'Date'},
+            {'name': 'Tweet', 'id': 'Tweet'},
+            {'name': 'Link', 'id':'Link', 'type': 'text', 'presentation':'markdown'}],
         data=df.to_dict('records'),
         style_filter={
             "backgroundColor":"white"
         },
+        style_data_conditional=[
+        {
+            'if': {
+                'column_id': 'Type',
+            },
+            'font-weight':'bold'
+        }],
         style_cell={
             'textAlign':'left',
             'font-family': 'Calibri',
             'whiteSpace': 'normal',
-            'padding': '16px',
-            'border':'0.5px solid darkslategray',
-            'font-size':'15px',
+            'padding': '10px',
+            'border':'0.8px solid darkslategray',
+            'font-size':'16px',
             'height': 'auto'
         },
         style_header={
@@ -115,9 +96,9 @@ app.layout = html.Div([
             'font-family':'Calibri',
             'font-weight': 'bold',
             'whiteSpace': 'normal',
-            'padding': '16px',
-            'border':'0.5px solid darkslategray',
-            'font-size':'19px',
+            'padding': '10px',
+            'border':'0.8px solid darkslategray',
+            'font-size':'20px',
             'height': 'auto'
         },
         style_data={
@@ -129,7 +110,7 @@ app.layout = html.Div([
         sort_mode="multi",
         page_action="native",
         page_current= 0,
-        page_size= 10,
+        page_size= 8,
         fill_width=False
     ),
     html.Div(id='datatable-interactivity-container')
@@ -138,5 +119,5 @@ app.layout = html.Div([
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)
 

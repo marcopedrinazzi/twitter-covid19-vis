@@ -1,4 +1,5 @@
 # TODO
+<h2>METTERE LE TABELLE IN UN NOTEBOOK</h2>
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
@@ -33,7 +34,6 @@ Tabella con link nei tweet e relativo verified e non verified account che ha rip
 • Scatter text delle emoji più utilizzate dagli account verified e non <br>
 
 - Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
-- https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html --> tabella espandibile con entry categoria (fake, partially fkae) - contenuto - link al tweet. Importante credo per il contenuto
 - Pie chart Distribution % (2020-03-01 - 2020-03-05): Tweet with more than one type, accounted for under each type.
 - Grafo usando in_reply_to_user_id (suddividendolo anche per categoria magari) e anche quoted_status_id
 - Top links
