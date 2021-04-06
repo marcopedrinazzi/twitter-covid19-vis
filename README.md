@@ -1,5 +1,9 @@
 # TODO
-<h2>METTERE LE TABELLE IN UN NOTEBOOK</h2>
+<h2>METTERE LE TABELLE (general fake fake_url) IN UN NOTEBOOK</h2>
+
+<h2>Dataset URL da sistemare i titoli</h2>
+
+<h2>TODO tabella general url</h2>
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
@@ -36,7 +40,6 @@ Tabella con link nei tweet e relativo verified e non verified account che ha rip
 - Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
 - Pie chart Distribution % (2020-03-01 - 2020-03-05): Tweet with more than one type, accounted for under each type.
 - Grafo usando in_reply_to_user_id (suddividendolo anche per categoria magari) e anche quoted_status_id
-- Top links
 - Line chart popolurarity of words
 - Bot analysis https://github.com/IUNetSci/botometer-python https://botometer.osome.iu.edu
 - Popularity of account: Favourites count, follower count, account age (created_at nell'account) and verified status
