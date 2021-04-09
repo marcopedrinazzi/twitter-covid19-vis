@@ -1,7 +1,4 @@
 # TODO
-<h2>METTERE LE TABELLE (general fake fake_url) IN UN NOTEBOOK</h2>
-
-<h2>Dataset URL da sistemare i titoli</h2>
 
 <h2>TODO tabella general url</h2>
 
