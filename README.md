@@ -4,7 +4,9 @@
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
-<h2>CAMBIARE I BAR CHART DI GENERAL IN LEXICAL DISPERSION PLOT</h2>
+<h2>LEXICAL DISPERSION PLOT - General: mentions, text, bigrams, trigrams (tutte top 5)</h2>
+
+<h2>LEXICAL DISPERSION PLOT - Fake</h2>
 
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
 
