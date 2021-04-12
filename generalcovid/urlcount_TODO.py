@@ -33,6 +33,7 @@ for element in data:
     print(index)
     if data[index]['entities']['urls'] is not None:
         for entity in data[index]['entities']['urls']:
+            print(entity['expanded_url'])
             if entity['expanded_url'].lower() not in urls:
                 try:
                     r = requests.get(entity['expanded_url'], timeout=10)

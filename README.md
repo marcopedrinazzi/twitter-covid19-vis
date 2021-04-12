@@ -37,7 +37,6 @@ Tabella con link nei tweet e relativo verified e non verified account che ha rip
 • Scatter text delle emoji più utilizzate dagli account verified e non <br>
 
 - Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
-- Pie chart Distribution % (2020-03-01 - 2020-03-05): Tweet with more than one type, accounted for under each type.
 - Grafo usando in_reply_to_user_id (suddividendolo anche per categoria magari) e anche quoted_status_id
 - Line chart popolurarity of words
 - Bot analysis https://github.com/IUNetSci/botometer-python https://botometer.osome.iu.edu
