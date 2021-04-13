@@ -17,8 +17,7 @@
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
 
-<h5> @SOLO per simona : NON apportare modifiche ai notebook con il modulo contractions → problema di installazione della libreria  <br>
-</h5><br>
+<br>
 
 # IDEE
 
