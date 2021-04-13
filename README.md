@@ -31,9 +31,9 @@ Tabella con link nei tweet e relativo verified e non verified account che ha rip
 • Brand and non-brand accounts oppure verified → TwiRole library (https://github.com/liuqingli/TwiRole - <code>user_classifier.py</code>)
 <br>
 
-• <strike>Frequenza retweet differenziando per categoria false, partially… <strike> (è già contenuto in Fig.6 p.11) <br>
+• <strike>Frequenza retweet differenziando per categoria false, partially… </strike> (è già contenuto in Fig.6 p.11) <br>
 
-• <strike>Scatter text delle emoji più utilizzate dagli account verified e non <strike> (c'è già la 1° idea)<br>
+• <strike>Scatter text delle emoji più utilizzate dagli account verified e non </strike> (c'è già la 1° idea)<br>
 
 • Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
 
