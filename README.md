@@ -1,7 +1,5 @@
 # TODO
 
-<h2>@simona vedi se users strip plot general ha senso per te</h2>
-
 <h2>TODO tabella general url</h2>
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
