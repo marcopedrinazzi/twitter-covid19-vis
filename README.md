@@ -4,7 +4,7 @@
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
-<h2>LEXICAL DISPERSION PLOT - General: emoji (da capire come far vedere le emoji bene), text, bigrams, trigrams (tutte top 5)</h2>
+<h2>LEXICAL DISPERSION PLOT - General: emoji (da capire come far vedere le emoji bene), trigrams</h2>
 
 <h2>LEXICAL DISPERSION PLOT - Fake</h2>
 
