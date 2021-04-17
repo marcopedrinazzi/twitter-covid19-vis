@@ -6,7 +6,7 @@
 
 <h2>LEXICAL DISPERSION PLOT - General: emoji (da capire come far vedere le emoji bene)</h2>
 
-<h2>LEXICAL DISPERSION PLOT - Fake</h2>
+<h2>LEXICAL DISPERSION PLOT - Fake: Hashtag, Mentions, Emoji, Text, Bigrams, Trigrams, </h2>
 
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
 
