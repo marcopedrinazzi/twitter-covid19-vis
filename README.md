@@ -8,6 +8,8 @@
 
 <h2>LEXICAL DISPERSION PLOT - Fake: Hashtag, Mentions, Emoji, Text, Bigrams, Trigrams, </h2>
 
+<h2>Fig. 6 pag. 11 (fake_retweets_likes.py) - Problema nella classificazione: conteggio di Retweet e Like per False/Partially False</h2>
+
 <h2>https://altair-viz.github.io/gallery/index.html#</h2>
 
 <h2>@marco classified da aggiungere ai vari notebook - Mancano Fake Text e Fake Bigrams-Trigrams</h2>
