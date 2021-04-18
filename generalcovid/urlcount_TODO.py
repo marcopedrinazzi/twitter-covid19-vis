@@ -34,15 +34,9 @@ for element in data:
     if data[index]['entities']['urls'] is not None:
         for entity in data[index]['entities']['urls']:
             print(entity['expanded_url'])
-            if entity['expanded_url'].lower() not in urls:
+            if entity['expanded_url'].lower() not in urls and entity['expanded_url'].lower() != "https://lexington.wickedlocal.com/news/20200128/lexington-man-harvard-professor-arrested-for-lying-about-ties-to-china":
                 try:
                     r = requests.get(entity['expanded_url'], timeout=10) 
-                except UnicodeEncodeError: 
-                    titles.append("[UNICODE ERROR]"+"("+entity['expanded_url'].lower()+")")
-                    urls.append(entity['expanded_url'].lower())
-                    d = parse(data[index]['created_at'])
-                    d = d.strftime('%Y/%m/%d')
-                    dates.append(d)
                 except requests.exceptions.Timeout:
                     titles.append("[TIMEOUT ERROR]"+"("+entity['expanded_url'].lower()+")")
                     urls.append(entity['expanded_url'].lower())

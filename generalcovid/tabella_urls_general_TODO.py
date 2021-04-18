@@ -23,7 +23,7 @@ from dash.dependencies import Input, Output
 import dash_table
 import dash
 
-df = pd.read_csv('urls.csv',sep=';')
+df = pd.read_csv('urls_g.csv',sep=',')
 print(df)
 
 app = dash.Dash(__name__)
