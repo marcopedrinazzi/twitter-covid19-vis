@@ -49,6 +49,12 @@ for element in data:
                     d = parse(data[index]['created_at'])
                     d = d.strftime('%Y/%m/%d')
                     dates.append(d)
+                except requests.exceptions.TooManyRedirects:
+                    titles.append("[TOO MANY REDIRECT ERROR]"+"("+entity['expanded_url'].lower()+")")
+                    urls.append(entity['expanded_url'].lower())
+                    d = parse(data[index]['created_at'])
+                    d = d.strftime('%Y/%m/%d')
+                    dates.append(d)
                 else:
                     soup = BeautifulSoup(r.text,features="lxml")
                     if soup.title is None:
