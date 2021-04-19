@@ -4,21 +4,6 @@
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
-<h3>Considerare se l'istogramma è il grafo più adeguato per i file dates.py</h3><br>
-<strike>Grafico numero di tweet per data</strike><br>
-
-La visualizzazione della location dei tweet con il campo "location" del JSON non ha senso perchè è un campo user-defined.<br>
-
-Per la cosa degli amici:<br>
-<b>followers_count</b> The number of followers this account currently has. <br>
-<b>friends_count</b> The number of users this account is following (AKA their “followings”).<br>
-<b>verified</b> When true, indicates that the user has a verified account.<br>
-<b>statuses_count</b> The number of Tweets (including retweets) issued by the user.
-
-Ulteriormente<br>
-<b>retweet_count</b> Number of times this Tweet has been retweeted. <br>
-<b>favorite_count</b> Indicates approximately how many times this Tweet has been liked by Twitter users. <br>
-
 <h3>CAMPI JSON SPIEGATI<br>
 
 Tweet:
