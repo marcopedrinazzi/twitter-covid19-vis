@@ -34,7 +34,7 @@ for element in data:
     if data[index]['entities']['urls'] is not None:
         for entity in data[index]['entities']['urls']:
             print(entity['expanded_url'])
-            if entity['expanded_url'].lower() not in urls and entity['expanded_url'].lower() != "https://lexington.wickedlocal.com/news/20200128/lexington-man-harvard-professor-arrested-for-lying-about-ties-to-china":
+            if entity['expanded_url'].lower() not in urls  and (entity['expanded_url'].lower() != "https://str.sg/Jpem" or entity['expanded_url'].lower() != "https://lexington.wickedlocal.com/news/20200128/lexington-man-harvard-professor-arrested-for-lying-about-ties-to-china"):
                 try:
                     r = requests.get(entity['expanded_url'], timeout=10) 
                 except requests.exceptions.Timeout:
