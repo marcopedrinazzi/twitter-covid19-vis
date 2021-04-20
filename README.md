@@ -4,8 +4,6 @@
 
 <h2>LEXICAL DISPERSION PLOT - Fake: HA SENSO? ALTERNATIVE? </h2>
 
-<h2>BUBBLE CHART POPULARITY - general: HA SENSO? ALTERNATIVE? </h2>
-
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
 <h2>LEXICAL DISPERSION PLOT - General: emoji (da capire come far vedere le emoji bene)</h2>
@@ -23,7 +21,7 @@
 
 # IDEE
 
-- Tabella 2 pagina 9 paper. ***C'è il CSV nella home di github***
+- Tabella 2 pagina 9 paper. ***C'è il CSV in gitub*** **Si può fare altro oltre alle tabelle nei buuble chart?**
 
 <b>- https://jasonkessler.github.io/demo_compact.html Scatter Text per Hashtag, Testo, Emoji confrontando i due dataset. Asse x frequenza su dataset general, asse y frequenza su dataset fake</b>
 
