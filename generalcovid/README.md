@@ -1,3 +1,9 @@
 # Note
+
+- **urls_no_title_format** è il csv che andrà passato allo script che fa la tabella. **vanno tolte le righe che contengono twitter.com**
+- Step da eseguire: Chiamare namer.py, namer.py legge da **urls_notitle.csv** e fa vedere dei titoli delle pagine, i titoli vanno messi in **urls_no_title_format.csv** e quando si inserisce un titolo in **urls_no_title_format.csv** si cancella da **urls_notitle.csv**. Se la entry è un 404/da errore e cosi si cancella da entrambi i csv. 
+
+
+
 To understand how the misinformation around COVID-19 is distinct from the other tweets on this topic, we created a background corpus of 163,096 English tweets spanning the same time period (14 January until 10 July) as our corpus of misinformation. We randomly selected 1000 tweets per day and all tweets if fewer than 1000 tweets were available. For January until April, we used the publicly available corpus Tweets- COV195. We attempted to retrieve tweet content using the Twitter API. As some tweets were no longer available, this resulted in 92,095 tweets. TweetsCOV19 spans until April 2020 so, for May to July, we used our own keyword-based crawler using Twitter4J, resulting in a total of 71000 tweets for this time span. Specifically, we used several hashtags, including #Coronavirus, #nCoV2019, #WuhanCoronovirus, #Wuhan- Virus, #Wuhan, #CoronavirusOutbreak, #Ncov2020, #coronavirus- china, #Covid19, #covid19, #covid_19, #sarscov2, #covid, #cov, and
 #corona. We merged both data sets for our study.
