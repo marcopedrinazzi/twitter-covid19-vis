@@ -1,7 +1,5 @@
 # TODO
 
-<h2>TODO tabella general url</h2>
-
 <h2>LEXICAL DISPERSION PLOT - Fake: HA SENSO? ALTERNATIVE? </h2>
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
@@ -10,8 +8,6 @@
 
 <h2>Fig. 6 pag. 11 (fake_retweets_likes.py) - Problema nella classificazione: conteggio di Retweet e Like per False/Partially False</h2>
 
-<h2>https://altair-viz.github.io/gallery/index.html#</h2>
-
 <h2>@marco classified da aggiungere ai vari notebook - Mancano Fake Text e Fake Bigrams-Trigrams</h2>
 
 <h2>@marco colori nelle word cloud. Da capire</h2>
@@ -19,6 +15,7 @@
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
 
+<h2>https://altair-viz.github.io/gallery/index.html#</h2>
 # IDEE
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
