@@ -66,11 +66,11 @@ for element in data:
        
     index=index+1
 
-print(mix)
-print(dates)
-print(likes)
-print(retweets)
-print(category)
+#print(mix)
+#print(dates)
+#print(likes)
+#print(retweets)
+#print(category)
 
 df = pd.DataFrame(
     {'Dates': dates,
@@ -84,7 +84,18 @@ df['Dates']= pd.to_datetime(df['Dates'])
 #https://www.geeksforgeeks.org/normalize-a-column-in-pandas/
 #https://stackoverflow.com/a/41532180
 
-#Plot
+# copy the data
+df_min_max_scaled = df.copy()
+# apply min-max normalization techniques by Likes and Retweet columns
+column = 'Likes'
+df_min_max_scaled[column] = (df_min_max_scaled[column] - df_min_max_scaled[column].min()) / (df_min_max_scaled[column].max() - df_min_max_scaled[column].min())    
+column = 'Retweets'
+df_min_max_scaled[column] = (df_min_max_scaled[column] - df_min_max_scaled[column].min()) / (df_min_max_scaled[column].max() - df_min_max_scaled[column].min())    
+# view normalized data
+print(df_min_max_scaled)
+
+
+#Plot - https://altair-viz.github.io/gallery/density_stack.html
 #chart = alt.Chart(df).transform_fold(
 #    ['False (Retweet)',
 #     'Partially False (Retweet)',
@@ -99,7 +110,7 @@ df['Dates']= pd.to_datetime(df['Dates'])
 #    counts = True,
 #    steps=200
 #).mark_area().encode(
-#    alt.X('Month'),
+#    alt.X('Dates'),
 #    alt.Y('Count:Q', stack='zero'),
 #    alt.Color('Category:N')
 #).properties(width=400, height=100)
