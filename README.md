@@ -6,7 +6,7 @@
 
 <h2>LEXICAL DISPERSION PLOT - General: emoji (da capire come far vedere le emoji bene) ***Misura estrema usare altair***</h2>
 
-<h2>Fig. 6 pag. 11 (fake_retweets_likes.py) - Problema nella classificazione: conteggio di Retweet e Like per False/Partially False</h2>
+<h2>Fig. 6 pag. 11 (fake_retweets_likes.py) - PLOT</h2>
 
 <h2>@marco classified da aggiungere ai vari notebook - Mancano Fake Text e Fake Bigrams-Trigrams</h2>
 
@@ -26,9 +26,6 @@
 <b>- https://jasonkessler.github.io/demo_compact.html Scatter Text per Hashtag, Testo, Emoji confrontando i due dataset. Asse x frequenza su dataset general, asse y frequenza su dataset fake</b>
 
 https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
-
-<strike>• Dalla sezione "Top domains": https://storybench.shinyapps.io/covid-tweets/ 
-Tabella con link nei tweet e relativo verified e non verified account che ha riportato il link nel tweet, e nelle due colonne si può fare un data bar che mostra la frequenza di quante volte è stato inserito quel link. <br></strike>
 
 • Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) <br>
 
