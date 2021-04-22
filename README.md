@@ -29,8 +29,8 @@
 
 https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
 
-• Dalla sezione "Top domains": https://storybench.shinyapps.io/covid-tweets/ 
-Tabella con link nei tweet e relativo verified e non verified account che ha riportato il link nel tweet, e nelle due colonne si può fare un data bar che mostra la frequenza di quante volte è stato inserito quel link. <br>
+<strike>• Dalla sezione "Top domains": https://storybench.shinyapps.io/covid-tweets/ 
+Tabella con link nei tweet e relativo verified e non verified account che ha riportato il link nel tweet, e nelle due colonne si può fare un data bar che mostra la frequenza di quante volte è stato inserito quel link. <br></strike>
 
 • Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) <br>
 
