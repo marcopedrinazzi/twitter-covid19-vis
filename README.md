@@ -6,7 +6,7 @@
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
-<h2>LEXICAL DISPERSION PLOT - General: emoji (da capire come far vedere le emoji bene)</h2>
+<h2>LEXICAL DISPERSION PLOT - General: emoji (da capire come far vedere le emoji bene) ***Misura estrema usare altair***</h2>
 
 <h2>Fig. 6 pag. 11 (fake_retweets_likes.py) - Problema nella classificazione: conteggio di Retweet e Like per False/Partially False</h2>
 
