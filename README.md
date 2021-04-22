@@ -15,7 +15,8 @@
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
 
-<h2>https://altair-viz.github.io/gallery/index.html#</h2>
+<h3>https://altair-viz.github.io/gallery/index.html</h3>
+
 # IDEE
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
