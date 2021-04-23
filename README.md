@@ -10,7 +10,7 @@
 
 <h2>@marco classified da aggiungere ai vari notebook - Mancano Fake Text e Fake Bigrams-Trigrams</h2>
 
-<h2>@marco colori nelle word cloud. Da capire</h2>
+<h2>@marco colori nelle word cloud. Da capire ==> COLORARE PAROLE COVID?</h2>
 
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
