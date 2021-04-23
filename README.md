@@ -10,8 +10,6 @@
 
 <h2>@marco classified da aggiungere ai vari notebook - Mancano Fake Text e Fake Bigrams-Trigrams</h2>
 
-<h2>@marco colori nelle word cloud. Da capire ==> COLORARE PAROLE COVID?</h2>
-
 # FIX
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
 
@@ -20,6 +18,8 @@
 # IDEE
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
+
+- Colorare le parole **covid** di un colore/scala di colori nelle wcloud che hanno le parole covid. Spicca l'attenzione
 
 - Tabella 2 pagina 9 paper. ***C'è il CSV in gitub*** **Si può fare altro oltre alle tabelle nei buuble chart?**
 
