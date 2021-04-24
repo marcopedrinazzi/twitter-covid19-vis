@@ -46,11 +46,11 @@ for element in data:
     if start <= d <= end:
         
         d = d.strftime('%Y-%m-%d')
-        #print(d)
-        #print(lista_unica_csv[indice_csv+1].lower())
-        #print(data[index]['retweet_count'])
-        #print(data[index]['favorite_count'])
-        #print(" ")
+            #print(d)
+            #print(lista_unica_csv[indice_csv+1].lower())
+            #print(data[index]['retweet_count'])
+            #print(data[index]['favorite_count'])
+            #print(" ")
         a = d + " " + lista_unica_csv[indice_csv+1].lower()
         if a in mix:
             i = mix.index(a)
@@ -72,6 +72,27 @@ for element in data:
 #print(retweets)
 #print(category)
 
+df_likes = pd.DataFrame(
+    {'Dates': dates,
+     'Likes': likes,
+     'Category': category
+    })
+df_likes['Dates']= pd.to_datetime(df_likes['Dates'])
+
+cl = df_likes['Category'].to_list()
+cl_cat = [s + " likes" for s in cl]
+df_likes['Category'] = cl_cat
+
+df_retweets = pd.DataFrame(
+    {'Dates': dates,
+     'Retweets': retweets,
+     'Category': category
+    })
+df_retweets['Dates']= pd.to_datetime(df_retweets['Dates'])
+cr = df_retweets['Category'].to_list()
+cr_cat = [s + " retweets" for s in cr]
+df_retweets['Category'] = cr_cat
+
 df = pd.DataFrame(
     {'Dates': dates,
      'Likes': likes,
@@ -79,40 +100,32 @@ df = pd.DataFrame(
      'Category': category
     })
 df['Dates']= pd.to_datetime(df['Dates'])
+df = df.sort_values(by=['Dates'], ascending=True)
 
 #Normalizzare like e retweet
 #https://www.geeksforgeeks.org/normalize-a-column-in-pandas/
 #https://stackoverflow.com/a/41532180
 
-# copy the data
-df_min_max_scaled = df.copy()
-# apply min-max normalization techniques by Likes and Retweet columns
-column = 'Likes'
-df_min_max_scaled[column] = (df_min_max_scaled[column] - df_min_max_scaled[column].min()) / (df_min_max_scaled[column].max() - df_min_max_scaled[column].min())    
-column = 'Retweets'
-df_min_max_scaled[column] = (df_min_max_scaled[column] - df_min_max_scaled[column].min()) / (df_min_max_scaled[column].max() - df_min_max_scaled[column].min())    
-# view normalized data
-print(df_min_max_scaled)
+df_norm = df.copy()
+df_norm[['Likes', 'Retweets']] = (df_norm[['Likes', 'Retweets']] - df_norm[['Likes', 'Retweets']].min()) / (df_norm[['Likes', 'Retweets']].max() - df_norm[['Likes', 'Retweets']].min())
+df_likes['Likes'] = df_norm['Likes']
+df_retweets['Retweets'] = df_norm['Retweets']
 
+c = alt.Chart(df_retweets).mark_line().encode(
+    x="Dates",
+    y="Retweets",
+    color="Category"
+)
 
-#Plot - https://altair-viz.github.io/gallery/density_stack.html
-#chart = alt.Chart(df).transform_fold(
-#    ['False (Retweet)',
-#     'Partially False (Retweet)',
-#     'False (Likes)',
-#     'Partially False (Likes)'],
-#    as_ = ['Category', 'Count']
-#).transform_density(
-#    density='Count',
-#    bandwidth=0.3,
-#    groupby=['Category'],
-#    extent= [0, 8],
-#    counts = True,
-#    steps=200
-#).mark_area().encode(
-#    alt.X('Dates'),
-#    alt.Y('Count:Q', stack='zero'),
-#    alt.Color('Category:N')
-#).properties(width=400, height=100)
+#c.show()
 
-#chart.show()
+c1 = alt.Chart(df_likes).mark_line().encode(
+    x="Dates",
+    y="Likes",
+    color="Category"
+)
+#c1.show()
+
+c2 = alt.layer(c,c1)
+c2.show()
+
