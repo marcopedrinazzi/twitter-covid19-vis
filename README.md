@@ -4,11 +4,10 @@
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
 
-<h2>Fig. 6 pag. 11 (fake_retweets_likes.py) - PLOT</h2>
-
 <h2>@marco classified da aggiungere ai vari notebook - Mancano Fake Text e Fake Bigrams-Trigrams</h2>
 
 # FIX
+
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
 
 <h3>https://altair-viz.github.io/gallery/index.html</h3>
@@ -43,7 +42,7 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 • Bot analysis https://github.com/IUNetSci/botometer-python https://botometer.osome.iu.edu
 
 
-• <b>NB figura 6 pagina 11</b>The diffusion of misinformation tweets can be analysed in terms of likes and retweet [78]. Likes indicate how many times a user clicked the tweet as a favourite while retweet is when a user retweets a tweet or retweet with comment. We have visualised the number of likes and retweet gained by each misinformation tweet with the timeline. There is con- siderable variance in the count of retweet and likes, so we decided to normalise the data. We normalise the count of likes and retweet using Min-Max Normalization in the scale of [0, 1]. We normalised the count of retweet and likes for the overall month together and plotted the normalised count of retweet and liked for both false and partially false and plot- ted it for each month. In <b>Figure 6 (p. 11)</b>, we presented our result from January to July 2020, one plot for each month. The blue colour indicates the retweet of the false category, whereas orange colour indicates the retweet of the partially false category. Similarly, the green colour shows the likes of the false category, whereas red colour shows the likes of the partially false category. <b>Vedi pagina 11</b>
+• <strike><b> Fig. 6 pag. 11</b> The diffusion of misinformation Tweets </strike>
 
 • Sezione 5.3.3 Paper -> https://altair-viz.github.io/gallery/grouped_bar_chart_with_error_bars.html
 

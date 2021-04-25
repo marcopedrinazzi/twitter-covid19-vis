@@ -1,10 +1,10 @@
-from collections import Counter
+#from collections import Counter
 import pandas as pd
 import datetime
 from dateutil.parser import parse
 import json
 import itertools  
-import nltk
+#import nltk
 import altair as alt
 import csv
 from vega_datasets import data
@@ -111,18 +111,24 @@ df_norm[['Likes', 'Retweets']] = (df_norm[['Likes', 'Retweets']] - df_norm[['Lik
 df_likes['Likes'] = df_norm['Likes']
 df_retweets['Retweets'] = df_norm['Retweets']
 
-c = alt.Chart(df_retweets).mark_line().encode(
-    x="Dates",
-    y="Retweets",
+c = alt.Chart(df_retweets).mark_line(point=True).encode(
+    alt.X('monthdate(Dates):T', title='January 2020'),
+    alt.Y('Retweets', title='Normalised count'),
     color="Category"
+).properties(
+    width=1000,
+    height=500
 )
 
 #c.show()
 
-c1 = alt.Chart(df_likes).mark_line().encode(
-    x="Dates",
-    y="Likes",
+c1 = alt.Chart(df_likes).mark_line(point=True).encode(
+    alt.X('monthdate(Dates):T', title='January 2020'),
+    alt.Y('Likes', title='Normalised count'),
     color="Category"
+).properties(
+    width=1000,
+    height=500
 )
 #c1.show()
 
