@@ -1,5 +1,7 @@
 # TODO
 
+<h2>@simona: finire notebook fake e adattarlo al general</h2>
+
 <h2>LEXICAL DISPERSION PLOT - Fake: HA SENSO? ALTERNATIVE? </h2>
 
 <h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
@@ -13,6 +15,8 @@
 <h3>https://altair-viz.github.io/gallery/index.html</h3>
 
 # IDEE
+
+- color brewer https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
