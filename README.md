@@ -1,6 +1,6 @@
 # TODO
 
-<h2>@simona: finire notebook fake e adattarlo al general</h2>
+<h2>@simona: colori sulle linee di quelli di like retweet</h2>
 
 <h2>LEXICAL DISPERSION PLOT - Fake: HA SENSO? ALTERNATIVE? </h2>
 
@@ -44,9 +44,6 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 • Line chart popolurarity of words
 
 • Bot analysis https://github.com/IUNetSci/botometer-python https://botometer.osome.iu.edu
-
-
-• <strike><b> Fig. 6 pag. 11</b> The diffusion of misinformation Tweets </strike>
 
 • Sezione 5.3.3 Paper -> https://altair-viz.github.io/gallery/grouped_bar_chart_with_error_bars.html
 
