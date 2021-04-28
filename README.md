@@ -14,11 +14,10 @@
 
 # IDEE
 
-- color brewer https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
+<h3>- Adattare i colori di **TUTTI** i grafici con https://davidmathlogic.com/colorblind/#%23332288-%23117733-%2344AA99-%2388CCEE-%23DDCC77-%23CC6677-%23AA4499-%23882255 (sequenza Paul Tol pacchetto https://pypi.org/project/tol-colors/)
+- Cambiare le color map delle word cloud (campo colormap). Se possibile utilizzando una diversa color map per wcloud o usare la color map di paul tol (vedi pacchetto)</h3>
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
-
-- Colorare le parole **covid** di un colore/scala di colori nelle wcloud che hanno le parole covid. Spicca l'attenzione
 
 - Tabella 2 pagina 9 paper. ***C'è il CSV in gitub*** **Si può fare altro oltre alle tabelle nei buuble chart?**
 
