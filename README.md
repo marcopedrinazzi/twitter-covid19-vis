@@ -1,10 +1,8 @@
 # TODO
 
-<h2>@simona: colori sulle linee di quelli di like retweet</h2>
-
 <h2>LEXICAL DISPERSION PLOT - Fake: HA SENSO? ALTERNATIVE? </h2>
 
-<h2>!!!!!!NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE O FALSE !!!!</h2><br>
+<h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2><br>
 
 <h2>@marco classified da aggiungere ai vari notebook - Mancano Fake Text e Fake Bigrams-Trigrams</h2>
 
@@ -32,10 +30,6 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 
 • Brand and non-brand accounts oppure verified → TwiRole library (https://github.com/liuqingli/TwiRole - <code>user_classifier.py</code>)
 <br>
-
-• <strike>Frequenza retweet differenziando per categoria false, partially… </strike> (è già contenuto in Fig.6 p.11) <br>
-
-• <strike>Scatter text delle emoji più utilizzate dagli account verified e non </strike> (c'è già la 1° idea)<br>
 
 • Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
 
