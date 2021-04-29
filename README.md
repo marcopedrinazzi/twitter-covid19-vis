@@ -15,6 +15,9 @@
 **NB per la presentazione https://personal.sron.nl/~pault/ (sezione color blind) e https://davidmathlogic.com/colorblind/#%23332288-%23117733-%2344AA99-%2388CCEE-%23DDCC77-%23CC6677-%23AA4499-%23882255**
 
 # IDEE
+
+https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
+
 **Lista Colori**:
 - '#4477AA', '#66CCEE', '#228833', '#CCBB44', '#EE6677','#AA3377', '#BBBBBB' **bright** (sito Paul Tol)
 - '#332288', '#117733', '#44AA99', '#88CCEE', '#DDCC77','#CC6677', '#AA4499', '#882255' **sito davidmathloic Tol, è simile a Muted**
@@ -31,24 +34,19 @@
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
-- Tabella 2 pagina 9 paper. ***C'è il CSV in gitub*** **Si può fare altro oltre alle tabelle nei buuble chart?**
+- Tabella 2 pagina 9 paper. **Si può fare altro oltre alle tabelle nei buuble chart?**
+  - https://github.com/IUNetSci/botometer-python https://botometer.osome.iu.edu Bot analysis
+  - • Brand and non-brand accounts oppure verified → TwiRole library (https://github.com/liuqingli/TwiRole - <code>user_classifier.py</code>)
 
 <b>- https://jasonkessler.github.io/demo_compact.html Scatter Text per Hashtag, Testo, Emoji confrontando i due dataset. Asse x frequenza su dataset general, asse y frequenza su dataset fake</b>
 
-https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
-
 • Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) <br>
-
-• Brand and non-brand accounts oppure verified → TwiRole library (https://github.com/liuqingli/TwiRole - <code>user_classifier.py</code>)
-<br>
 
 • Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
 
 • Grafo usando in_reply_to_user_id (suddividendolo anche per categoria magari) e anche quoted_status_id
 
 • Line chart popolurarity of words
-
-• Bot analysis https://github.com/IUNetSci/botometer-python https://botometer.osome.iu.edu
 
 • Sezione 5.3.3 Paper -> https://altair-viz.github.io/gallery/grouped_bar_chart_with_error_bars.html
 
