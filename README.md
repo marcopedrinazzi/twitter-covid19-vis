@@ -12,10 +12,22 @@
 
 <h3>https://altair-viz.github.io/gallery/index.html</h3>
 
-# IDEE
+**NB per la presentazione https://personal.sron.nl/~pault/ (sezione color blind) e https://davidmathlogic.com/colorblind/#%23332288-%23117733-%2344AA99-%2388CCEE-%23DDCC77-%23CC6677-%23AA4499-%23882255**
 
-<h3>- Adattare i colori di **TUTTI** i grafici con https://davidmathlogic.com/colorblind/#%23332288-%23117733-%2344AA99-%2388CCEE-%23DDCC77-%23CC6677-%23AA4499-%23882255 (sequenza Paul Tol pacchetto https://pypi.org/project/tol-colors/)
-- Cambiare le color map delle word cloud (campo colormap). Se possibile utilizzando una diversa color map per wcloud o usare la color map di paul tol (vedi pacchetto)</h3>
+# IDEE
+**Lista Colori**:
+- '#4477AA', '#66CCEE', '#228833', '#CCBB44', '#EE6677','#AA3377', '#BBBBBB' **bright** (sito Paul Tol)
+- '#332288', '#117733', '#44AA99', '#88CCEE', '#DDCC77','#CC6677', '#AA4499', '#882255' **sito davidmathloic Tol, è simile a Muted**
+- High-contrast (da scartare per l'uso del bianco)
+- '#0077BB', '#33BBEE', '#009988', '#EE7733', '#CC3311','#EE3377', '#BBBBBB' **Vibrant** 
+- '#332288', '#88CCEE', '#44AA99', '#117733', '#999933','#DDCC77', '#CC6677','#882255','#AA4499' **Muted**
+- Medium-contrast (da scartare per l'uso del bianco)
+
+<h3>- Adattare i colori di **TUTTI** i grafici con https://davidmathlogic.com/colorblind/
+
+**Fatti:**
+- Fake classified Hashtag
+- Fake hashtag Word Cloud</h3>
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
