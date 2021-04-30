@@ -20,6 +20,8 @@
 
 https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
 
+<br>
+
 **Lista Colori**:
 - '#4477AA', '#66CCEE', '#228833', '#CCBB44', '#EE6677','#AA3377', '#BBBBBB' **bright** (sito Paul Tol)
 - '#332288', '#117733', '#44AA99', '#88CCEE', '#DDCC77','#CC6677', '#AA4499', '#882255' **sito davidmathloic Tol, è simile a Muted**
@@ -33,7 +35,8 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 **Fatti:**
 - Fake classified Hashtag (dimensione e colori)
 - Fake hashtag Word Cloud (dimensione e colori)
-- General Users and Mentions Word Clouds (dimensione e colori)</h3>
+- General Users and Mentions Word Clouds (dimensione e colori)
+- General Text Word Clouds (dimensione e colori)</h3><br>
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
