@@ -31,9 +31,9 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 <h3>- Adattare i colori di **TUTTI** i grafici con https://davidmathlogic.com/colorblind/
 
 **Fatti:**
-- Fake classified Hashtag
-- Fake hashtag Word Cloud
-- General Users and Mentions Word Clouds</h3>
+- Fake classified Hashtag (dimensione e colori)
+- Fake hashtag Word Cloud (dimensione e colori)
+- General Users and Mentions Word Clouds (dimensione e colori)</h3>
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
