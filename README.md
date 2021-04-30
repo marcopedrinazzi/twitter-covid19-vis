@@ -2,7 +2,8 @@
 
 <h2>Finire Polar chart fake </h2>
 
-<h2>@simona General Hashtag Word Clouds - sistemare colormap bar char "Terms regarding Covid"</h2>
+<h2>@simona General Hashtag Word Clouds - sistemare colormap bar chart "Terms regarding Covid"</h2>
+<h2>@marco General Bigrams Trigrams Word Clouds - vedere se le colormap per i bar chart vanno bene</h2>
 
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
