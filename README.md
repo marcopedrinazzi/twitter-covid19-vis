@@ -2,17 +2,19 @@
 
 <h2>LEXICAL DISPERSION PLOT - Fake: HA SENSO? ALTERNATIVE? </h2>
 
-<h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2><br>
+<h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
 <h2>@marco classified da aggiungere ai vari notebook - Mancano Fake Text e Fake Bigrams-Trigrams</h2>
 
 # FIX
 
-<h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3><br>
+<h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3>
 
 <h3>https://altair-viz.github.io/gallery/index.html</h3>
 
 **NB per la presentazione https://personal.sron.nl/~pault/ (sezione color blind) e https://davidmathlogic.com/colorblind/#%23332288-%23117733-%2344AA99-%2388CCEE-%23DDCC77-%23CC6677-%23AA4499-%23882255**
+
+**Per generare palette di colori: https://icolorpalette.com/color**
 
 # IDEE
 
@@ -30,7 +32,8 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 
 **Fatti:**
 - Fake classified Hashtag
-- Fake hashtag Word Cloud</h3>
+- Fake hashtag Word Cloud
+- General Users and Mentions Word Clouds</h3>
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
