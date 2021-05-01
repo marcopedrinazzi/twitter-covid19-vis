@@ -41,7 +41,8 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 - General Users and Mentions Word Clouds (dimensione e colori)
 - General Text Word Clouds (dimensione e colori)
 - General Bubble Chart (dimensione e colori)
-- General Dates (dimensione e colori)</h3><br>
+- General Dates (dimensione e colori)
+- General Emojis (dimensione e colori)</h3><br>
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
