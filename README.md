@@ -78,7 +78,7 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 
 • Grafo usando in_reply_to_user_id (suddividendolo anche per categoria magari) e anche quoted_status_id
 
-• Line chart popolurarity of words
+• Line chart popolurarity of words (**che è il Polart chart**)
 
 • Sezione 5.3.3 Paper -> https://altair-viz.github.io/gallery/grouped_bar_chart_with_error_bars.html
 
@@ -244,3 +244,8 @@ tweet_ID | year
 <b>Parsing</b><br>
 
 The parsing is done through some Python code on each file.
+
+# Views Folder
+
+This folder has the purpose to let everyone see our work, since Altair, Plotly and Jupyter have some weird problems that doesn't allow the users to watch the charts on Github.
+We have cleaned the two main directories **/generalcovid** and **/fakecovid** and uploaded every chart in .png format. You can find all the .png files in the **views/img** folder.
