@@ -38,12 +38,22 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 **Fatti:**
 - Fake classified Hashtag (dimensione e colori)
 - Fake hashtag Word Cloud (dimensione e colori)
-- General Users and Mentions Word Clouds (dimensione e colori)
-- General Text Word Clouds (dimensione e colori)
-- General Bubble Chart (dimensione e colori)
+**general**
+- General bigrams tigrams
+- **OK** - General Bubble Chart
 - General Dates (dimensione e colori)
-- General Emojis (dimensione e colori)
-- General Frequency Distribution rt likes (dimensione e colori)</h3><br>
+- **OK** - General Emojis **colore #E66100**
+- General Frequency Distribution rt likes (dimensione e colori)
+- General Hashtag word cloud
+- general heatmap
+- General pre processing
+- General Strip plot
+- **OK** - General tables 
+- General Text Word Clouds (dimensione e colori)
+- **OK** - General Users and Mentions Word Clouds **colore #994F00 - #4B0092**
+
+
+</h3><br>
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
