@@ -1,10 +1,10 @@
 # TODO
 
-<h2>Spostare numeri non sui quadranti - commentarlo - Finire Polar chart fake </h2>
+<h2>Spostare numeri non sui quadranti - commentarlo - Finire Polar chart fake - CAPIRE PER I COLORI IN QUELLO</h2>
 
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
-<h2>@marco classified da aggiungere ai vari notebook - Mancano Fake Text e Fake Bigrams-Trigrams</h2>
+<h2>Classified da aggiungere ai vari notebook - Mancano Fake Text e Fake Bigrams-Trigrams (DA CREARE I RELATIVI NOTEBOOK)</h2>
 
 # FIX
 
