@@ -33,24 +33,22 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 - '#332288', '#88CCEE', '#44AA99', '#117733', '#999933','#DDCC77', '#CC6677','#882255','#AA4499' **Muted**
 - Medium-contrast (da scartare per l'uso del bianco)
 
-<h3>- Adattare i colori di **TUTTI** i grafici con https://davidmathlogic.com/colorblind/
-
 **Fatti:**
 - Fake classified Hashtag (dimensione e colori)
 - Fake hashtag Word Cloud (dimensione e colori)
 **general**
 - General bigrams tigrams
-- **OK** - General Bubble Chart
+- **OK** - General Bubble Chart **colore #005AB5 #DC3220**
 - General Dates (dimensione e colori)
 - **OK** - General Emojis **colore #E66100**
 - General Frequency Distribution rt likes (dimensione e colori)
-- General Hashtag word cloud
-- general heatmap
+- **OK** - General Hashtag word cloud **colore #4B0092(viola) - #117733 (verde) - #480707(rossa)**
+- General heatmap
 - General pre processing
 - General Strip plot
 - **OK** - General tables 
 - General Text Word Clouds (dimensione e colori)
-- **OK** - General Users and Mentions Word Clouds **colore #994F00 - #4B0092**
+- **OK** - General Users and Mentions Word Clouds **colore #994F00 (marrone) - #4B0092(indigo)**
 
 
 </h3><br>
