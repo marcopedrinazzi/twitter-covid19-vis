@@ -1,6 +1,17 @@
 # TODO
 
+<h2>!!!!!!!!!!!!!!!!!!!!!CAMBIARE GLI STACKED BAR CHART IN GROUPED BAR CHART???!!!!!!!!!!!!!!!!!!!!</h2>
+
+
+
 <h2>Spostare numeri non sui quadranti - commentarlo - Finire Polar chart fake - CAPIRE PER I COLORI IN QUELLO</h2>
+fig.update_layout(
+    template=None,
+    polar = dict(
+        radialaxis = dict(range=[0, 5], showticklabels=False, ticks=''),
+        angularaxis = dict(showticklabels=False, ticks='')
+    )
+)
 
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
