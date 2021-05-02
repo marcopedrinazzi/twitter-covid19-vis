@@ -1,6 +1,6 @@
 # TODO
 
-<h2>Finire Polar chart fake </h2>
+<h2>Spostare numeri non sui quadranti - commentarlo - Finire Polar chart fake </h2>
 
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
@@ -31,20 +31,20 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 - Medium-contrast (da scartare per l'uso del bianco)
 
 **Fatti:**
-- Fake Bigrams Trigrams
+- **OK** - Fake Bigrams Trigrams
 - **OK** - Fake bubble 
 - **OK** - Fake classified Hashtag
 - **OK** - Fake classified user mentions
-- Fake Dates
+- **OK** - Fake Dates
 - **OK** - Fake emoji
 - Fake frequency
 - **OK** - Fake hashtag Word Cloud
 - Fake heatmap
 - **OK** - Fake pie chart
 - **OK** - Fake pre processing
-- Fake strip plot
+- Fake polart chart
 - **OK** - Fake tables
-- Fake text
+- **OK** - Fake text
 - **OK** - Fake users mentions
 
 **general**
