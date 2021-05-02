@@ -2,9 +2,6 @@
 
 <h2>Finire Polar chart fake </h2>
 
-<h2>@simona General Hashtag Word Clouds - sistemare colormap bar chart "Terms regarding Covid"</h2>
-<h2>@marco General Bigrams Trigrams Word Clouds - vedere se le colormap per i bar chart vanno bene</h2>
-
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
 <h2>@marco classified da aggiungere ai vari notebook - Mancano Fake Text e Fake Bigrams-Trigrams</h2>
@@ -39,15 +36,15 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 **general**
 - General bigrams tigrams
 - **OK** - General Bubble Chart **colore #005AB5 #DC3220**
-- General Dates (dimensione e colori)
+- **OK** - General Dates 
 - **OK** - General Emojis **colore #E66100**
-- General Frequency Distribution rt likes (dimensione e colori)
+- **OK** - General Frequency Distribution rt likes 
 - **OK** - General Hashtag word cloud **colore #4B0092(viola) - #117733 (verde) - #480707(rossa)**
 - General heatmap
-- General pre processing
+- **OK** - General pre processing
 - General Strip plot
 - **OK** - General tables 
-- General Text Word Clouds (dimensione e colori)
+- **OK** - General Text Word Clouds **colore indigo e #6F1844**
 - **OK** - General Users and Mentions Word Clouds **colore #994F00 (marrone) - #4B0092(indigo)**
 
 
