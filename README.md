@@ -31,8 +31,20 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 - Medium-contrast (da scartare per l'uso del bianco)
 
 **Fatti:**
+- Fake Bigrams Trigrams
+- **OK** - Fake bubble 
 - Fake classified Hashtag (dimensione e colori)
+- Fake Dates
+- **OK** - Fake emoji
+- Fake frequency
 - Fake hashtag Word Cloud (dimensione e colori)
+- Fake heatmap
+- **OK** - Fake pie chart
+- **OK** - Fake pre processing
+- Fake strip plot
+- **OK** - Fake tables
+- Fake text
+- Fake users mentions
 **general**
 - General bigrams tigrams
 - **OK** - General Bubble Chart **colore #005AB5 #DC3220**
