@@ -57,13 +57,13 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 - **OK** - Fake users mentions
 
 **general**
-- General bigrams tigrams
+- **OK** - General bigrams tigrams
 - **OK** - General Bubble Chart **colore #005AB5 #DC3220**
 - **OK** - General Dates **oranges**
 - **OK** - General Emojis **bluegreen**
 - **OK** - General Frequency Distribution rt likes 
 - **OK** - General Hashtag word cloud **blues oranges greys**
-- General heatmap
+- **OK** - General heatmap
 - **OK** - General pre processing
 - General Strip plot
 - **OK** - General tables 
