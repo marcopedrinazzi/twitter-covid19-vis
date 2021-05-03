@@ -1,6 +1,6 @@
 # TODO
 
-<h2>Controllare che ogni Legenda non abbia più il titolo "key"</h2>
+<h2>Controllare che ogni Legenda non abbia più il titolo "key" o altro, che abbia titlePadding=10, gradientThickness=20 e il nome degli assi sia opportuno</h2>
 
 <h2>Spostare numeri non sui quadranti - commentarlo - Finire Polar chart fake - CAPIRE PER I COLORI IN QUELLO</h2>
 fig.update_layout(
@@ -48,7 +48,7 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 - **OK** - Fake emoji
 - Fake frequency
 - **OK** - Fake hashtag Word Cloud
-- Fake heatmap
+- **OK** - Fake heatmap **turbo, plasma, viridis, cool**
 - **OK** - Fake pie chart
 - **OK** - Fake pre processing
 - Fake polart chart
@@ -59,16 +59,21 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 **general**
 - General bigrams tigrams
 - **OK** - General Bubble Chart **colore #005AB5 #DC3220**
-- **OK** - General Dates 
-- **OK** - General Emojis **colore #E66100**
+- **OK** - General Dates **oranges**
+- **OK** - General Emojis **bluegreen**
 - **OK** - General Frequency Distribution rt likes 
-- **OK** - General Hashtag word cloud **colore #4B0092(viola) - #117733 (verde) - #480707(rossa)**
+- **OK** - General Hashtag word cloud **blues oranges greys**
 - General heatmap
 - **OK** - General pre processing
 - General Strip plot
 - **OK** - General tables 
-- **OK** - General Text Word Clouds **colore indigo e #6F1844**
-- **OK** - General Users and Mentions Word Clouds **colore #994F00 (marrone) - #4B0092(indigo)**
+- **OK** - General Text Word Clouds **blues e oranges** **ASSI E TITOLI OK**
+- **OK** - General Users and Mentions Word Clouds **blues e reds**
+
+https://observablehq.com/@d3/color-schemes?collection=@d3/d3-scale-chromatic
+https://vega.github.io/vega/docs/schemes/
+https://davidmathlogic.com/colorblind/
+
 
 
 </h3><br>
