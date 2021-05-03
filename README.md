@@ -67,7 +67,7 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 - **OK** - General pre processing
 - General Strip plot
 - **OK** - General tables 
-- **OK** - General Text Word Clouds **blues e oranges** **ASSI E TITOLI OK**
+- **OK** - General Text Word Clouds **blues e oranges**
 - **OK** - General Users and Mentions Word Clouds **blues e reds**
 
 https://observablehq.com/@d3/color-schemes?collection=@d3/d3-scale-chromatic
