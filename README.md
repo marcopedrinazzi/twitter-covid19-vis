@@ -46,9 +46,9 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 - **OK** - Fake classified user mentions
 - **OK** - Fake Dates
 - **OK** - Fake emoji
-- Fake frequency
+- **OK** - Fake Frequency Distribution rt likes
 - **OK** - Fake hashtag Word Cloud
-- **OK** - Fake heatmap **turbo, plasma, viridis, cool**
+- **OK** - Fake heatmap 					**turbo, plasma, viridis, cool**
 - **OK** - Fake pie chart
 - **OK** - Fake pre processing
 - Fake polart chart
@@ -58,17 +58,17 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 
 **general**
 - **OK** - General bigrams tigrams
-- **OK** - General Bubble Chart **colore #005AB5 #DC3220**
-- **OK** - General Dates **oranges**
-- **OK** - General Emojis **bluegreen**
+- **OK** - General Bubble Chart 					**colore #005AB5 #DC3220**
+- **OK** - General Dates 							**oranges**
+- **OK** - General Emojis 							**bluegreen**
 - **OK** - General Frequency Distribution rt likes 
-- **OK** - General Hashtag word cloud **blues oranges greys**
+- **OK** - General Hashtag word cloud 				**blues oranges greys**
 - **OK** - General heatmap
 - **OK** - General pre processing
 - **OK** - General Strip plot
 - **OK** - General tables 
-- **OK** - General Text Word Clouds **blues e oranges**
-- **OK** - General Users and Mentions Word Clouds **blues e reds**
+- **OK** - General Text Word Clouds 				**blues e oranges**
+- **OK** - General Users and Mentions Word Clouds 	**blues e reds**
 
 https://observablehq.com/@d3/color-schemes?collection=@d3/d3-scale-chromatic
 https://vega.github.io/vega/docs/schemes/
