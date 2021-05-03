@@ -65,7 +65,7 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 - **OK** - General Hashtag word cloud **blues oranges greys**
 - **OK** - General heatmap
 - **OK** - General pre processing
-- General Strip plot
+- **OK** - General Strip plot
 - **OK** - General tables 
 - **OK** - General Text Word Clouds **blues e oranges**
 - **OK** - General Users and Mentions Word Clouds **blues e reds**
