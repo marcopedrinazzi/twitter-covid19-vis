@@ -1,8 +1,6 @@
 # TODO
 
-<h2>!!!!!!!!!!!!!!!!!!!!!CAMBIARE GLI STACKED BAR CHART IN GROUPED BAR CHART???!!!!!!!!!!!!!!!!!!!!</h2>
-
-
+<h2>Controllare che ogni Legenda non abbia più il titolo "key"</h2>
 
 <h2>Spostare numeri non sui quadranti - commentarlo - Finire Polar chart fake - CAPIRE PER I COLORI IN QUELLO</h2>
 fig.update_layout(
