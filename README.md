@@ -1,7 +1,5 @@
 # TODO
 
-<h2>Controllare che ogni Legenda non abbia più il titolo "key" o altro, che abbia titlePadding=10, gradientThickness=20 e il nome degli assi sia opportuno</h2>
-
 <h2>Spostare numeri non sui quadranti - commentarlo - Finire Polar chart fake - CAPIRE PER I COLORI IN QUELLO</h2>
 fig.update_layout(
     template=None,
