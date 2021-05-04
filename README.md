@@ -23,6 +23,8 @@ fig.update_layout(
 
 **Per generare palette di colori: https://icolorpalette.com/color**
 
+<h2>Capire tabella 2 pag.9 paper, formato <b>x/y(z)</b> - il csv usato nei Bubble Chart notebook è stato modificato, indicando solo <b>z</b></h2>
+
 # IDEE
 
 https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
@@ -78,9 +80,11 @@ https://davidmathlogic.com/colorblind/
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
-- Tabella 2 pagina 9 paper. **Si può fare altro oltre alle tabelle nei buuble chart?**
-  - https://github.com/IUNetSci/botometer-python https://botometer.osome.iu.edu Bot analysis
-  - • Brand and non-brand accounts oppure verified → TwiRole library (https://github.com/liuqingli/TwiRole - <code>user_classifier.py</code>)
+- Tabella 2 pagina 9 paper. **Si può fare altro oltre alle tabelle nei bubble chart?**
+  
+• https://github.com/IUNetSci/botometer-python https://botometer.osome.iu.edu Bot analysis
+
+• Brand and non-brand accounts oppure verified → TwiRole library (https://github.com/liuqingli/TwiRole - <code>user_classifier.py</code>)
 
 <b>- https://jasonkessler.github.io/demo_compact.html Scatter Text per Hashtag, Testo, Emoji confrontando i due dataset. Asse x frequenza su dataset general, asse y frequenza su dataset fake</b>
 
