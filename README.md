@@ -1,6 +1,6 @@
 # TODO
 
-<h2>Spostare numeri non sui quadranti - commentarlo - Finire Polar chart fake - CAPIRE PER I COLORI IN QUELLO</h2>
+<h2>Spostare numeri non sui quadranti - commentarlo - Finire Polar chart fake(bigrams e trigrams)</h2>
 fig.update_layout(
     template=None,
     polar = dict(
