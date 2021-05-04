@@ -11,7 +11,7 @@ fig.update_layout(
 
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
-<h2>Classified da aggiungere ai vari notebook - Mancano Fake Text e Fake Bigrams-Trigrams (DA CREARE I RELATIVI NOTEBOOK)</h2>
+<h2>Classified da aggiungere ai vari notebook - Manca Fake Bigrams-Trigrams (DA CREARE I RELATIVI NOTEBOOK)</h2>
 
 # FIX
 
@@ -79,12 +79,6 @@ https://davidmathlogic.com/colorblind/
 </h3><br>
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
-
-- Tabella 2 pagina 9 paper. **Si può fare altro oltre alle tabelle nei bubble chart?**
-  
-• https://github.com/IUNetSci/botometer-python https://botometer.osome.iu.edu Bot analysis
-
-• Brand and non-brand accounts oppure verified → TwiRole library (https://github.com/liuqingli/TwiRole - <code>user_classifier.py</code>)
 
 <b>- https://jasonkessler.github.io/demo_compact.html Scatter Text per Hashtag, Testo, Emoji confrontando i due dataset. Asse x frequenza su dataset general, asse y frequenza su dataset fake</b>
 
