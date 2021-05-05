@@ -1,6 +1,7 @@
 # TODO
 
-<h2>@marco ho creato una cartella (in TO_DO_e_appunti) dove ci sono tutti gli appunti. <br> In mattinata carico anche l'ultima lezione.</h2>
+<h2>@marco ho creato una cartella (in TO_DO_e_appunti) dove ci sono tutti gli appunti. <br> In mattinata carico anche l'ultima lezione. <br>Penso di occupparmi della Sezione 5.3.3 Paper.
+</h2>
 
 <h2>Spostare numeri non sui quadranti - commentarlo - Finire Polar chart fake(bigrams e trigrams)</h2>
 fig.update_layout(
