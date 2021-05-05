@@ -3,15 +3,6 @@
 <h2>@marco ho creato una cartella (in TO_DO_e_appunti) dove ci sono tutti gli appunti. <br> In mattinata carico anche l'ultima lezione. <br>Penso di occupparmi della Sezione 5.3.3 Paper.
 </h2>
 
-<h2>Spostare numeri non sui quadranti - commentarlo - Finire Polar chart fake(bigrams e trigrams)</h2>
-fig.update_layout(
-    template=None,
-    polar = dict(
-        radialaxis = dict(range=[0, 5], showticklabels=False, ticks=''),
-        angularaxis = dict(showticklabels=False, ticks='')
-    )
-)
-
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
 # FIX
@@ -24,19 +15,17 @@ fig.update_layout(
 
 https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
 
+• Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) <br>
+
 <br>
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
 <b>- https://jasonkessler.github.io/demo_compact.html Scatter Text per Hashtag, Testo, Emoji confrontando i due dataset. Asse x frequenza su dataset general, asse y frequenza su dataset fake</b>
 
-• Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) <br>
-
 • Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
 
 • Grafo usando in_reply_to_user_id (suddividendolo anche per categoria magari) e anche quoted_status_id
-
-• Line chart popolurarity of words (**che è il Polart chart**)
 
 • Sezione 5.3.3 Paper -> https://altair-viz.github.io/gallery/grouped_bar_chart_with_error_bars.html
 
