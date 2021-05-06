@@ -11,6 +11,7 @@ https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-wit
 • Grouped bar chart con barre positivo/negativo che confronta il sentiment di entrambe i dataset. <br>
 • Line chart in cui si analizza la distribuzione del sentiment durante l’anno dei tweet falsi/parzialmente falsi e dei due dataset. <br>
 • Pie chart con percentuale di positive e negative, per dataset.
+- Grouped bar chart con sentiment pos neg neu nel dataset fake (colonne del grouped fake e partially fake)
 
 
 # FIX
@@ -19,6 +20,7 @@ https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-wit
 
 <h2>Capire tabella 2 pag.9 paper, formato x/y(z) - il csv usato nei Bubble Chart notebook è stato modificato, indicando solo z</h2>
 
+<h2>Assicurarsi che la mentions network sia davvero un insieme di reti sociali (anche il grafo è diretto)</h2>
 
 # IDEE
 
@@ -33,8 +35,6 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 <b>- https://jasonkessler.github.io/demo_compact.html Scatter Text per Hashtag, Testo, Emoji confrontando i due dataset. Asse x frequenza su dataset general, asse y frequenza su dataset fake</b>
 
 • Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
-
-• Grafo usando in_reply_to_user_id (suddividendolo anche per categoria magari) e anche quoted_status_id
 
 • Sezione 5.3.3 Paper -> https://altair-viz.github.io/gallery/grouped_bar_chart_with_error_bars.html
 
