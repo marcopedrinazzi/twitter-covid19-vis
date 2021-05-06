@@ -6,9 +6,9 @@
 <h2>SENTIMENT ANALYSIS</h2>
 https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python-d6f650ade58d
 
-<b>IDEE</b>
-• Grouped bar chart con barre positivo/negativo che confronta il sentiment di entrambe i dataset.
-• Line chart in cui si analizza la distribuzione del sentiment durante l’anno dei tweet falsi/parzialmente falsi e dei due dataset.
+<b>IDEE:</b> <br>
+• Grouped bar chart con barre positivo/negativo che confronta il sentiment di entrambe i dataset. <br>
+• Line chart in cui si analizza la distribuzione del sentiment durante l’anno dei tweet falsi/parzialmente falsi e dei due dataset. <br>
 • Pie chart con percentuale di positive e negative, per dataset.
 
 
