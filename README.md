@@ -1,15 +1,23 @@
 # TODO
 
-<h2>@marco ho creato una cartella (in TO_DO_e_appunti) dove ci sono tutti gli appunti. <br> In mattinata carico anche l'ultima lezione. <br>Penso di occupparmi della Sezione 5.3.3 Paper.
-</h2>
-
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
+
+
+<h2>SENTIMENT ANALYSIS</h2>
+https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python-d6f650ade58d
+
+<b>IDEE</b>
+• Grouped bar chart con barre positivo/negativo che confronta il sentiment di entrambe i dataset.
+• Line chart in cui si analizza la distribuzione del sentiment durante l’anno dei tweet falsi/parzialmente falsi e dei due dataset.
+• Pie chart con percentuale di positive e negative, per dataset.
+
 
 # FIX
 
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3>
 
-<h2>Capire tabella 2 pag.9 paper, formato <b>x/y(z)</b> - il csv usato nei Bubble Chart notebook è stato modificato, indicando solo <b>z</b></h2>
+<h2>Capire tabella 2 pag.9 paper, formato x/y(z) - il csv usato nei Bubble Chart notebook è stato modificato, indicando solo z</h2>
+
 
 # IDEE
 
