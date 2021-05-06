@@ -3,8 +3,9 @@
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
 
-<h2>SENTIMENT ANALYSIS</h2>
-https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python-d6f650ade58d
+<h2>SENTIMENT ANALYSIS</h2> <br>
+https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python-d6f650ade58d <br>
+https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/ <br>
 
 <b>IDEE:</b> <br>
 • Grouped bar chart con barre positivo/negativo che confronta il sentiment di entrambe i dataset. <br>
