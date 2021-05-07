@@ -22,6 +22,8 @@ https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-wit
 
 <h2>Assicurarsi che la mentions network sia davvero un insieme di reti sociali (anche se il grafo è diretto)</h2>
 
+<h2>Assicurarsi che la min/max negli scatter sia corretta negli scatter</h2>
+
 # IDEE
 
 https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
@@ -32,7 +34,7 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
-<b>- https://jasonkessler.github.io/demo_compact.html Scatter Text per Hashtag, Testo, Emoji confrontando i due dataset. Asse x frequenza su dataset general, asse y frequenza su dataset fake</b>
+<b>- Scatter Text per Hashtag, Testo, Emoji</b>
 
 • Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
 
