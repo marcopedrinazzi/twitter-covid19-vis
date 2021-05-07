@@ -20,7 +20,7 @@ https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-wit
 
 <h2>Capire tabella 2 pag.9 paper, formato x/y(z) - il csv usato nei Bubble Chart notebook è stato modificato, indicando solo z</h2>
 
-<h2>Assicurarsi che la mentions network sia davvero un insieme di reti sociali (anche il grafo è diretto)</h2>
+<h2>Assicurarsi che la mentions network sia davvero un insieme di reti sociali (anche se il grafo è diretto)</h2>
 
 # IDEE
 
