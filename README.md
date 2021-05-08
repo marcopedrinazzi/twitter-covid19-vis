@@ -8,11 +8,12 @@ https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python
 https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/ <br>
 
 <b>IDEE:</b> <br>
+• Pie chart con percentuale di positive e negative, per dataset. <br>
+• Bar chart medie degli score per singolo sentiment. <br>
 • Grouped bar chart con barre pos neg neu che confronta il sentiment di entrambe i dataset. 
 Per fake distinzione in colonne false e partially false. <br>
 • Line chart in cui si analizza la distribuzione del sentiment durante l’anno dei tweet false/partially false e dei due dataset. <br>
-• Pie chart con percentuale di positive e negative, per dataset.
-
+• Polarità: https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/
 
 # FIX
 
