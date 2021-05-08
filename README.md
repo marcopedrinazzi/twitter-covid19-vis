@@ -1,19 +1,18 @@
 # TODO
 
-<h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
-
-
-<h2>SENTIMENT ANALYSIS</h2> <br>
+<h2> Terminare SENTIMENT ANALYSIS</h2>
 https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python-d6f650ade58d <br>
 https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/ <br>
 
-<b>IDEE:</b> <br>
-• Pie chart con percentuale di positive e negative, per dataset. <br>
+<b>IDEE:</b> <br><br>
+• <strike>Pie chart con percentuale di positive e negative, per dataset. </strike><br>
 • Bar chart medie degli score per singolo sentiment. <br>
 • Grouped bar chart con barre pos neg neu che confronta il sentiment di entrambe i dataset. 
 Per fake distinzione in colonne false e partially false. <br>
 • Line chart in cui si analizza la distribuzione del sentiment durante l’anno dei tweet false/partially false e dei due dataset. <br>
 • Polarità: https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/
+
+<h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
 # FIX
 
