@@ -8,10 +8,10 @@ https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python
 https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/ <br>
 
 <b>IDEE:</b> <br>
-• Grouped bar chart con barre positivo/negativo che confronta il sentiment di entrambe i dataset. <br>
-• Line chart in cui si analizza la distribuzione del sentiment durante l’anno dei tweet falsi/parzialmente falsi e dei due dataset. <br>
+• Grouped bar chart con barre pos neg neu che confronta il sentiment di entrambe i dataset. 
+Per fake distinzione in colonne false e partially false. <br>
+• Line chart in cui si analizza la distribuzione del sentiment durante l’anno dei tweet false/partially false e dei due dataset. <br>
 • Pie chart con percentuale di positive e negative, per dataset.
-- Grouped bar chart con sentiment pos neg neu nel dataset fake (colonne del grouped fake e partially fake)
 
 
 # FIX
@@ -23,6 +23,8 @@ https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-wit
 <h2>Assicurarsi che la mentions network sia davvero un insieme di reti sociali (anche se il grafo è diretto)</h2>
 
 <h2>Assicurarsi che la min/max negli scatter sia corretta negli scatter</h2>
+
+<h2>DATA INK RATIO principle: sono necessarie le label sull'asse x dei fake grouped bar chart?</h2>
 
 # IDEE
 
