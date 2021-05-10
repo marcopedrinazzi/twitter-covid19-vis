@@ -36,7 +36,7 @@ https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://story
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
-<b>- Scatter Text per Hashtag, Testo, Emoji</b>
+<b>- Scatter Text</b>
 
 • Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
 
