@@ -41,15 +41,11 @@ Line chart con pos neu neg
 
 https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
 
-• Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) <br>
-
-<br>
+• Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) **https://plotly.com/python/maps/ scatter plot on maps**
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
 • Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
-
-• Sezione 5.3.3 Paper -> https://altair-viz.github.io/gallery/grouped_bar_chart_with_error_bars.html
 
 <br>
 
