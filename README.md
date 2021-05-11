@@ -30,9 +30,7 @@ Per fake distinzione in colonne false e partially false. <br>
 
 https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
 
-• Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) <br>
-
-<br>
+• Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) **https://plotly.com/python/maps/ scatter plot on maps**
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
