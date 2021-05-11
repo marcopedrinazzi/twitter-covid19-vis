@@ -6,7 +6,7 @@ https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-wit
 
 <b>IDEE:</b> <br>
 • <strike>Pie chart con percentuale di positive e negative, per dataset. </strike><br>
-• Bar chart medie degli score per singolo sentiment. <br>
+• <strike>Bar chart medie degli score per singolo sentiment. </strike><br>
 • Grouped bar chart con barre pos neg neu che confronta il sentiment di entrambe i dataset. 
 Per fake distinzione in colonne false e partially false. <br>
 • Line chart in cui si analizza la distribuzione del sentiment durante l’anno dei tweet false/partially false e dei due dataset. <br>
@@ -24,7 +24,7 @@ Per fake distinzione in colonne false e partially false. <br>
 
 <h2>Assicurarsi che la min/max negli scatter sia corretta negli scatter</h2>
 
-<h2>DATA INK RATIO principle: sono necessarie le label sull'asse x dei fake grouped bar chart?</h2>
+<h2>DATA INK RATIO principle: è necessaria la legenda se già ci sono le label sull'asse x dei fake grouped bar chart?</h2>
 
 # IDEE
 
