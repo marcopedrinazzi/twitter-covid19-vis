@@ -7,9 +7,20 @@ https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-wit
 <b>IDEE:</b> <br>
 • <strike>Pie chart con percentuale di positive e negative, per dataset. </strike><br>
 • <strike>Bar chart medie degli score per singolo sentiment. </strike><br>
-• Grouped bar chart con barre pos neg neu che confronta il sentiment di entrambe i dataset. 
-Per fake distinzione in colonne false e partially false. <br>
-• Line chart in cui si analizza la distribuzione del sentiment durante l’anno dei tweet false/partially false e dei due dataset. <br>
+• <strike>Grouped bar chart con barre pos neg neu che confronta il sentiment (medie score di ogni sentiment) di entrambe i dataset.</strike><br>
+<strike>Per fake distinzione in colonne false e partially false. <br></strike>
+• Line chart in cui si analizza la distribuzione del sentiment (media score di ogni sentiment) durante l’anno dei tweet false/partially false e dei due dataset. <br>
+
+FAKE
+Line chart pfalse con pos neu neg
+Line chart false con pos neu neg
+<br>
+GENERAL
+Line chart con pos neu neg
+<br>
+?? line chart che confronta i due dataset ??
+<br>
+
 • Polarità: https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/
 
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
