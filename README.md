@@ -16,6 +16,8 @@ GENERAL <br>
 Line chart con pos neu neg: distribuzione del sentiment (media score di ogni sentiment) durante l’anno <br>
 ?? Line chart che confronta i due dataset ?? <br>
 • Polarità: https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/
+- Grafico che mostra il sentiment relativo ad un hashtag (farei solo #covid19)
+- Nel notebook inserire uno screenshot di un tweet con sentiment positivo, negativo, neutro per general, false e pfalse
 
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
@@ -36,8 +38,6 @@ Line chart con pos neu neg: distribuzione del sentiment (media score di ogni sen
 # IDEE
 
 https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
-
-• Da dove provengono i vari tweet (già discusso che si può vedere per qualcosa di semplice alla fine) **https://plotly.com/python/maps/ scatter plot on maps**
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
 
