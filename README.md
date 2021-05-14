@@ -15,9 +15,10 @@ Line chart false con pos neu neg: distribuzione del sentiment (media score di og
 GENERAL <br>
 Line chart con pos neu neg: distribuzione del sentiment (media score di ogni sentiment) durante l’anno <br>
 ?? Line chart che confronta i due dataset ?? <br>
-• Polarità: https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/
-- Grafico che mostra il sentiment relativo ad un hashtag (farei solo #covid19)
-- Nel notebook inserire uno screenshot di un tweet con sentiment positivo, negativo, neutro per general, false e pfalse
+• Polarità: https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/ - Considerare magari **SUBJECTIVITY** per fake <br>
+•  Grafico che mostra il sentiment relativo ad un hashtag (farei solo #covid19) <br>
+Line chart andamento del sentiment relativo a #covid19. <br>
+• <strike> Nel notebook inserire uno screenshot di un tweet con sentiment positivo, negativo, neutro per general, false e pfalse </strike>
 
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
