@@ -7,7 +7,6 @@ https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python
 https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/ <br><br>
 
 <b>IDEE:</b> <br>
-• <strike>Pie chart con percentuale di positive e negative, per dataset. </strike><br>
 • <strike>Bar chart medie degli score per singolo sentiment. </strike><br>
 • <strike>Grouped bar chart con barre pos neg neu che confronta il sentiment (medie score di ogni sentiment) di entrambe i dataset.</strike><br>
 <strike>Per fake distinzione in colonne false e partially false. <br></strike>
@@ -20,8 +19,6 @@ Line chart con pos neu neg: distribuzione del sentiment (media score di ogni sen
 • Polarità: https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/ - Considerare magari **SUBJECTIVITY** per fake <br>
 •  Grafico che mostra il sentiment relativo ad un hashtag (farei solo #covid19) <br>
 Line chart andamento del sentiment relativo a #covid19. <br>
-• <strike> Nel notebook inserire uno screenshot di un tweet con sentiment positivo, negativo, neutro per general, false e pfalse </strike>
-
 
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
