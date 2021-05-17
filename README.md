@@ -7,16 +7,17 @@ https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python
 https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/ <br><br>
 
 <b>IDEE:</b> <br>
-• <strike>Bar chart medie degli score per singolo sentiment. </strike><br>
+- GROUPED BAR CHART: Count POS, NEU, NEG raggruppati in pfalse e false divisi fake dataset
+- STRIP PLOT: Distribuzione score POS, NEU, NEG per dataset. (In fake classificati per categoria)
+• <strike>Bar chart medie degli score per singolo sentiment </strike><br>
 • <strike>Grouped bar chart con barre pos neg neu che confronta il sentiment (medie score di ogni sentiment) di entrambe i dataset.</strike><br>
-<strike>Per fake distinzione in colonne false e partially false. <br></strike>
+
 • FAKE <br>
 Line chart pfalse con pos neu neg: distribuzione del sentiment (media score di ogni sentiment) durante l’anno <br>
 Line chart false con pos neu neg: distribuzione del sentiment (media score di ogni sentiment) durante l’anno <br>
 GENERAL <br>
 Line chart con pos neu neg: distribuzione del sentiment (media score di ogni sentiment) durante l’anno <br>
 ?? Line chart che confronta i due dataset ?? <br>
-• Polarità: https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/ - Considerare magari **SUBJECTIVITY** per fake <br>
 •  Grafico che mostra il sentiment relativo ad un hashtag (farei solo #covid19) <br>
 Line chart andamento del sentiment relativo a #covid19. <br>
 
