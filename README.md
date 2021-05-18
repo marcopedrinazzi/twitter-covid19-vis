@@ -1,41 +1,26 @@
 # TODO
 
-<H2>HEATMAP SENTIMENT, DISPERSION PLOT/BOX PLOT ??? - VEDI PRESENTAZIONE 2 17 MAGGIO</H2>
-
 <h2> Terminare SENTIMENT ANALYSIS</h2>
 https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python-d6f650ade58d <br>
 https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/ <br><br>
 
-<b>IDEE:</b> <br>
-- GROUPED BAR CHART: Count POS, NEU, NEG raggruppati in pfalse e false divisi fake dataset
-- STRIP PLOT: Distribuzione score POS, NEU, NEG per dataset. (In fake classificati per categoria)
-• <strike>Bar chart medie degli score per singolo sentiment </strike><br>
-• <strike>Grouped bar chart con barre pos neg neu che confronta il sentiment (medie score di ogni sentiment) di entrambe i dataset.</strike><br>
-
-• FAKE <br>
-Line chart pfalse con pos neu neg: distribuzione del sentiment (media score di ogni sentiment) durante l’anno <br>
-Line chart false con pos neu neg: distribuzione del sentiment (media score di ogni sentiment) durante l’anno <br>
-GENERAL <br>
-Line chart con pos neu neg: distribuzione del sentiment (media score di ogni sentiment) durante l’anno <br>
-?? Line chart che confronta i due dataset ?? <br>
-•  Grafico che mostra il sentiment relativo ad un hashtag (farei solo #covid19) <br>
-Line chart andamento del sentiment relativo a #covid19. <br>
+- Heatmap MEDIA DEL GIORNO Day/Month false tweets, partially false, dataset fake, dataset general, hashtag covid19
+- Strip plot Hashtag covid 19
+- Grouped Bar chart hashtag covid19 => frequency
 
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
 # FIX
 
-<h2>Sistemare colori grouped bar chart dei notebook fake e general Sentiment</h2>
-
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3>
-
-<h2>Capire tabella 2 pag.9 paper, formato x/y(z) - il csv usato nei Bubble Chart notebook è stato modificato, indicando solo z</h2>
 
 <h2>Assicurarsi che la mentions network sia davvero un insieme di reti sociali (anche se il grafo è diretto)</h2>
 
-<h2>Assicurarsi che la min/max negli scatter sia corretta negli scatter</h2>
+<h2>Assicurarsi che la min/max negli scatter sia corretta</h2>
 
 <h2>DATA INK RATIO principle: è necessaria la legenda se già ci sono le label sull'asse x dei fake grouped bar chart?</h2>
+
+<h2>Aggiungere un interazione per far vedere il testo del valore nelle colonne dei bar chart</h2>
 
 # IDEE
 
