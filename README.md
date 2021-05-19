@@ -1,12 +1,10 @@
 # TODO
 
 <h2> Terminare SENTIMENT ANALYSIS</h2>
-https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python-d6f650ade58d <br>
-https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-with-python/ <br><br>
 
-- Heatmap MEDIA DEL GIORNO Day/Month dataset fake, dataset general, hashtag covid19
-- Strip plot Hashtag covid 19
-- Grouped Bar chart hashtag covid19 => frequency
+- Heatmap MEDIA DEL GIORNO Day/Month hashtag covid19 **Fake e general** 
+- Strip plot Hashtag covid 19 **General**
+- Grouped Bar chart hashtag covid19 => frequency (**general**)
 
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
 
@@ -21,6 +19,8 @@ https://livecodestream.dev/post/detecting-the-sentiment-on-elon-musks-tweets-wit
 <h2>DATA INK RATIO principle: è necessaria la legenda se già ci sono le label sull'asse x dei fake grouped bar chart?</h2>
 
 <h2>Aggiungere un interazione per far vedere il testo del valore nelle colonne dei bar chart</h2>
+
+<h2>HEATMAP IN NOTEBOOK DIVISE IN PARTIALLY FALSE, FALSE E TUTTI?</h2>
 
 # IDEE
 
