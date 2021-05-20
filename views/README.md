@@ -4,7 +4,3 @@ This folder has the purpose to let everyone see our work, since Altair, Plotly a
 We have cleaned the two main directories **/generalcovid** and **/fakecovid** and uploaded every chart in .png format. You can find all the .png files in the **views/img** folder.
 
 **DO NOT USE THIS FOLDER EXCEPT FOR WATCHING THE CHARTS ONLINE**
-
-<b>@SIMONA:
-Cella Markup => Edit => Insert image (ALTAIR FA GIà SALVARE I PNG, PLOTLY NON LO SO (NEL PEGGIORE DEI CASI SI FA LO SCREEN.<BR>
-OGNI FILE DEVE AVERE IL NOME VIEWS_xxxxx</b>
