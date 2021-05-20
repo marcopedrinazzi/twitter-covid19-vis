@@ -1,14 +1,8 @@
 # TODO
 
-<h2> Terminare SENTIMENT ANALYSIS</h2>
-
-- Heatmap MEDIA DEL GIORNO Day/Month hashtag covid19 **Fake e general** 
-- Strip plot Hashtag covid 19 **General**
-- Grouped Bar chart hashtag covid19 => frequency (**general**)
+# FIX
 
 <h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
-
-# FIX
 
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3>
 
@@ -22,15 +16,12 @@
 
 <h2>HEATMAP IN NOTEBOOK DIVISE IN PARTIALLY FALSE, FALSE E TUTTI?</h2>
 
+
 # IDEE
 
 https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
 
 • <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
-
-• Sentiment analysis (data su asse x e sentiment score su asse y) -> relativo magari ai top hashtag #coronavirus, ecc
-
-<br>
 
 # Twitter Covid19 Visualisation
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
