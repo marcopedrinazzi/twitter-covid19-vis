@@ -8,4 +8,7 @@
 - Spiegare un modello di una entry del json come è strutturata
 - Tabelle (fake e general) **Notebook tabelle fake e general** Dire che le tabelle sono collegate al pre processing degli url
 - Dates **Notebook dates general fake** e Heatmap 
-- Word Cloud **notebook** seguita dal suo bar chart della frequenza
+- Word Cloud **notebook** seguita dal suo bar chart della frequenza **notebook**
+
+
+- Mentions network Notebook **notebook solo fake**

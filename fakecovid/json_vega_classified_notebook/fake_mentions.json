@@ -1,0 +1,3870 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "The most mentioned users classified by the category of the tweet that they're mentioned in",
+  "width": 450,
+  "height": 350,
+  "padding": 5,
+  "title": {
+      "text":"The most mentioned users classified by the category of the tweet that they're mentioned in",
+      "fontSize":16,
+      "offset":20
+  },
+
+
+  "data": [
+    {
+      "name": "table",
+      "values": [
+
+      {
+        "Mentioned_Usernames": "WHOWPRO",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Mentioned_Usernames": "WHOSEARO",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "WHO_Europe",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "pahowho",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "WHOEMRO",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "WHOAFRO",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "DrTedros",
+        "False": 11,
+        "Partially False": 6,
+        "count": 17
+      },
+      {
+        "Mentioned_Usernames": "MunSecConf",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "CBSNews",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "WHO",
+        "False": 16,
+        "Partially False": 0,
+        "count": 16
+      },
+      {
+        "Mentioned_Usernames": "TelanganaToday",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AOC",
+        "False": 4,
+        "Partially False": 0,
+        "count": 4
+      },
+      {
+        "Mentioned_Usernames": "Nightline",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "JujuChangABC",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ABC",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KiritSomaiya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "BJP4Maharashtra",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MumbaiPolice",
+        "False": 2,
+        "Partially False": 2,
+        "count": 4
+      },
+      {
+        "Mentioned_Usernames": "ramkadam",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GovRonDeSantis",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "realDonaldTrump",
+        "False": 7,
+        "Partially False": 4,
+        "count": 11
+      },
+      {
+        "Mentioned_Usernames": "JQuiles",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KagutaMuseveni",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "UCC_Official",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "nbstv",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ntvuganda",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ubctvuganda",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Smart24TvUganda",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KennethOmona",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DrTedros",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "ChristoPhraser",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "gregkellyusa",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "drdavidsamadi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PIBFactCheck",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Mentioned_Usernames": "TelanganaCMO",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "QuieroAuditoria",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "NewsmeterFacts",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "alferdez",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "QuintelaRicardo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DrEricBall",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CamaraElectoral",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "MinSaludCol",
+        "False": 4,
+        "Partially False": 2,
+        "count": 6
+      },
+      {
+        "Mentioned_Usernames": "FoxNews",
+        "False": 4,
+        "Partially False": 1,
+        "count": 5
+      },
+      {
+        "Mentioned_Usernames": "senadormotoa",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MinSaludCol",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "opsoms",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GavinNewsom",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "davidbautistaqf",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ZulmaCucunuba",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MincienciasCo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "msisodia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ArvindKejriwal",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Mentioned_Usernames": "newhumanitarian",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "cedric_o",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Infosys_GSTN",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "sanidadgob",
+        "False": 6,
+        "Partially False": 0,
+        "count": 6
+      },
+      {
+        "Mentioned_Usernames": "Sophie_Wilmes",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "TeoGarciaEgea",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PDHgt",
+        "False": 2,
+        "Partially False": 1,
+        "count": 3
+      },
+      {
+        "Mentioned_Usernames": "JordanRodas",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "IvanDuque",
+        "False": 1,
+        "Partially False": 2,
+        "count": 3
+      },
+      {
+        "Mentioned_Usernames": "MaritoAbdo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PMBhutan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "sanchezcastejon",
+        "False": 7,
+        "Partially False": 0,
+        "count": 7
+      },
+      {
+        "Mentioned_Usernames": "GiuseppeConteIT",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "vonderleyen",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Cucaiba",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Kicillofok",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "magariovero",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Hemodifusion",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DrDanielGollan",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "Encina94",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Universo970py",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "ellarguero",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "dr_JeanBosco",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "mspls_bdi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "dr_thaddee",
+        "False": 4,
+        "Partially False": 0,
+        "count": 4
+      },
+      {
+        "Mentioned_Usernames": "DGP_MP",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Footy_Headlines",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SaludBAP",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DrDanielGollan",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "QuilmesMuni",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "gestion_a",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "BAProvincia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "assampolice",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "DuskoMarkovicCG",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Inria",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "UWBadgers",
+        "False": 0,
+        "Partially False": 2,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "UWMadison",
+        "False": 0,
+        "Partially False": 2,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "NCAAFootball",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "bigten",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "JLMelenchon",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "InguatPrensa",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GuatemalaGob",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Iberia",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "guatemala_dgac",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ICEXGuatemala",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CamacoesGT",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CT_Bergstrom",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DrMikeRyan",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "mvankerkhove",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Noticias_IGSS",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PDHgt",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "DrGiammattei",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "EmisorasUnidas",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MinSaludGuate",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "ZiouiA",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "usnews",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "anticorruption",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "JoeBiden",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ReneDercksen",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ippatel",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "shuklapinku",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "HexagonMI",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "conJoseMFranco",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "jimmykimmel",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "HLGatell",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "informaticaaeat",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GDTGuardiaCivil",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AamAadmiParty",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PMOIndia",
+        "False": 5,
+        "Partially False": 1,
+        "count": 6
+      },
+      {
+        "Mentioned_Usernames": "AmitShah",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CPDelhi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DelhiPolice",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "ABPNews",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "ZeeNews",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "RajatSharmaLive",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "ANI",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "GautamGambhir",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "BJP4Delhi",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "PMOIndia",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "MoCA_GoI",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "indiannavy",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PIB_India",
+        "False": 6,
+        "Partially False": 1,
+        "count": 7
+      },
+      {
+        "Mentioned_Usernames": "VP",
+        "False": 2,
+        "Partially False": 1,
+        "count": 3
+      },
+      {
+        "Mentioned_Usernames": "periodistadigit",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GovEvers",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "VickiMcKenna",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "EmpowerWi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AshishSinghLIVE",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ivanedlm",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "VOX_Congreso",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ShawnJJenkins",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MeisTerrific",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Lrihendry",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "catturd2",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Liz_Cheney",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "paseamosjuntos",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "realDonaldTrump",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "MagufuliJP",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "myogiadityanath",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "TheDesiDolll",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ARaijer_PVV",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "sonora969",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "jacindaardern",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "indiannewslink",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PrefPelotas",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Lasti_",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PMEthiopia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AbiyAhmedAli",
+        "False": 2,
+        "Partially False": 2,
+        "count": 4
+      },
+      {
+        "Mentioned_Usernames": "JackMa",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AlibabaGroup",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "flyethiopian",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AfricaCDC",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "WFP",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SBAgov",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "osiseguridad",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "DineshDSouza",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "policia",
+        "False": 4,
+        "Partially False": 0,
+        "count": 4
+      },
+      {
+        "Mentioned_Usernames": "CBS6SteveM",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DDNewslive",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "DDIndialive",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "moayush",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "drharshvardhan",
+        "False": 4,
+        "Partially False": 0,
+        "count": 4
+      },
+      {
+        "Mentioned_Usernames": "lopezobrador_",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "M_OlgaSCordero",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "carloangeli",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "tomaspueyo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "FammyJamy",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MoHFW_INDIA",
+        "False": 4,
+        "Partially False": 0,
+        "count": 4
+      },
+      {
+        "Mentioned_Usernames": "PSOE",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "el_pais",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PODEMOS",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "YouTube",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Mentioned_Usernames": "DGPAssamPolice",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PIB_India",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "AUThackeray",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "CMOMaharashtra",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "OfficeofUT",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PiyushGoyal",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "narendramodi",
+        "False": 3,
+        "Partially False": 1,
+        "count": 4
+      },
+      {
+        "Mentioned_Usernames": "SE_Rajoelina",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "clarincom",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "COBEuskadi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CGCOB1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CDCgov",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Roche",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MumbaiPolice",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "CMOMaharashtra",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "AUThackeray",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "LupeFontan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "HMQueenBee",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ChouhanShivraj",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CyrilRamaphosa",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "PaulKagame",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "USC",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "CountyofLA",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "VFilipche",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ZdravstvoMK",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ssn_ar",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "himantabiswa",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "JPNadda",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ICMRDELHI",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MIB_India",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "USC",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "lapublichealth",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MazzoleniJulio",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "tito_delgado84",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KyDeptofEd",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "sanghaviharsh",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PTI_News",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "republic",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "BBCFergusWalsh",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "nadeemhaque",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Dawn_News",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "nayadaurpk",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "NadeemfParacha",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AzazSyed",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SamCoulon",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "HSELive",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "rautsanjay61",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "timothy_gumm",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "JoseBlazquezC",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SeanTrende",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "RichLowry",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "WMBDNews",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "airindiain",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MoCA_GoI",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "EricTopol",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AnnalsofIM",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Dereklowe",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SteveFDA",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SandraSmithFox",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "zoom_us",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "CCNCERT",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Shameem47347305",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "IvanDuque",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "MevlutCavusoglu",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "NigeriaGov",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Anses_fr",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "guardiacivil",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Mentioned_Usernames": "SanidadCLM",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "TandonRaveena",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Andersoncfb",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "henriolliveira",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "OANN",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MangalaLK",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "RepBobbyRush",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MariaBartiromo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KellyannePolls",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "StevenSalzberg1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "keelingsfruits",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ActionNewsJax",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "goldiesaurin",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "wjxt4",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "FoxNews",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "johnrobertsFox",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DanScavino",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "flysrilankan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "POTUS",
+        "False": 0,
+        "Partially False": 2,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "CPMumbaiPolice",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "asadowaisi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DonaldJTrumpJr",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "WalmartMexico",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Mshivaram23M",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "VasNarasimhan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Novartis",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "schneiderleonid",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MicrobiomDigest",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "Damkyan_Omega",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "HHSGov",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "UNinIndia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "yadavtejashwi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "TajinderBagga",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "voxjovenes",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "vox_es",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Santi_ABASCAL",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Ortega_Smith",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "monasterioR",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MeerRocio",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "voxnoticias_es",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "jlsteeg",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "sanchezdelreal",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "Jorgebuxade",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DidierMaisto",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Poulin2012",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PLudosky",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "FlyRiderGJ",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "gaulois_l",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "RaquelGarridoFr",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "millerofficiel",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GaccioB",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "collCartonJaune",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CerveauxNon",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GalouRoti",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Trickpa75",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "NRamphft",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "tropical_boy",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GiletsJaunesGo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AshwiniKChoubey",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "COVIDNewsByMIB",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "policiademadrid",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AlmeidaPP_",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "begonavillacis",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "elopezpuertas",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "dpplif",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "congosto",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SoyMmadrigal",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CesarCalderon",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "mediotic",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AirtelNigeria",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MTNNG",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GloWorld",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "agrapolice",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "IdaOdinga",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ZShamsuna",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "RailaOdinga",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PauMatalap",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Iruxol78",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "idart86",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "mitmagob",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Ingrid_Jacques",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "detroitnews",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "gusttavo_lima",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "NYGovCuomo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "hodakotb",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "eldenocturna",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "rcnradio",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "sairazesh",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MOH_Mongolia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "cmdhb",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "healthgovau",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KKMPutrajaya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MHLWitter",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "sporeMOH",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "samoagovt",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "minhealthnz",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "NZ_Customs",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Fiji_MOFA",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "minhealthci",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ThaneCityPolice",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "RiganoESQ",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "WorldBank",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "citizentv",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "NationBreaking",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "K24Tv",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "journo_priyanka",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "FDA_MCMi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MOH_Kenya",
+        "False": 4,
+        "Partially False": 0,
+        "count": 4
+      },
+      {
+        "Mentioned_Usernames": "KenyaGovernors",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "WHOKenya",
+        "False": 5,
+        "Partially False": 0,
+        "count": 5
+      },
+      {
+        "Mentioned_Usernames": "PDUDelivery",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SpokespersonGoK",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "FenalcoNacional",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ManuelaCarmena",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "hora25",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "nytimes",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "davidnabarro",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "kiranshaw",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "alexisohanian",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ActorMadhavan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AidanRGallagher",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "JaneGoodallInst",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "biz",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "roshanabbas",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "narendramodi",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "BerlinNkl",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AbelCartaya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "LunaAValdes",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "glendaboza",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "daguitovaldes",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "camilocondis",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "juanrobertovarg",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "EspinosaRadio",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "washingtonpost",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "NoticiasCaracol",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "kelizrm",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "sciam",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "JumaaneWilliams",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "democracynow",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "LiveLawIndia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "JCDAtrasto",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Panik81",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Fantasma_956",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "combatiente21",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "TuyaTan",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Pura_Miel",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SecPompeo",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "marcorubio",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "VP",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "Almagro_OEA2015",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "soyfdelrincon",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "beatrizbecerrab",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "OrbitaEduardo",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "policiafederal",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PMESP",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Policia_Civil",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CFOAB",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MPF_PGR",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "governosp",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "lobaoeletrico",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "lucianoayan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "madeleinelacsko",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "joicehasselmann",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "FlavioDino",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "cirogomes",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "hectorscaballer",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "FachasRojos",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MariscalZabala",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "_mireiaborras",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GovWhitmer",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ChumelTorres",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "JorgeIvanOspina",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SaludCali",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AlerteSanitaire",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "gouvernementFR",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "francediplo",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Beauvau_Alerte",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ConseilsVoyages",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SheDecidesGFI",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SaludEdomex",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "HUPMCadiz",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Tracey_utv",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "minsaude",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Mentioned_Usernames": "TuckerCarlson",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SrBachchan",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "NANA_PATOLE",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "vikasthakre",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AshishRDeshmukh",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "RashidIdrisi15",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "sanj971",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PHE_uk",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "NHSEngland",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Huawei",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "genomica_sau",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PhrmMar",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "IAmSudhirMishra",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "anuragkashyap72",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "mehtahansal",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "anubhavsinha",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "OMS_Afrique",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ministerecomdz",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "RailMinIndia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "zoo_bear",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DrZweliMkhize",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "NIOSH",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CDCDirector",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "EFEnoticias",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "EdMartBCF",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "BioCubaFarma",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "JordanRodas",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "ComunidadMadrid",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CasaReal",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KPKUpdates",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KPKPolice2",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ShermansMarch2",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AltNews",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AltNewsScience",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AltNewsHindi",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ItalyMFA",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MinEconomia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Montecitorio",
+        "False": 0,
+        "Partially False": 2,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "xr_east",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "NHSuk",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CHUBordeaux",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "gouvernementFR",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "gridsearchcv",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ImranKhanPTI",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DrMattMcCarthy",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "eliasbendodo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "marifrangr",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "jesusraguirre",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "TheDeshBhakt",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "kunalkamra88",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "terry03692",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MariannaAlfa",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Mous_taffe",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "BioCubaFarma",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "BioRender",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "TheLallantop",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "kashaf3751",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MustaqeemMewati",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "sahibaMalik967",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "marca",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Mentioned_Usernames": "Cristiano",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CheckNewsfr",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "tonyoof",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "mulhouse",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ScorpionsMulho",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "OMS_Mulhouse",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CSteger68",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "michelelutzh",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "LutzRottner",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "elonmusk",
+        "False": 1,
+        "Partially False": 2,
+        "count": 3
+      },
+      {
+        "Mentioned_Usernames": "DiderRaoult",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "LuluHassan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "WANationalGuard",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "agnesbuzyn",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "RadioZET_NEWS",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DF_Engineers",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "naval_service",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "7_Inf_Bn",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MicrobiomDigest",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "PubPeer",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "USArmy",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "rsallesmma",
+        "False": 0,
+        "Partially False": 2,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "DGHisham",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "DrAdhamBaba",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DGHisham",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "nowthisnews",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AboutPharmaHPS",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "antonioguterres",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "FrecceTricolori",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "QuimTorraiPla",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "JLambanM",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "anabrnabic",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "IDSIreland",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CUH_Cork",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AbiyAhmedAli",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "diputacionMLG",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AmbulanceNAS",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "IrishAirCorps",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KN_Hospital",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AreaUnoArrixaca",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "mossos",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "srkias2012",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "DF_COS",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "UKDefJournal",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AmerAcadPeds",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "gumaxgon",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "C9NParaguay",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "citizentvkenya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KBCChannel1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KEMRI_Kenya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KNH_hospital",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Mentioned_Usernames": "Kemsa_Kenya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "RadioCitizenFM",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GhettoRadio895",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "radiomaisha",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CDCKenya",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "kamurie1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "HezekielGikambi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "UNICEFKenya",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "BreakingNewsKE",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "todonoticias",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AjuntamentVLC",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GVA112",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GVAsanitat",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SaludPublicaEs",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "malditobulo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SaludMadrid",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Ayto_SFH",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "gobjccm",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "StopBulos",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "JuntaEx_Sanidad",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Junta_Ex",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SerRadio90",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "cantabriaes",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "osakidetzaEJGV",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "iurkullu",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "EU_Commission",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AnnastaciaMP",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "JaniceHagan2",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MaryamHenein",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "AmericoDeGrazia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "mandl",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CH_Argenteuil",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "gorskon",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "HFedericolleras",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "alexasaludtol",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "jmussil",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "caro234",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "karlamov",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "hidalgohealth",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "TexasDSHS",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "KemenkesRI",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ArielSo15707101",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ingridbravoruiz",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CarlosVerareal",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CNN",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "cnnbrk",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "BBCWorld",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Mentioned_Usernames": "SecAzar",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "EmeraldRobinson",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PanziFoundation",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "PanziUSA",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MukwegeFound",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "govbr",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "secomvc",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "anusuyakhasba",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Samanthaprabhu2",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "Facebook",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "bancoprovincia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "VisaArgentina",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ClaudiaLopez",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "BeaDixit",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "mcsweeneys",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "elonmusk",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Mentioned_Usernames": "DGrieshnak",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "krishnanv",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "GOPLeader",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SenClaireCelsi",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "MrAndyNgo",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "cpmaher17",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "SetteLab",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ljiresearch",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "ScienceMagazine",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "CellCellPress",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "timesofindia",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "indiatimes",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "htTweets",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "janellaparis_",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "JHSPH_CHS",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Mentioned_Usernames": "airnewsalerts",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      }
+ 
+      ],
+      "transform": [
+        {"type": "fold", "fields": ["False", "Partially False"]},
+        {"type": "filter", "expr": "datum.count >= 6 && datum.count <= 22"}
+        ]      
+    }
+  ],
+  "scales": [
+    {
+      "name": "yscale",
+      "type": "band",
+      "domain": {"data": "table", "field": "Mentioned_Usernames"},
+      "range": "height",
+      "padding": 0.2
+    },
+    {
+      "name": "xscale",
+      "type": "linear",
+      "domain": {"data": "table", "field": "value"},
+      "range": "width",
+      "round": true,
+      "zero": true,
+      "nice": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "key"},
+      "range": {"scheme": "category10"},
+      "reverse":true
+    }
+  ],
+
+  "axes": [
+    {"orient": "left", "scale": "yscale", "tickSize": 0, "labelPadding": 4, "zindex": 1, "labelFontSize":12},
+    {"orient": "bottom", "scale": "xscale","labelFontSize":12}
+  ],
+  "legends": [
+    {
+      "type": "symbol",
+      "title": "Category",
+      "fill": "color",
+      "direction": "vertical",
+      "rowPadding": 5,
+      "columnPadding": 8,
+      "clipHeight": 0,
+      "titleOrient": "top",
+      "symbolStrokeColor": "#fff",
+      "symbolStrokeWidth": 1,
+      "labelFontSize":12,
+      "titleFontSize":14
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "group",
+
+      "from": {
+        "facet": {
+          "data": "table",
+          "name": "facet",
+          "groupby": "Mentioned_Usernames"
+        }
+      },
+
+      "encode": {
+        "enter": {
+          "y": {"scale": "yscale", "field": "Mentioned_Usernames"}
+        }
+      },
+
+      "signals": [
+        {"name": "height", "update": "bandwidth('yscale')"}
+      ],
+
+      "scales": [
+        {
+          "name": "pos",
+          "type": "band",
+          "range": "height",
+          "domain": {"data": "facet", "field": "key"}
+        }
+      ],
+
+      "marks": [
+        {
+          "name": "bars",
+          "from": {"data": "facet"},
+          "type": "rect",
+          "encode": {
+            "enter": {
+              "y": {"scale": "pos", "field": "key"},
+              "height": {"scale": "pos", "band": 1},
+              "x": {"scale": "xscale", "field": "value"},
+              "x2": {"scale": "xscale", "value": 0},
+              "fill": {"scale": "color", "field": "key"},
+              "tooltip": {
+           "signal": "{title: datum.Mentioned_Usernames, 'Type': datum.key, 'Count':datum.value}"
+          }
+          }
+        }
+        }
+      ]
+    }
+  ]
+}

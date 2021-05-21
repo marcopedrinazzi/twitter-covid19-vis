@@ -1,0 +1,4684 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "The users with the highest number of tweets created classified by category (False, Partually False)",
+  "width": 450,
+  "height": 350,
+  "padding": 5,
+  "title": {
+      "text":"The users with the highest number of tweets created classified by category (False, Partually False)",
+      "fontSize":16,
+      "offset":20
+  },
+
+
+  "data": [
+    {
+      "name": "table",
+      "values": [
+
+      {"Usernames": "WHO", "False": 20, "Partially False": 11, "count": 31},
+      {"Usernames": "DrTedros", "False": 9, "Partially False": 0, "count": 9},
+      {
+        "Usernames": "richardneher",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "CBS_Herridge",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "3meed_news", "False": 1, "Partially False": 1, "count": 2},
+      {
+        "Usernames": "MuhammadLila",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "IcahnMountSinai",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "BillGates", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "trspartyonline",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "I30mki", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "sbauerAP", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "EPhilippe_LH",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "wizara_afyatz",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "trvrb", "False": 2, "Partially False": 1, "count": 3},
+      {
+        "Usernames": "malditobulo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "thefirstindia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Marindriguez",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Infirmier00",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "CNBC", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "WHOAFRO", "False": 5, "Partially False": 0, "count": 5},
+      {"Usernames": "Nightline", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "JujuChangABC",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Public_Citizen",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "AnaghaAcharya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "SegurancaSP",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "PMESP", "False": 2, "Partially False": 0, "count": 2},
+      {"Usernames": "AC360", "False": 1, "Partially False": 1, "count": 2},
+      {
+        "Usernames": "emile_marzolf",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "usmissionuganda",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "SOSMediasBDI",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Kanko_Jpn", "False": 0, "Partially False": 2, "count": 2},
+      {"Usernames": "TimesNow", "False": 1, "Partially False": 1, "count": 2},
+      {"Usernames": "sachin_inc", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "FLRising", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "FotografoGus1",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "porcipolitici",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "shiv_shaktii",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "daddy_yankee",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "nyamadon", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "WHO", "False": 0, "Partially False": 0, "count": 0},
+      {"Usernames": "ashishkjha", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "mvankerkhove",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Usernames": "DiseaseEcology",
+        "False": 1,
+        "Partially False": 2,
+        "count": 3
+      },
+      {
+        "Usernames": "drdavidsamadi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "jairbolsonaro",
+        "False": 6,
+        "Partially False": 1,
+        "count": 7
+      },
+      {
+        "Usernames": "FernanQuirosBA",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "newsmax", "False": 1, "Partially False": 1, "count": 2},
+      {
+        "Usernames": "PIB_Guwahati",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {"Usernames": "gilcutrim", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "PradeepNetha4",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "sgrhindia", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "cleporati", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "sudhirkraj", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "wilkergv", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "QuintelaRicardo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "alferdez", "False": 3, "Partially False": 0, "count": 3},
+      {"Usernames": "vfeltri", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "ttrichechus",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "BNPB_Indonesia",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {"Usernames": "alshoushah", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "nouralain117",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "MadihaAbidAli",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "joicehasselmann",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "NicoleB_MD", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "uaegov", "False": 0, "Partially False": 2, "count": 2},
+      {"Usernames": "UtahDPS", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "pablosecchi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "danielPMERJ",
+        "False": 0,
+        "Partially False": 4,
+        "count": 4
+      },
+      {"Usernames": "Zovatto55", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "FabBallarini",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "FiT7xK1I7SnGiB2",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "marklewismd",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "amaliaandrade_",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "Farees_7", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "BharatBiotech",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JorgeIvanOspina",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "conciousness777",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JuanPaolicchi",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "MinSaludCol",
+        "False": 12,
+        "Partially False": 2,
+        "count": 14
+      },
+      {
+        "Usernames": "CesarPachonAgro",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "otavio_ranzani",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "NWPRuralCrime",
+        "False": 0,
+        "Partially False": 2,
+        "count": 2
+      },
+      {"Usernames": "TheView", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "ChristoPhraser",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "gmanews", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "INSColombia",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "advabhishekbjp",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "jdoriajr", "False": 6, "Partially False": 0, "count": 6},
+      {
+        "Usernames": "guatemala_dgac",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "DeshGujarat",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ID2020", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "sanvalgo", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "benjaminferran",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "DXBMediaOffice",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "alphajohnalpha1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Farmaenfurecida",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "cbic_india", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "PauMatalap", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "lia_tadesse",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "LouDeFrogg", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "PUCE_Ecuador",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "nhk_news", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "BalEdmundo", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "ksorbs", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "eumarcioamerico",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ArthurWeint",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "EMCALIoficial",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "DineshDSouza",
+        "False": 4,
+        "Partially False": 0,
+        "count": 4
+      },
+      {
+        "Usernames": "Sophie_Wilmes",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "tomvangrieken",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "populares", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "ALICIAERAZO",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {"Usernames": "PDHgt", "False": 1, "Partially False": 1, "count": 2},
+      {"Usernames": "sonora969", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "Bellmanequation",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "MOH_Kenya",
+        "False": 16,
+        "Partially False": 0,
+        "count": 16
+      },
+      {"Usernames": "Cucaiba", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "LulaOficial",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "SE_Rajoelina",
+        "False": 5,
+        "Partially False": 0,
+        "count": 5
+      },
+      {
+        "Usernames": "juansmithalvar1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "JLMT65", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "AlmeidaPP_", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "SomosGEN", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "PerdigueroSIPEp",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "sanidadgob", "False": 6, "Partially False": 0, "count": 6},
+      {
+        "Usernames": "RaquelBlascoR",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JuanManzurOK",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "mspls_bdi", "False": 3, "Partially False": 0, "count": 3},
+      {
+        "Usernames": "ChhindwaraPoli1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Rios_Nacif", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "InsideGones",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "SaludBAP", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "nagaonpolice",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "VladaCG", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "ConorLambPA",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "nagma_morarji",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "corentinbechade",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "TomTiffanyWI",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "fs0c131y", "False": 3, "Partially False": 0, "count": 3},
+      {"Usernames": "lanceallan", "False": 0, "Partially False": 2, "count": 2},
+      {
+        "Usernames": "SquireForYou",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "LCP", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "CACIFGuatemala",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ASlavitt", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "NoticiasCaracol",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {"Usernames": "MinexGt", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "KagutaMuseveni",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "NigEducation",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "EmbajadaEspGTA",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "ians_india", "False": 2, "Partially False": 0, "count": 2},
+      {"Usernames": "NewsX", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "NewsMeter_In",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "PrensaComunitar",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "DollyBindra",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "WICHOCOOPER",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "luanavolnovich",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "TiwariKahin",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Sandeep04CBS",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "MohamedBouarby",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JFernandeznino",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {"Usernames": "zinub", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "transparenciaco",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "simonshen_glos",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "gretchenwhitmer",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "MinSaludCol",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {"Usernames": "bipancho", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "morgan_freeman",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "VaughnHillyard",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JPeterBurger",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Usernames": "anshpatrkaar",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "mreparaguay",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "CDCgov", "False": 3, "Partially False": 0, "count": 3},
+      {
+        "Usernames": "PIBFactCheck",
+        "False": 17,
+        "Partially False": 1,
+        "count": 18
+      },
+      {
+        "Usernames": "infopresidencia",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "LondonBreed",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "OlaRollen", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "askomartin", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "CT_Bergstrom",
+        "False": 2,
+        "Partially False": 1,
+        "count": 3
+      },
+      {"Usernames": "afpfr", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "DubaiPoliceHQ",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "carlesenric",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "lhmandetta", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "LeoVaradkar",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Usernames": "itsbeargrillz",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Alvisepf", "False": 5, "Partially False": 0, "count": 5},
+      {
+        "Usernames": "AzharJeddah2003",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "AhmadJawadBTH",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "reaerosadesigns",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "josefinaIBVM",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "EPHIEthiopia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ANI", "False": 5, "Partially False": 3, "count": 8},
+      {
+        "Usernames": "MartePiantini",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "davidmackau",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "justinsink", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "mattmfm", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "ummymwalimu",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "EyeVallenatoo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "shahid_siddiqui",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "santo_tango",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "nacho1577", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "CesareSacchetti",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "nicd_sa", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "guardiacivil",
+        "False": 6,
+        "Partially False": 0,
+        "count": 6
+      },
+      {
+        "Usernames": "DCPEastDelhi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "HardeepSPuri",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "SureshChavhanke",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "lyguerb", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "RonaldKlain",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Usernames": "jimmykimmel",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "PIBChandigarh",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "PIBFactCheck",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Usernames": "VAMOSAVERorg",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "RepBobbyRush",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "RepJanel", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "praveenm_mishra",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "SaludISCIII",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "millardayo", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "VOX_Congreso",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "anderso24344556",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "jesdbc", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "Geoweeb", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "557_hamd", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "ALICIAERAZO",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {"Usernames": "krnkrnxxx", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "TZMsemajiMkuu",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "fvallejoss", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "TeichNelson",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "priyankagandhi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ManleyWMC", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "MsigwaGerson",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ajayrajmuthalia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "FaheemYounus",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "UNDPGhana", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "SeemaCMS", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "OMS_Afrique",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "realwbonner",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "RCNBga", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "DasmanNewsCom",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "todonoticias",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "ArnulfoAgustinG",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "lahoragt", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "DiseaseEcology",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Usernames": "MukteshPardeshi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "SaludDeportesBo",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Usernames": "PrefPelotas",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "BolsonaroSP",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "MehdiElFilali4",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "bol7yaa", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "GovernmentRF",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "FlavioDino", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "JoeBiden", "False": 3, "Partially False": 1, "count": 4},
+      {"Usernames": "WHOWPRO", "False": 4, "Partially False": 1, "count": 5},
+      {
+        "Usernames": "TecdeMonterrey",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "unicefphils",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "JackMa", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "EdisonLanza",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Travelito24",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "PresidencyZA",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "ipetrella", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "ScottGottliebMD",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "taran_adarsh",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "MaxCRoser", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "GuillaumeUERDC",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "sandravogelaar",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "LExpressMG", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "ksbanews", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "MurtazaViews",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "DrGiammattei",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "bjplao", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "PressSec45", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "healthgovau",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "policia", "False": 7, "Partially False": 0, "count": 7},
+      {
+        "Usernames": "inclusiongob",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "GovernmentZA",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "SassyMetisChick",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Equipe1erDegre",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "bhushan_gyan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Albert_Rivera",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "Tonicanto1", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "timothy_gumm",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "murtazawahab1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ChiodiDonatella",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "GlennKesslerWP",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ddale8", "False": 2, "Partially False": 0, "count": 2},
+      {"Usernames": "blsanthosh", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "JFernandeznino",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Usernames": "CitizenJane99",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "mugecevik", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "NYSComptroller",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Ievyrincon", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "DrZweliMkhize",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "DDNewsGujarati",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "radioitatiaia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "EquisJusticia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "bonnie379", "False": 3, "Partially False": 0, "count": 3},
+      {"Usernames": "NCDCgov", "False": 4, "Partially False": 0, "count": 4},
+      {
+        "Usernames": "EmbajadorSuecia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "rkagarwal69",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "JimbereMag", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "RamsDreezy", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "RepAndyBiggsAZ",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ScottMorrisonMP",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "airindiain", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "PeterStevenson",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "WilDbadGe", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "conspiration",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "mikandynothem",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Cosecha_del_62",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "himantabiswa",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "diprassam", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "RonaldKlain",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Usernames": "HafizJa04188954",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Ortega_Smith",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "umashankarsingh",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "amro_mashali",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ibalimran", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "yalshehri1981",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "AALMARRI2013",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "JBezivin", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "cedric_o", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "cyngarciaradio",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "GabyLevinas",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "nytimes", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "Nidhi", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "hpscireland",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ParaMicroBio",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "leandrocahn",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Usernames": "porquetendencia",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {"Usernames": "TimesNow", "False": 0, "Partially False": 0, "count": 0},
+      {"Usernames": "WHNSC45", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "WhiteHouse45",
+        "False": 3,
+        "Partially False": 1,
+        "count": 4
+      },
+      {
+        "Usernames": "Karl_Lauterbach",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "leticiaspiller",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "sanchezcastejon",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "CMOMaharashtra",
+        "False": 2,
+        "Partially False": 1,
+        "count": 3
+      },
+      {"Usernames": "AmirReport", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "MumbaiMirror",
+        "False": 0,
+        "Partially False": 2,
+        "count": 2
+      },
+      {
+        "Usernames": "globaltimesnews",
+        "False": 5,
+        "Partially False": 0,
+        "count": 5
+      },
+      {
+        "Usernames": "BorisJohnson",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "desdelamoncloa",
+        "False": 4,
+        "Partially False": 0,
+        "count": 4
+      },
+      {
+        "Usernames": "CGEnfermeria",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "DavidPuente",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "AdityaRajKaul",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "shhhhitsdundee1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "COVIDNewsByMIB",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JacksonMthembu_",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "helderbarbalho",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {"Usernames": "NOIweala", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "Guineematin",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "takeuchikumiffy",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "vTxpqRVTUijcIq4",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "CNEWS", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "nataliexdean",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "politicturk",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "CruzRojaLP", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "bshibamt", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "EricTopol", "False": 1, "Partially False": 1, "count": 2},
+      {
+        "Usernames": "napostoloska",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ssn_ar", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "DrSanjibG", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "GiancarloDeRisi",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "SaadiaAfzaal",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "johnrobertsFox",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "CopernicusECMWF",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "AC360", "False": 0, "Partially False": 0, "count": 0},
+      {"Usernames": "nycHealthy", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "CalforNC", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "780AM", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "eledoster", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "KyDeptofEd", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "DannyLS74", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "Prokaryota", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "officialmcafee",
+        "False": 1,
+        "Partially False": 2,
+        "count": 3
+      },
+      {"Usernames": "AayoBado", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "BBCFergusWalsh",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "LouisHenwood",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "DHSCgovuk", "False": 2, "Partially False": 1, "count": 3},
+      {
+        "Usernames": "pakistanmonitor",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "CetmTransporte",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "CT_Bergstrom",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {"Usernames": "elonmusk", "False": 1, "Partially False": 3, "count": 4},
+      {
+        "Usernames": "RudyGiuliani",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "DanyalGilani",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "LesBuralistes",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "a_meluzzi", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "NYGovCuomo", "False": 2, "Partially False": 1, "count": 3},
+      {
+        "Usernames": "KyotoU_News",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "CharlieFlanagan",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "JeffShipley77",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ArjunsinghWB",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "SenSanders", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "ThaungTun20",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "MeetThePress",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "GrimoldiPaolo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "RepLaHood", "False": 2, "Partially False": 0, "count": 2},
+      {"Usernames": "drivera_gt", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "raoult_didier",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "ThonburiH", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "Abo__salma", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "danieloran", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "EduardoLeite_",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Usernames": "sanderknura",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Winston_Dunhill",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "carlavizzotti",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "TapasNiyama",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "WHOWPRO", "False": 0, "Partially False": 0, "count": 0},
+      {"Usernames": "SKonermann", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "trvrb", "False": 0, "Partially False": 0, "count": 0},
+      {
+        "Usernames": "notaxiwarrior",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "ManojTiwariMP",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "mgdowney", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "BBCAfrica", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "jpogue1", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "statsepi", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "RailaOdinga",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {"Usernames": "atiku", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "almaniadiplo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "BallouxFrancois",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "Nangpagirl78",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "tomhanks", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "CarlosBolsonaro",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "dmbareilly", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "AmericaNewsroom",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ashu2aug", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "InstitucionalTV",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "ChadBown", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "AranchaGlezLaya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "NOA_Nigeria",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "corinnelepage",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Zoom", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "MatiasRajnerman",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "fjredondocalvo1",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "syedkhaleedd",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "femigbaja", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "rahulstreetmagi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "TheStarKenya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JackMotleyLive",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "alexsalvinews",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "Ncpwds", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "DrHAKEM", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "DhirajG82325757",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "VishalAryavart",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "lilach_v", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "MangalaLK", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "ChinaEmbSL", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "danimugicagmai1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "DCI_Kenya", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "KellyannePolls",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "BiharHealthDept",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "thehill", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "aljomaes2010",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "edwardcholmes",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ghayasU59473086",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "i24NEWS_FR", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "FlorBallarino",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ClareDalyMEP",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "wxgarrett", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "VOSTcvalenciana",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "r_doble", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "plus_justice",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "DEOSAFARI7", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "ABSCBNNews", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "katta_news", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "WJXTvic", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "Goldstatetimes",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "bbbii1010", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "almostshar202",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "GovLarryHogan",
+        "False": 0,
+        "Partially False": 2,
+        "count": 2
+      },
+      {
+        "Usernames": "shehanmlive",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "elsan", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "BancoCentral_AR",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "TigerBrands",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Kenyajudiciary",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "theklaneh", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "PordenoneBudoia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "warispathan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ianbremmer", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "KamilKaramali",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ivanfbf", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "martintetaz",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "UZBrussel", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "ThumarChirag",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "belduque", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "EduX2021", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "Andrew_Petter",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "pecunia55", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "JPYlTqpLzb65rdX",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "BBCPolitics",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "CHU_Lille", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "amandaasubiar",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {"Usernames": "franceinfo", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "Mshivaram23M",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "NarayanaHealth",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ENT_UK", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "GaetanBurgio",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "AndrewALover",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "CNBCJulianna",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "FaisalJavedKhan",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Usernames": "lucasmorin_eolc",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "houndcl", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "VasNarasimhan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "murtazasolangi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "TF1LeJT", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "WHOKenya", "False": 2, "Partially False": 0, "count": 2},
+      {"Usernames": "groveers", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "sharjahmedia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "nistula", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "ivaniz66", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "tomasuribeEco",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "WHOSEARO", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "revistamongolia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "SrBachchan", "False": 3, "Partially False": 0, "count": 3},
+      {
+        "Usernames": "SachinYadavRJD",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ignaciopereira",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "J_Rodrigues_Off",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "EmeraldRobinson",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "RealCandaceO",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "MoHFW_INDIA",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "g_gendron", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "valkloples", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "IFEMA", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "IkhsanK07895159",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "GZamoraSDE", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "evoespueblo",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "repvos", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "GopalSa22721269",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "policiacibercol",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "aisha_yaGuda",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "EspLegion", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "Uppolice", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "TheODMparty",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "marcelorubens",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "FinMinNigeria",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ARYNewsApp", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "GDTGuardiaCivil",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "BJP4India", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "ourkuwait", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "gha9700", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "RNTata2000", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "PoliceRajasthan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Rafa_Hernando",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "nachoayalab",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "vox_es", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "mitmagob", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "PureMichGirl",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "rquiroga777",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Tori_Sachs", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "Caleb_Waswa_",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "revrrlewis", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "baybarsorsek",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "steve_vladeck",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "TODAYshow", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "rammadhav_rss",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "IRSnews", "False": 2, "Partially False": 0, "count": 2},
+      {"Usernames": "VOAChinese", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "BNPB_Indonesia",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Usernames": "SetuAarogya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ColegioMedicoCo",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "aardvarkel", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "takaoka", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "leandrocahn",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Usernames": "aravindcherry",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "News_Ejazah",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JamesTodaroMD",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "CFGA", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "WorldBankKenya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "GovMurphy", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "elonmusk", "False": 0, "Partially False": 0, "count": 0},
+      {"Usernames": "iRupND", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "JeffJacksonNC",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "BarackObama",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "prioritiesUSA",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "allisonpearson",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Minsa_Peru", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "Freddy_AFC", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "ishaan_ANI", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "OPSOMSPeru", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "Sarim192", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "llborio", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "PBNS_India", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "ANI", "False": 0, "Partially False": 0, "count": 0},
+      {"Usernames": "houseparty", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "SyedRahatNaqvi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "PMDNewsGov", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "FenalcoNacional",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "iamsagarkapasi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "CarlosVerareal",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "OsmarTerra", "False": 3, "Partially False": 0, "count": 3},
+      {"Usernames": "hora25", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "Finanzas_Pharol",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ZdravstvoMK",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "NYTimesPR", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "SDG2030", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "asahi", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "TrumpWarRoom",
+        "False": 1,
+        "Partially False": 2,
+        "count": 3
+      },
+      {
+        "Usernames": "RoyBarreras",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "agirgupta", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "rocksatish448",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "DrKKAggarwal",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "PradeepDwivedi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "MOFAkr_eng", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "GrupoMemora",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Nation_is1st",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "assampolice",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "shashan29150961",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "PolizeiBerlin_E",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "RCamachoVzla",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "GerardoCuba1986",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "thisisjignesh",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "bartvalletta",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "salimmattarBR",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "soapachu", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "juanmanuelgalan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "SSalud_mx", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "EgyptDarAlIfta",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {"Usernames": "cameronks", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "inquirerdotnet",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "LiveLawIndia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JorgeGalindo",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "NMIMR_UG", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "RodrigoMaia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Tk0606khumz",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "josel_6027", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "AlvaroUribeVel",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "HomeAffairsSA",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "alefrota77", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "OoasWaho", "False": 2, "Partially False": 0, "count": 2},
+      {"Usernames": "brithume", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "rahulkanwal",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "imssjalcontigo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "elpollocabreado",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Tu_IMSS", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "ndrew_lawrence",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "MiyerTorresA",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ndtv", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "AFP", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "WHOPhilippines",
+        "False": 3,
+        "Partially False": 1,
+        "count": 4
+      },
+      {"Usernames": "Sante_Gouv", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "SheDecidesPH",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "csspsinag", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "sarahelago", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "SaludPublicaEs",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "SGGEdomex", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "RadioStydoba",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "witkowski_nad",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "DeKUTkenya", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "norabar", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "policiademadrid",
+        "False": 0,
+        "Partially False": 7,
+        "count": 7
+      },
+      {"Usernames": "jmblanquer", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "minsaude", "False": 3, "Partially False": 0, "count": 3},
+      {"Usernames": "HUPMCadiz", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "agomezp1", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "naftalibennett",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "cestrosi", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "francoislegault",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "StateHouseKenya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "gawa_tyrone",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "CMOMaharashtra",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {"Usernames": "DanPatrick", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "smokyswaggin",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "CPMumbaiPolice",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "AsYouNotWish",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "aulakh33468",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "narendramodi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "NewscheckerIn",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "BBCJamesCook",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "MinofHealthUG",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "matteosalvinimi",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Usernames": "GiorgiaMeloni",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "panchorgl", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "KhanMehrunnissa",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "7NewsSydney",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "IFT_MX", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "SantiCafiero",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "medanta", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "MLMelo", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "DrMattMcCarthy",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JohnsHopkins",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "PhrmMar", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "troll_Memes09",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "AlRangelS", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "lopezobrador_",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "fahrettinaltun",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "talissondsf",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "PIB_India", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "pppjain", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "Satyanewshi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "plutokingsize",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "pr_moph", "False": 1, "Partially False": 1, "count": 2},
+      {
+        "Usernames": "OMS_ALGERIE",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "PIBHindi", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "Almajlliss", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "AINOSvp", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "HcinirandaC",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "pontecorvoste",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Sahnoun94594452",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "Aj6ix9ine", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "CBNoficial", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "susantananda3",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "MOEducation",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "abdulmohsinAlm",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "sid_sssay", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "falkone1", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "DIRCO_ZA", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "PIBHomeAffairs",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "WHOPhilippines",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Usernames": "EmilioMorenatti",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "TrumpWarRoom",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {"Usernames": "zlj517", "False": 3, "Partially False": 1, "count": 4},
+      {
+        "Usernames": "EmbaCubaPeru",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "olivierveran",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "univienna", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "GiuseppeConteIT",
+        "False": 1,
+        "Partially False": 2,
+        "count": 3
+      },
+      {
+        "Usernames": "BASoundTherapy",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "RebeccaKadagaUG",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "GiuseppeConteIT",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Usernames": "LIBRESYLOKOS",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "PDHgt", "False": 0, "Partially False": 0, "count": 0},
+      {
+        "Usernames": "CarapungoComite",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "zTweeples", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "gen_heleno", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "AlejoMiranda",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "AytoAdra", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "JoeBiden", "False": 0, "Partially False": 0, "count": 0},
+      {
+        "Usernames": "Jimina_Sabadu",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "ValerioCapraro",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ErANAnsari", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "ABCWorldNews",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "RadioZET_NEWS",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "Ojo_Publico",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "AlHadath", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "GhinwaYatim",
+        "False": 0,
+        "Partially False": 2,
+        "count": 2
+      },
+      {
+        "Usernames": "gaelhurlimann",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "HniaziISF", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "Teofilo1952",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "RajeshK_Bharja",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "raj2jas", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "RajGovOfficial",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "aytocalahorra",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "WellingMichael",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ENACOMArgentina",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "akashyphd", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "kmario", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "manisha__gupta",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "drauziovarella",
+        "False": 0,
+        "Partially False": 2,
+        "count": 2
+      },
+      {
+        "Usernames": "luigidimaio",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "EstherIjewere",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Emilys4F", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "fredysliendo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "alfonslopeztena",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "adgpi", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "MinEconomia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "MumbaiPolice",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "ONUMX", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "CruzRoja_MX",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "MadMG61", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "_Chinioty", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "MominUrban", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "kundakavelkar",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "uber_kenya", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "daVinci1412",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "NYGovCuomo", "False": 0, "Partially False": 0, "count": 0},
+      {
+        "Usernames": "NBVCCalifornia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "SenStroebel",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "Habibies", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "covid19indiaorg",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "KiranSu11082143",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ExtinctionR",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "amirkingkhan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "jairbolsonaro",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {"Usernames": "tedcruz", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "MZ_GOV_PL", "False": 1, "Partially False": 1, "count": 2},
+      {
+        "Usernames": "XRebellionUK",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "CHUBordeaux",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "FaisalJavedKhan",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {"Usernames": "Dilsedesh", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "HussamAlhaj4",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "sputnik_TR", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "TrimiziiiSyeda",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "AndaluciaJunta",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "rupin1992", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "PinolElOriginal",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "helios_en", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "nbstv", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "jonsnowC4", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "SoufOff", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "STIBMIVB", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "tancredipalmeri",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "SpokespersonCHN",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "zlj517", "False": 0, "Partially False": 0, "count": 0},
+      {"Usernames": "Stanford", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "moyavila", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "VirusesImmunity",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Cristiano", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "wilfredocasaso2",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "clairesjam", "False": 2, "Partially False": 0, "count": 2},
+      {"Usernames": "harri_010", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "ImrozRahi3", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "MedUni_Wien",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "CHUdeToulouse",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "footmercato",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "filicaetano",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "boticariagarcia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "jup1897", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "HLNinEngeland",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Madonna", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "PopCrave", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "catherinegaste",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Naismtz7", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "jmdu91290", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "Osornator", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "yovelezarcelay",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "MDSwenson", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "plomoparejo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "SLBurstein", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "DgCanarias", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "alexja25", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "tcsnoticias",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "MindefArg", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "mzwandileMasina",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "NationBreaking",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "BBMPAdmn", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "AzamJamil53",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "RiganoESQ", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "BlackSabbath",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "DPRChhattisgarh",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "citizentvkenya",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "CRTV_web", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "JustinTrudeau",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "marcorubio", "False": 1, "Partially False": 1, "count": 2},
+      {
+        "Usernames": "WANationalGuard",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "womandream", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "tibdewalpooja",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "biancoresearch",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JoannaGrams",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "infocov_stats",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "tprincedelamour",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "EdselSalvana",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "binodkumar999",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "DF_Engineers",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "defenceforces",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {
+        "Usernames": "CoronavirusSTEM",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ChiefPentSpox45",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Muhamma20827944",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "VictoriaPolice",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Kashmir28471265",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "MidisPeru", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "MikeFamiyesin",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "Lord_Sugar", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "mazenmousa7",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "CMOTamilNadu",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "yawerajaz4", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "amstellario",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Sharafa10041128",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "ALOKdelhi6", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "aetiology", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "KKMPutrajaya",
+        "False": 3,
+        "Partially False": 1,
+        "count": 4
+      },
+      {
+        "Usernames": "KKMPutrajaya",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Usernames": "Adela_Micha",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "facts4444", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "facts444", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "ksa_hk23", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "mala13slp", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "PresidenciaCuba",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "DiazCanelB", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "jamarannews",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "CruzRojaAlava",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "MundialesSin",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "PAscierto", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "Mous_taffe", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "Ahmadinejad1956",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "INPS_it", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "vL0k0", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "ItalianAirForce",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "KimKardashian",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "wernerwelge1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ChinaEmbEsp",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "govern", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "GobAragon", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "allfama", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "PabloEchenique",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "NYCMayor", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "Himansh91694280",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "foundation_ma",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "klaralonso", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "veitera", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "IreneMontero",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {"Usernames": "btcpd", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "actufrparis",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "diputacionMLG",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "charliekirk11",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "PoliciaPteGenil",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Chopsyturvey",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "markynhwz", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "alcaldiabquilla",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "joaquinroblesza",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "MZ_GOV_PL", "False": 0, "Partially False": 0, "count": 0},
+      {"Usernames": "IDSIreland", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "CcoHse", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "TomBossert", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "PMEthiopia", "False": 0, "Partially False": 2, "count": 2},
+      {
+        "Usernames": "Bundesagentur",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "UNESPA", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "ITVTANZANIA",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "SpokespersonGoK",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "SwissMedicalG",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JeremyPaoloni",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "SPA_Officiel",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Enfamil", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "Armstrongthevdj",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "GregHuntMP", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "AreaUnoArrixaca",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "JuanVilloro56",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "JuEndrino", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "albyjohnV", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "jeangene_vilmer",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "PawelPiotr1944",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "dwjm94", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "GovtofPunjabPK",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "marcorubio", "False": 0, "Partially False": 0, "count": 0},
+      {"Usernames": "3meed_news", "False": 0, "Partially False": 0, "count": 0},
+      {
+        "Usernames": "DaviePolice",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "NotifyNYC", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "khalidfahad77",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Surgeon_General",
+        "False": 7,
+        "Partially False": 0,
+        "count": 7
+      },
+      {"Usernames": "FMoHealth", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "bencowling88",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "ROSARIOCERDARO1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "demorgang", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "almanbae_news",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "MajorVitorHugo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "mohebrahim85",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "ZhangZhulin",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "caijinglengyan",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "boomlive_in",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Dhiyasri1231",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "SenSchumer",
+        "False": 17,
+        "Partially False": 0,
+        "count": 17
+      },
+      {
+        "Usernames": "koryodynasty",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "MariaesPueblo",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "ChrisMurphyCT",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "msaludpy", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "iris_78yq", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "jose_simao", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "KNH_hospital",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "bbcpersian", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "porquetendencia",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Usernames": "Prabhat93078075",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "shwetsuman1991",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "cuervotinelli",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "balfederico",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "myUNICEF", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "PDChina", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "MohamedBinZayed",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "CyrilRamaphosa",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "BFMTV", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "DrYasminAHaque",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Quicktake", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "MollyBeck", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "yanwang10508606",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "jenniferatntd",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "RepGosar", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "etman09", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "CristiPedroche",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "VOSTeuskadi",
+        "False": 3,
+        "Partially False": 0,
+        "count": 3
+      },
+      {"Usernames": "hnakhli", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "ComunidadMadrid",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Salud_JCYL", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "WHOIndonesia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ProteCivilAvila",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "s_assbague", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "PoliciaLocalSFH",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "pablodeolavide",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "gobjccm", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "PSOE", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "DPCgov", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "OjodeThot", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "SaludMadrid",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "alelitooo", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "maggieNYT", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "OttoHuang120",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "VOSTextremadura",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ZoranRuvidic",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "IdiazAyuso", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "SERCLM", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "UNICEFKenya",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "112Cantabria",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "apcvalladolid",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Gob_eus", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "NewDay", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "MarkusWolfRomeo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Marinellys", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "vonderleyen",
+        "False": 0,
+        "Partially False": 2,
+        "count": 2
+      },
+      {
+        "Usernames": "SheriffClarke",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "SirHenryKau",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "AbogadosAdriano",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "RepGregMurphy",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Alex_balsells",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "LaRazonCo", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "zfrmrza", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "7NewsBrisbane",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "igobyMdot", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "Zatanik0", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "badiucao", "False": 2, "Partially False": 0, "count": 2},
+      {
+        "Usernames": "AmericoDeGrazia",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "AlbertoRodNews",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Marcoslimamd",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "detresfa_", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "maiamajumder",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "CGTNOfficial",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "Jkylebass", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "Terrence_STR",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "MRSS11224611",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "hollyhaygood",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "CH_Argenteuil",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "DocBear5", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "themodi_in", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "ryouansensei",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "MgOqkzLBRPLCHyN",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "matteosalvinimi",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Usernames": "hashimoto_lo",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Entekhab_News",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "honghong975",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "ingridcarlqvist",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "KenyaAirways",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "StevenSalzberg1",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "bblarsen1", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "Maheen83086711",
+        "False": 2,
+        "Partially False": 0,
+        "count": 2
+      },
+      {
+        "Usernames": "Taihoku1895",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "VTVcanal8", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "CStoreNews_",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "Attila70260000",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "AF_indian", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "kiss486", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "kharaguchi", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "SatoMasahisa",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "The_Web_Warrior",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "nerd_hawk", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "gobertolima",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "nepmutiva", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "AdamJKucharski",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "FarhangNamdar",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "SimonTartarotti",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "pr_moph", "False": 0, "Partially False": 0, "count": 0},
+      {"Usernames": "atrupar", "False": 0, "Partially False": 2, "count": 2},
+      {"Usernames": "Milbank", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "realdanlyons",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "DHSCgovuk", "False": 0, "Partially False": 0, "count": 0},
+      {
+        "Usernames": "drfahrettinkoca",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "hidalgohealth",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "UNICEFHaiti",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "KemenkesRI", "False": 2, "Partially False": 0, "count": 2},
+      {"Usernames": "kaym0na3", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "tylerpazar", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "harbhajan_singh",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Usernames": "Mayi21298822",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "saomargarciavi",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "wordwisdoms",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "boosmaster4",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "WhiteHouse45",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {"Usernames": "ispch", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "RepMattGaetz",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "newsmax", "False": 0, "Partially False": 0, "count": 0},
+      {
+        "Usernames": "Florencia_Pink",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "AnnastaciaMP",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "oUllw40ndgQUEx3",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "brhodes", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "DenisMukwege",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "SaludDeportesBo",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {"Usernames": "SarveshTv", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "EricTopol", "False": 0, "Partially False": 0, "count": 0},
+      {
+        "Usernames": "ravivallabha",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "horacioazzolin",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "NoticiasRCN",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "MartinLerga",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "aatmnirbharin",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "RealJamesWoods",
+        "False": 1,
+        "Partially False": 1,
+        "count": 2
+      },
+      {
+        "Usernames": "nick_farriella",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "GOPLeader", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "BostonJudy3",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "bucadibeppo",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "SRuhle", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "KalyanVarma",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "lukeskila", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "candidamoss",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "kendallybrown",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "jeffgritchen",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "KeiraSavage00",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "RexChapman", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "MollyOShah", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "Drew_Hammill",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "nnpeoples97",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "AventuraObscura",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "RealJamesWoods",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {
+        "Usernames": "RobertKlemko",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "covsinghtj", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "JasonLikesIowa",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "Myrkulite", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "JaneLytv", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "PuspendraTweet",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "harbhajan_singh",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {"Usernames": "TitosVodka", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "ParveenKaswan",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "HillaryClinton",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "NickHintonn",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {"Usernames": "DailyMail", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "nowthisnews",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "lochiediame",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "profshanecrotty",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "TimRunsHisMouth",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "cuadrosr", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "anshulchopraa",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "DuncanPeggMP",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "mara_carfagna",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "rapplerdotcom",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "officialmcafee",
+        "False": 0,
+        "Partially False": 0,
+        "count": 0
+      },
+      {"Usernames": "aperiozar", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "JHSPH_CHS", "False": 1, "Partially False": 0, "count": 1},
+      {
+        "Usernames": "sfchronicle",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {"Usernames": "Geoloong", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "DGrieshnak", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "ashakiiii", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "kohyu1952", "False": 0, "Partially False": 2, "count": 2},
+      {"Usernames": "MailOnline", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "Undoomed", "False": 1, "Partially False": 0, "count": 1},
+      {"Usernames": "joshtpm", "False": 0, "Partially False": 1, "count": 1},
+      {"Usernames": "morphonios", "False": 0, "Partially False": 1, "count": 1},
+      {
+        "Usernames": "RUMAANSHAIKH",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "OfficerBandit",
+        "False": 1,
+        "Partially False": 0,
+        "count": 1
+      },
+      {
+        "Usernames": "LeaderHoyer",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      },
+      {
+        "Usernames": "joncoopertweets",
+        "False": 0,
+        "Partially False": 1,
+        "count": 1
+      }
+      ],
+      "transform": [
+        {"type": "fold", "fields": ["False", "Partially False"]},
+        {"type": "filter", "expr": "datum.count >= 8 && datum.count <= 35"}
+        ]      
+    }
+  ],
+  "scales": [
+    {
+      "name": "yscale",
+      "type": "band",
+      "domain": {"data": "table", "field": "Usernames"},
+      "range": "height",
+      "padding": 0.2
+    },
+    {
+      "name": "xscale",
+      "type": "linear",
+      "domain": {"data": "table", "field": "value"},
+      "range": "width",
+      "round": true,
+      "zero": true,
+      "nice": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "key"},
+      "range": {"scheme": "category10"}
+    }
+  ],
+
+  "axes": [
+    {"orient": "left", "scale": "yscale", "tickSize": 0, "labelPadding": 4, "zindex": 1, "labelFontSize":12},
+    {"orient": "bottom", "scale": "xscale","labelFontSize":12}
+  ],
+  "legends": [
+    {
+      "type": "symbol",
+      "title": "Category",
+      "fill": "color",
+      "direction": "vertical",
+      "rowPadding": 5,
+      "columnPadding": 8,
+      "clipHeight": 0,
+      "titleOrient": "top",
+      "symbolStrokeColor": "#fff",
+      "symbolStrokeWidth": 1,
+      "labelFontSize":12,
+      "titleFontSize":14
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "group",
+
+      "from": {
+        "facet": {
+          "data": "table",
+          "name": "facet",
+          "groupby": "Usernames"
+        }
+      },
+
+      "encode": {
+        "enter": {
+          "y": {"scale": "yscale", "field": "Usernames"}
+        }
+      },
+
+      "signals": [
+        {"name": "height", "update": "bandwidth('yscale')"}
+      ],
+
+      "scales": [
+        {
+          "name": "pos",
+          "type": "band",
+          "range": "height",
+          "domain": {"data": "facet", "field": "key"}
+        }
+      ],
+
+      "marks": [
+        {
+          "name": "bars",
+          "from": {"data": "facet"},
+          "type": "rect",
+          "encode": {
+            "enter": {
+              "y": {"scale": "pos", "field": "key"},
+              "height": {"scale": "pos", "band": 1},
+              "x": {"scale": "xscale", "field": "value"},
+              "x2": {"scale": "xscale", "value": 0},
+              "fill": {"scale": "color", "field": "key"},
+              "tooltip": {
+           "signal": "{title: datum.Usernames, 'Type': datum.key, 'Count':datum.value}"
+          }
+          }
+        }
+        }
+      ]
+    }
+  ]
+}

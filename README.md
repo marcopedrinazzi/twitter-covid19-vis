@@ -9,8 +9,6 @@
 
 <h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3>
 
-<h2>Assicurarsi che la mentions network sia davvero un insieme di reti sociali (anche se il grafo è diretto)</h2>
-
 <h2>Assicurarsi che la min/max negli scatter sia corretta</h2>
 
 <h2>HEATMAP IN NOTEBOOK DIVISE IN PARTIALLY FALSE, FALSE E TUTTI?</h2>

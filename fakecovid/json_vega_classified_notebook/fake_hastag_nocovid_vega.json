@@ -1,0 +1,2098 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "The most frequent hashtags classified by category (False, Partually False) WITHOUT COVID-RELATED WORDS",
+  "width": 450,
+  "height": 350,
+  "padding": 5,
+  "title": {
+    "text": "The most frequent hashtags classified by category (False, Partually False) WITHOUT COVID-RELATED WORDS",
+    "fontSize": 16,
+    "offset": 20
+  },
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "Hashtags": "fakenews",
+          "False": 26,
+          "Partially False": 1,
+          "count": 27
+        },
+        {
+          "Hashtags": "stopbulos",
+          "False": 19,
+          "Partially False": 0,
+          "count": 19
+        },
+        {"Hashtags": "fake", "False": 13, "Partially False": 2, "count": 15},
+        {"Hashtags": "china", "False": 9, "Partially False": 4, "count": 13},
+        {
+          "Hashtags": "pibfactcheck",
+          "False": 10,
+          "Partially False": 2,
+          "count": 12
+        },
+        {
+          "Hashtags": "stayathome",
+          "False": 11,
+          "Partially False": 0,
+          "count": 11
+        },
+        {"Hashtags": "wuhan", "False": 7, "Partially False": 3, "count": 10},
+        {"Hashtags": "stayhome", "False": 8, "Partially False": 0, "count": 8},
+        {
+          "Hashtags": "yomeequedoencasa",
+          "False": 3,
+          "Partially False": 5,
+          "count": 8
+        },
+        {
+          "Hashtags": "fakenewsalert",
+          "False": 5,
+          "Partially False": 1,
+          "count": 6
+        },
+        {
+          "Hashtags": "madagascar",
+          "False": 5,
+          "Partially False": 0,
+          "count": 5
+        },
+        {"Hashtags": "bulen", "False": 5, "Partially False": 0, "count": 5},
+        {"Hashtags": "sotu", "False": 5, "Partially False": 0, "count": 5},
+        {"Hashtags": "burundi", "False": 5, "Partially False": 0, "count": 5},
+        {"Hashtags": "whatsapp", "False": 4, "Partially False": 0, "count": 4},
+        {"Hashtags": "africa", "False": 4, "Partially False": 0, "count": 4},
+        {"Hashtags": "alert", "False": 4, "Partially False": 0, "count": 4},
+        {
+          "Hashtags": "quedeencase",
+          "False": 1,
+          "Partially False": 3,
+          "count": 4
+        },
+        {"Hashtags": "nopic", "False": 4, "Partially False": 0, "count": 4},
+        {"Hashtags": "military", "False": 4, "Partially False": 0, "count": 4},
+        {"Hashtags": "thread", "False": 4, "Partially False": 0, "count": 4},
+        {
+          "Hashtags": "applausosolidario",
+          "False": 0,
+          "Partially False": 4,
+          "count": 4
+        },
+        {"Hashtags": "spain", "False": 3, "Partially False": 1, "count": 4},
+        {"Hashtags": "phishing", "False": 3, "Partially False": 0, "count": 3},
+        {"Hashtags": "crown", "False": 1, "Partially False": 2, "count": 3},
+        {
+          "Hashtags": "socialdistancing",
+          "False": 3,
+          "Partially False": 0,
+          "count": 3
+        },
+        {
+          "Hashtags": "takeresponsibility",
+          "False": 3,
+          "Partially False": 0,
+          "count": 3
+        },
+        {
+          "Hashtags": "breakingnews",
+          "False": 3,
+          "Partially False": 0,
+          "count": 3
+        },
+        {"Hashtags": "staysafe", "False": 3, "Partially False": 0, "count": 3},
+        {"Hashtags": "caregary", "False": 3, "Partially False": 0, "count": 3},
+        {"Hashtags": "italy", "False": 2, "Partially False": 1, "count": 3},
+        {
+          "Hashtags": "wuhanpneumonia",
+          "False": 3,
+          "Partially False": 0,
+          "count": 3
+        },
+        {
+          "Hashtags": "caravanagobiernodimision",
+          "False": 3,
+          "Partially False": 0,
+          "count": 3
+        },
+        {
+          "Hashtags": "biletet1000pesos",
+          "False": 3,
+          "Partially False": 0,
+          "count": 3
+        },
+        {
+          "Hashtags": "knowthefacts",
+          "False": 3,
+          "Partially False": 0,
+          "count": 3
+        },
+        {"Hashtags": "cuba", "False": 2, "Partially False": 1, "count": 3},
+        {"Hashtags": "lebanon", "False": 3, "Partially False": 0, "count": 3},
+        {
+          "Hashtags": "óglaighnahéireann",
+          "False": 3,
+          "Partially False": 0,
+          "count": 3
+        },
+        {
+          "Hashtags": "applausocolective",
+          "False": 0,
+          "Partially False": 3,
+          "count": 3
+        },
+        {"Hashtags": "breaking", "False": 2, "Partially False": 1, "count": 3},
+        {"Hashtags": "lieber", "False": 0, "Partially False": 3, "count": 3},
+        {"Hashtags": "algeria", "False": 3, "Partially False": 0, "count": 3},
+        {"Hashtags": "uae", "False": 0, "Partially False": 3, "count": 3},
+        {
+          "Hashtags": "knowyourfacts",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "strengthenthenation",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "faseliberbertad",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "newsisciii.",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {"Hashtags": "influenza", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "kkk2020", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "ecowas", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "factcheck", "False": 1, "Partially False": 1, "count": 2},
+        {
+          "Hashtags": "coronavirusespana",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {"Hashtags": "kenya", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "report", "False": 1, "Partially False": 1, "count": 2},
+        {"Hashtags": "chinese", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "event201", "False": 0, "Partially False": 2, "count": 2},
+        {
+          "Hashtags": "waragainstvirus",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "azithromycin",
+          "False": 0,
+          "Partially False": 2,
+          "count": 2
+        },
+        {"Hashtags": "marr", "False": 2, "Partially False": 0, "count": 2},
+        {
+          "Hashtags": "hydroxychloroquine",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "reliefnotreopen",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "chloroquine",
+          "False": 1,
+          "Partially False": 1,
+          "count": 2
+        },
+        {"Hashtags": "kuwait", "False": 1, "Partially False": 1, "count": 2},
+        {
+          "Hashtags": "shaheenbaghprotest",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {"Hashtags": "belgium", "False": 2, "Partially False": 0, "count": 2},
+        {
+          "Hashtags": "jikingewawewine.",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {"Hashtags": "brussels", "False": 2, "Partially False": 0, "count": 2},
+        {
+          "Hashtags": "publichealth",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "jantacurfew",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {"Hashtags": "equedv", "False": 0, "Partially False": 2, "count": 2},
+        {"Hashtags": "mask", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "cricket", "False": 2, "Partially False": 0, "count": 2},
+        {
+          "Hashtags": "togetherweakens",
+          "False": 1,
+          "Partially False": 1,
+          "count": 2
+        },
+        {"Hashtags": "5g", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "afp", "False": 2, "Partially False": 0, "count": 2},
+        {
+          "Hashtags": "meduniwien",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {"Hashtags": "sanitary", "False": 1, "Partially False": 1, "count": 2},
+        {
+          "Hashtags": "argentenaunida.",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {"Hashtags": "service", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "ourense", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "irs", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "pakistan", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "applause", "False": 1, "Partially False": 1, "count": 2},
+        {"Hashtags": "who", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "noway", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "badgers", "False": 0, "Partially False": 2, "count": 2},
+        {"Hashtags": "direct", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "urgent", "False": 1, "Partially False": 1, "count": 2},
+        {"Hashtags": "thanks", "False": 0, "Partially False": 2, "count": 2},
+        {"Hashtags": "india", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "health", "False": 0, "Partially False": 2, "count": 2},
+        {
+          "Hashtags": "dawoodibrahim",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "washyourhands",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "staysafeug",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "dean_الإمارات",
+          "False": 1,
+          "Partially False": 1,
+          "count": 2
+        },
+        {
+          "Hashtags": "sundaythoughts",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "healthworkers",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "indianarmy",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {
+          "Hashtags": "perústánuestrasanos",
+          "False": 2,
+          "Partially False": 0,
+          "count": 2
+        },
+        {"Hashtags": "7news", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "msc2020", "False": 2, "Partially False": 0, "count": 2},
+        {"Hashtags": "hadioali", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "atca", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "evitaelcoronavirus",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "koronaawirus",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "heartbreaking",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "jakarta", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "gudipadwa", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "indonesia", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "extinctionrebellion",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "didierraout",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "jummahmubarak",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "irise", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "suicidebombers",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "weekacitizen.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "iorestocasa",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "cr7", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "covid19esp",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "respect", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "canaryislands",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "aims", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "covid2019india",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "onumxcovid19",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "fake_news", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "cameroon", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "boozepeddlers",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "blindness___",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "mers", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "sars", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "flu", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "stub", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "nbsupdates",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "updwomensmonth2020",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "liquorprohibition",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "drybihar", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "him-her-it",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "dead", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "takingoncorona",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "thepolice", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "asimean", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "sailingstore",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "applausosanitary",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "servicesexitos",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "heroessincapa",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "france", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "usa", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "london", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "socialresponsability",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "weresist", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "firefighter",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "narnacbn", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "iwwd2020", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "icymi", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "txlege", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "staysafefromrumours",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "cbncontraocoronavírus",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "โควิดー19", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "lockdownindia",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "lockdown21",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "tunloharasposible",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "kemoshacorona",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "nostradamus",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "soyusuario",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "charity_", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "coronavirusinsa",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "nice06", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "indiafightscoronavirus",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "testtesttest",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "prayforcroatia",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "earthquake",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "croatia", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "covid_19india",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "edoméx", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "españa", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "calahorra.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "rajasthan_charak_hai",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "covid19france",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "covid19ch", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "koronaawirusem",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "thelatest", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "gaumutra", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "coronavirusvs_bhakts",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "breakingbad",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "false", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "cubaessalud",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "saturday", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "interferon",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "cdc", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "ppe", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "malaria", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "romania", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "president", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "soldier", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "bioweapon", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "dailylie", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "blackhistorymonth",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "restorethevote",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "коронавирус",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "コロナウイルス", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "코로나바이러스", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "וירוס", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "冠狀病毒", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "cscec", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "somefortaltalaydediation",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "envideo", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "novelcoronavirus",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "coronaviruses",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "updates", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "coronoavirus",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "sailor", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "wuhanoutbreak",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "cdguayana", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "pneumonia", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "hunting", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "larazóntv.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "larazonco.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "supporting",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "yoelijolal.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "cordova", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "standwithitaly",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "lombardy", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "streaming", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "coronavid19",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "codvid19espana",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "corononavirus",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "coronavirustruth",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "ไวรัสโคโรนาสายพันธุ์ใหม่2019",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "dukungmermas",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "trumpburialpits",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "healthforall",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "ncov2020", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "gretathunberg",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "biologicalwarefare",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "harvard", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "cunial", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "veryhard", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "bergamo", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "coronavirusitalia.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "pollution", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "punjab", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "dividebyzero",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "legends", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "protest", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "huntingtonbeach",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "carefulindia",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "medical", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "nagpur", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "quarantineporlocalys",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "sundaymorning",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "pride", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "important", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "corvid19", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "highthoughts",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "healthies", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "contents19",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "coronavirus.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "update", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "infocoronavirus",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "serbia", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "coronavirusespar",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "statheralanational.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "tontodelbulo",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "rrss", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "paris", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "acte70", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "giletsjaunes",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "thl", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "process", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "europe", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "coronaviruspendemia",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "coronaviruspanama.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "covid2019italia",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "covid19mx", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "covid19pt", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "coronaviruschallenge.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "askesempreoni",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "wriskedelleimitations",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "cruzroja.", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "somecuba.", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "añonuevolunar.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "ji", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "changandbell",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "stayathomesavelives",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "tnggt", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "kashmir", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "loc", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "russia", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "securityforces",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "support", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "engineer", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "covid19de.",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "educationfinanciera.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "citycouncils",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "disclaimer.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "valencia", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "ccp", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "qu", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "foreverychild",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "malaysia", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "bigbreaking",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "womenofshaheenbagh",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "shaheenbagh",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "forcefetal.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "wuhanfengcheng",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "wuhanchina",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "wuhancoronavius",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "attention", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "ivángonzáz",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "coronavirusfacts",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "dyk", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "sundayspotlight",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "cacasobrador",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "wednesdaywisdom",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "pmoethiopia",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "scam", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "putin", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "punjakkovirusupte",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "wife", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "loyalty", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "covidindia",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "extension", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "handwashing",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "redesignial",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "labankatipunera",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "coronavirusoubreak",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "shedecides",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "polarvortex",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "madrid", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "stopblosgubbernamentales",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "assam", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "kaziranga", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "socialsecurity",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "schengen", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "show", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "laalsinghchaddha",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "maharashtra",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "pmcares", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "aamirkhan", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "ramaphosa", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "honduras", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "belotascontraocoronavirus.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "nowuptoyou",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "tecuidomecued",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "bolivia", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "reporteoficial",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "herdimmunity",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "relief", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "rcnradioencasacontigol",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "zerostigma",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "stopstigma",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "tanzaniaupdates",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "jpmkt", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "vivaespañ.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "packed", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "nuñeñezdebalboa",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "pasamamos", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "nohayplanb",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "christmas", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "befana", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "foxnews", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "vaccines", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "safeautomotor",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "newnormal", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "hdpros", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "covid19gn", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "kibar", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "rwanda", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "stayhomesavelives",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "hantavirus",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "dongri", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "masjid", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "spanish", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "diprfakenewsalert",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "kag", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "brandnames",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "maga", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "obamagate", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "trumpsjealousofobama",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "afyacallcentre",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "coronavirusaustralia",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "medicine", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "sweden", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "violenciawesters",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "quarantinconderechos",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "dawn", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "quarantineextended.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "migrantlabourers",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "fierce", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "government;",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "governciminal",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "scamdemic", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "rentrelief",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "newformality",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "dubai", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "income;", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "id2020", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "anglesey", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "bloomberg", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "covidfriday",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "nobajemoslaguardia",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "maskoule", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "sgrhindia", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "diarmo", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "elalpha", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "manpohon", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "floridaunemployment",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "valemo", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "florida", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "rahuldumpsmaharashtra",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "bujumbura", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "uganda", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "handinhandwithuganda",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "nurse", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "wilmes", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "hospital", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "lockdown3", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "baramulla", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "jammuandkashmir",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "russian", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "telanganafightscorona",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "nhk_news", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "failedstate",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "dayainternationaldeelaenferry",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "withme", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "wiright", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "mspls", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "stayinformed",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "jimmykimmellivefromhishouse",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "recall", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "covid19_mx",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "tuxpan.", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "reportecovid19",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "5gcoronavirus",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "jackma", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "alibaba", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "nbc", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "covid19ireland",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "ibuprofen", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "guatemala", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "askwho", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "kachiguda", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "ramakrishna",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "dawood", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "karachi", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "diplomamercialgt.",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "delhi", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "coronainfocg.",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "now", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "masks", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "guerracontraelcovid19.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "covidorganics",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "wha73", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "ozonehole", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "noticssn.", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "ozone", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "worldhealthday",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "worldnews", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "arynewslivehd",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "channel", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "news", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "live", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "pak", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "educatingmwananchi",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "uppagainstfakenews",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "ncdc", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "donotfall", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "ciberalecta",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "ifemaerestú.",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "hospitalifema",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "swasthabharat",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "fink_gamb_nhani",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "ginp", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "decoration",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "irreproduciblefigure1",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "hydroxycloroquine",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "weaken", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "thelast", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "rebootx1_2020",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "copernicusatmosphere",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "nourishandnurture",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "elsan", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "infox", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "srilankanairlines",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "colombo", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "ozootv", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "android", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "zoom", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "yourpsychologist",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "coronavirusfrance",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "unitedstatesanado",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "mexico", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "mileg", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "migov", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "imssjalisco",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "méxicosolidario",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "yearcia", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "stayteensaya",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "caracas", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "neukölln", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "chandigarh",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "coronavirusoutbreakindia",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "foodpanda", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "newcoronavirus",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "newpneumonia",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "newsfals", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "curfewupdates",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {"Hashtags": "pmdnews", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "minsa.", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "coronapocolypse",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "covidtesting",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "covid19colombia",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "setumerabodyguard",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "fakevideo", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "mandwa", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "maisaamagriby",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "lahore", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "mansplainingin5words",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "trumppressconf",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "nine2noon", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "hchloroquine",
+          "False": 0,
+          "Partially False": 1,
+          "count": 1
+        },
+        {
+          "Hashtags": "fertilization",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "merkel", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "beirut", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "norwayriots",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "corna", "False": 0, "Partially False": 1, "count": 1},
+        {"Hashtags": "m5s.", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "triment", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "ifitssunday",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "mtp", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "byculla", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "warispathan",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "itsinourhands",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "peeling", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "trucker", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "roadtransport",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "cetm", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "carriers.", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "transportesdemarcancies",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "trucks", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "lies", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "pia", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "vaccineswork",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "bring_populationcontrolbill",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "qanon", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "ononnoublierapas",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "780am", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "what'shappening",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "cnntownhall",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "pune", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "costco", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "timo", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "steady", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "openthemosques",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "telecommuting",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "swindle", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "fraud", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "cartasnigerians",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "preventcovid19",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "turkey", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "biharhealthdept",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {
+          "Hashtags": "castillalamancha",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "envy", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "cibercovid19",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "malware", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "i24news", "False": 0, "Partially False": 1, "count": 1},
+        {
+          "Hashtags": "firstalertwx",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "biocides", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "boe", "False": 1, "Partially False": 0, "count": 1},
+        {"Hashtags": "fumigate", "False": 1, "Partially False": 0, "count": 1},
+        {
+          "Hashtags": "whitehousepressbriefing",
+          "False": 1,
+          "Partially False": 0,
+          "count": 1
+        },
+        {"Hashtags": "china", "False": 0, "Partially False": 0, "count": 0},
+        {
+          "Hashtags": "quedeencase",
+          "False": 0,
+          "Partially False": 0,
+          "count": 0
+        },
+        {"Hashtags": "wuhan", "False": 0, "Partially False": 0, "count": 0},
+        {
+          "Hashtags": "chloroquine",
+          "False": 0,
+          "Partially False": 0,
+          "count": 0
+        },
+        {
+          "Hashtags": "pibfactcheck",
+          "False": 0,
+          "Partially False": 0,
+          "count": 0
+        },
+        {"Hashtags": "breaking", "False": 0, "Partially False": 0, "count": 0},
+        {"Hashtags": "crown", "False": 0, "Partially False": 0, "count": 0},
+        {"Hashtags": "fake", "False": 0, "Partially False": 0, "count": 0},
+        {
+          "Hashtags": "fakenewsalert",
+          "False": 0,
+          "Partially False": 0,
+          "count": 0
+        },
+        {
+          "Hashtags": "togetherweakens",
+          "False": 0,
+          "Partially False": 0,
+          "count": 0
+        },
+        {"Hashtags": "italy", "False": 0, "Partially False": 0, "count": 0},
+        {
+          "Hashtags": "yomeequedoencasa",
+          "False": 0,
+          "Partially False": 0,
+          "count": 0
+        },
+        {"Hashtags": "factcheck", "False": 0, "Partially False": 0, "count": 0},
+        {"Hashtags": "applause", "False": 0, "Partially False": 0, "count": 0},
+        {"Hashtags": "urgent", "False": 0, "Partially False": 0, "count": 0},
+        {"Hashtags": "spain", "False": 0, "Partially False": 0, "count": 0},
+        {"Hashtags": "report", "False": 0, "Partially False": 0, "count": 0},
+        {
+          "Hashtags": "dean_الإمارات",
+          "False": 0,
+          "Partially False": 0,
+          "count": 0
+        },
+        {"Hashtags": "fakenews", "False": 0, "Partially False": 0, "count": 0},
+        {"Hashtags": "kuwait", "False": 0, "Partially False": 0, "count": 0},
+        {"Hashtags": "sanitary", "False": 0, "Partially False": 0, "count": 0},
+        {"Hashtags": "cuba", "False": 0, "Partially False": 0, "count": 0}
+      ],
+      "transform": [
+        {"type": "fold", "fields": ["False", "Partially False"]},
+        {"type": "filter", "expr": "datum.count >= 6 && datum.count <= 27"}
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "yscale",
+      "type": "band",
+      "domain": {"data": "table", "field": "Hashtags"},
+      "range": "height",
+      "padding": 0.2
+    },
+    {
+      "name": "xscale",
+      "type": "linear",
+      "domain": {"data": "table", "field": "value"},
+      "range": "width",
+      "round": true,
+      "zero": true,
+      "nice": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "key"},
+      "range": {"scheme": "category10"}
+    }
+  ],
+  "axes": [
+    {
+      "orient": "left",
+      "scale": "yscale",
+      "tickSize": 0,
+      "labelPadding": 4,
+      "zindex": 1,
+      "labelFontSize": 12
+    },
+    {"orient": "bottom", "scale": "xscale", "labelFontSize": 12}
+  ],
+  "legends": [
+    {
+      "type": "symbol",
+      "title": "Category",
+      "fill": "color",
+      "direction": "vertical",
+      "rowPadding": 5,
+      "columnPadding": 8,
+      "clipHeight": 0,
+      "titleOrient": "top",
+      "symbolStrokeColor": "#fff",
+      "symbolStrokeWidth": 1,
+      "labelFontSize": 12,
+      "titleFontSize": 14
+    }
+  ],
+  "marks": [
+    {
+      "type": "group",
+      "from": {
+        "facet": {"data": "table", "name": "facet", "groupby": "Hashtags"}
+      },
+      "encode": {"enter": {"y": {"scale": "yscale", "field": "Hashtags"}}},
+      "signals": [{"name": "height", "update": "bandwidth('yscale')"}],
+      "scales": [
+        {
+          "name": "pos",
+          "type": "band",
+          "range": "height",
+          "domain": {"data": "facet", "field": "key"}
+        }
+      ],
+      "marks": [
+        {
+          "name": "bars",
+          "from": {"data": "facet"},
+          "type": "rect",
+          "encode": {
+            "enter": {
+              "y": {"scale": "pos", "field": "key"},
+              "height": {"scale": "pos", "band": 1},
+              "x": {"scale": "xscale", "field": "value"},
+              "x2": {"scale": "xscale", "value": 0},
+              "fill": {"scale": "color", "field": "key"},
+              "tooltip": {
+                "signal": "{title: datum.Hashtags, 'Type': datum.key, 'Count':datum.value}"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
