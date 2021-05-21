@@ -2,17 +2,9 @@
 
 <h2>Aggiungere un interazione per far vedere il testo del valore nelle colonne dei bar chart</h2>
 
-
 # FIX
 
-<h2>!!! NELLE FAKE NEWS VA LETTO IL CSV E IN QUALCHE MANIERA CATALOGATO COSA è PARTIALLY FALSE o FALSE !!!</h2>
-
-<h3>IL GEN FROM FREQ IGNORA LE STOPWORDS E ALTRE COSE. VEDI RIFERIMENTO LIBRERIA</h3>
-
 <h2>Assicurarsi che la min/max negli scatter sia corretta</h2>
-
-<h2>HEATMAP IN NOTEBOOK DIVISE IN PARTIALLY FALSE, FALSE E TUTTI?</h2>
-
 
 # IDEE
 
