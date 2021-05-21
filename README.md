@@ -1,16 +1,12 @@
 # TODO
 
-<h2>Aggiungere un interazione per far vedere il testo del valore nelle colonne dei bar chart</h2>
+## Aggiungere un interazione per far vedere il testo del valore nelle colonne dei bar chart
+
+## Abbellire il github
 
 # FIX
 
-<h2>Assicurarsi che la min/max negli scatter sia corretta</h2>
-
-# IDEE
-
-https://usc-melady.github.io/COVID-19-Tweet-Analysis/misinfo.html, https://storybench.shinyapps.io/covid-tweets/, https://mykabir.github.io/coronavis/, https://arxiv.org/abs/2005.05710
-
-• <b>ASSOLUTAMENTE DA COMPARARE I DUE DATASET</b>
+## Assicurarsi che la min/max negli scatter sia corretta
 
 # Twitter Covid19 Visualisation
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]

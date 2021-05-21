@@ -1,5 +1,7 @@
 # Slides
 
+# ASSOLUTAMENTE DA COMPARARE I DUE DATASET dove possibile
+
 - Dire dei colori che sono tutti color blind friendly, lo schema di paul tol per le word cloud
 - Titolo
 - Licenza
