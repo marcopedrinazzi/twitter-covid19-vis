@@ -1,7 +1,4 @@
 # TODO
-<h2>DATA INK RATIO principle: è necessaria la legenda se già ci sono le label sull'asse x dei fake grouped bar chart?
-
-==> Rimuovere label asse x, mettere legenda a sinistra</h2>
 
 <h2>Aggiungere un interazione per far vedere il testo del valore nelle colonne dei bar chart</h2>
 

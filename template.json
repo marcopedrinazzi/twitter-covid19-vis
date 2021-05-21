@@ -1,0 +1,124 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "The most frequent bigrams classified by category (False, Partually False)",
+  "width": 450,
+  "height": 350,
+  "padding": 5,
+  "title": {
+      "text":"The most frequent bigrams classified by category (False, Partually False)",
+      "fontSize":16,
+      "offset":20
+  },
+
+
+  "data": [
+    {
+      "name": "table",
+      "values": [
+
+      ],
+      "transform": [
+        {"type": "fold", "fields": ["False", "Partially False"]},
+        {"type": "filter", "expr": "datum.Count >= 3 && datum.Count <= 6"}
+        ]      
+    }
+  ],
+  "scales": [
+    {
+      "name": "yscale",
+      "type": "band",
+      "domain": {"data": "table", "field": "Trigrams"},
+      "range": "height",
+      "padding": 0.2
+    },
+    {
+      "name": "xscale",
+      "type": "linear",
+      "domain": {"data": "table", "field": "value"},
+      "range": "width",
+      "round": true,
+      "zero": true,
+      "nice": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "key"},
+      "range": {"scheme": "category10"}
+    }
+  ],
+
+  "axes": [
+    {"orient": "left", "scale": "yscale", "tickSize": 0, "labelPadding": 4, "zindex": 1, "labelFontSize":12},
+    {"orient": "bottom", "scale": "xscale","labelFontSize":12}
+  ],
+  "legends": [
+    {
+      "type": "symbol",
+      "title": "Category",
+      "fill": "color",
+      "direction": "vertical",
+      "rowPadding": 5,
+      "columnPadding": 8,
+      "clipHeight": 0,
+      "titleOrient": "top",
+      "symbolStrokeColor": "#fff",
+      "symbolStrokeWidth": 1,
+      "labelFontSize":12,
+      "titleFontSize":14
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "group",
+
+      "from": {
+        "facet": {
+          "data": "table",
+          "name": "facet",
+          "groupby": "Trigrams"
+        }
+      },
+
+      "encode": {
+        "enter": {
+          "y": {"scale": "yscale", "field": "Trigrams"}
+        }
+      },
+
+      "signals": [
+        {"name": "height", "update": "bandwidth('yscale')"}
+      ],
+
+      "scales": [
+        {
+          "name": "pos",
+          "type": "band",
+          "range": "height",
+          "domain": {"data": "facet", "field": "key"}
+        }
+      ],
+
+      "marks": [
+        {
+          "name": "bars",
+          "from": {"data": "facet"},
+          "type": "rect",
+          "encode": {
+            "enter": {
+              "y": {"scale": "pos", "field": "key"},
+              "height": {"scale": "pos", "band": 1},
+              "x": {"scale": "xscale", "field": "value"},
+              "x2": {"scale": "xscale", "value": 0},
+              "fill": {"scale": "color", "field": "key"},
+              "tooltip": {
+           "signal": "{title: datum.Trigrams, 'Type': datum.key, 'Count':datum.value}"
+          }
+          }
+        }
+        }
+      ]
+    }
+  ]
+}
