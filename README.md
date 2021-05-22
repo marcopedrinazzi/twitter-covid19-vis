@@ -1,14 +1,14 @@
 # TODO
 
-## Aggiungere un interazione per far vedere il testo del valore nelle colonne dei bar chart
-
 ## Abbellire il github
 
 ## Rimuovere dataset json da github. Lasciare una demo del json anonimizzato.
 
-# FIX
+## Se i colori della word cloud sono brutti https://observablehq.com/@d3/color-schemes?collection=@d3/d3-scale-chromatic CATEGORY10
+(meno parole e min_font piu grosso)
 
-## Assicurarsi che la min/max negli scatter sia corretta
+## Controllare che i GRAFICI no covid non abbiano parole covid
+
 
 # Twitter Covid19 Visualisation
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]

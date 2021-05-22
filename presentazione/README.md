@@ -2,6 +2,8 @@
 
 # ASSOLUTAMENTE DA COMPARARE I DUE DATASET dove possibile
 
+# Dove c'è interattività fare vedere il notebook (da valutare)
+
 - Dire dei colori che sono tutti color blind friendly, lo schema di paul tol per le word cloud
 - Titolo
 - Licenza
@@ -13,7 +15,7 @@
 - Tabelle (fake e general) **Notebook tabelle fake e general** Dire che le tabelle sono collegate al pre processing degli url
 - Dates **Notebook dates general fake** e Heatmap dates **notebook* 
 - Word Cloud **notebook** seguita dal suo bar chart della frequenza **notebook**
-
+- Emoji **notebooks**
 
 - Mentions network Notebook **notebook solo fake**
 
@@ -25,4 +27,6 @@
 
 - Polar chart **notebook fake**
 
-- Scatter **notebook**
+- Scatters **notebook**
+
+- Mappa General **notebook**
