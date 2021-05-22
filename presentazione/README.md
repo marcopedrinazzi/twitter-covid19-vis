@@ -7,6 +7,7 @@
 - Licenza
 - Intro/Spiegazione dei due dataset:
     - Parlare del pre processing fatto (traduzione, ecc.) **Notebook pre processing fake e general**
+    - Parlare del json (esempio anonimizzato)
     - Il pie chart di fake che fa vedere la percentuale false e p false **Notebook pie chart fake**
 - Spiegare un modello di una entry del json come è strutturata
 - Tabelle (fake e general) **Notebook tabelle fake e general** Dire che le tabelle sono collegate al pre processing degli url

@@ -4,6 +4,8 @@
 
 ## Abbellire il github
 
+## Rimuovere dataset json da github. Lasciare una demo del json anonimizzato.
+
 # FIX
 
 ## Assicurarsi che la min/max negli scatter sia corretta
