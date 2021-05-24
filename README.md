@@ -2,8 +2,6 @@
 
 ## Abbellire il github
 
-## Rimuovere dataset json da github. Lasciare una demo del json anonimizzato.
-
 ## Se i colori della word cloud sono brutti https://observablehq.com/@d3/color-schemes?collection=@d3/d3-scale-chromatic CATEGORY10
 (meno parole e min_font piu grosso)
 
