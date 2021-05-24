@@ -9,7 +9,6 @@
 
 ## (Ricontrollare testi notebook e nomi grafici che siano corretti)
 
-
 # Twitter Covid19 Visualisation
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
@@ -26,6 +25,8 @@ This work is licensed under a
 
 Data from: https://github.com/Gautamshahi/Misinformation_COVID-19<br>
 The dataset comes from this research work: Shahi, G. K., Dirkson, A., & Majchrzak, T. A. (2021). An exploratory study of covid-19 misinformation on twitter. Online social networks and media, 100104. https://arxiv.org/abs/2005.05710<br>
+
+Sentiment analysis done through: Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.
 
 The dataset that we've used is composed by one column: <b>tweet_id</b><br>
 
