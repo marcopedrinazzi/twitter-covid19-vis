@@ -2,11 +2,6 @@
 
 ## Abbellire il github
 
-## Se i colori della word cloud sono brutti https://observablehq.com/@d3/color-schemes?collection=@d3/d3-scale-chromatic CATEGORY10
-(meno parole e min_font piu grosso)
-
-## FIX wcloud no covid general e fake (text e hashtag)
-
 ## (Ricontrollare testi notebook e nomi grafici che siano corretti)
 
 # Twitter Covid19 Visualisation
