@@ -2,7 +2,6 @@
 
 ## Abbellire il github
 
-## (Ricontrollare testi notebook e nomi grafici che siano corretti)
 
 # Twitter Covid19 Visualisation
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
