@@ -23,3 +23,4 @@ We have cleaned the main directories **/generalcovid**, **/fakecovid**, **/scatt
 ## fakecovid/
 
 ## scatter_text_charts/
+### [VIEW_Scatter_Text_Charts.ipynb](https://nbviewer.jupyter.org/github/marcopedrinazzi/twitter-covid19-vis/blob/main/views/scatter_text_charts/VIEW_Scatter_Text_Charts.ipynb)
