@@ -21,7 +21,7 @@ We have cleaned the main directories **/generalcovid**, **/fakecovid**, **/scatt
 ### [VIEW_General_Strip_Plot.md](https://github.com/marcopedrinazzi/twitter-covid19-vis/blob/main/views/generalcovid/VIEW_General_Strip_Plot.md)
 
 ## fakecovid/
-### 
+### [VIEW_Fake_Frequency distribution of False-Partially False Retweets and Likes.md](https://github.com/marcopedrinazzi/twitter-covid19-vis/blob/main/views/fakecovid/VIEW_Fake_Frequency%20distribution%20of%20False-Partially%20False%20Retweets%20and%20Likes.md)
 
 ## scatter_text_charts/
-### [VIEW_Scatter_Text_Charts.md](https://nbviewer.jupyter.org/github/marcopedrinazzi/twitter-covid19-vis/blob/main/views/scatter_text_charts/VIEW_Scatter_Text_Charts.md)
+### [VIEW_Scatter_Text_Charts.md](https://github.com/marcopedrinazzi/twitter-covid19-vis/tree/main/views/scatter_text_charts)
