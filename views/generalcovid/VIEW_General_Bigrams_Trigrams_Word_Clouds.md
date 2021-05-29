@@ -163,7 +163,6 @@ chart = alt.Chart(
 chart
 ```
 
-![bigrams_freq.png](attachment:./img/bigrams_freq.png)
 ![bigrams_freq.png](./img/bigrams_freq.png)
 
 The word cloud is created:
@@ -198,7 +197,7 @@ plt.tight_layout(pad = 0)
 #plt.show()
 ```
 
-![cloud_bi_gen.png](attachment:cloud_bi_gen.png)
+![cloud_bi_gen.png](./img/cloud_bi_gen.png)
 
 ## Trigrams
 
@@ -285,7 +284,7 @@ c = alt.Chart(
 c
 ```
 
-![tri_freq.png](attachment:tri_freq.png)
+![tri_freq.png](./img/:tri_freq.png)
 
 The word cloud is created:
 
@@ -319,4 +318,4 @@ plt.tight_layout(pad = 0)
 plt.show() 
 ```
 
-![cloud_tri_gen.png](attachment:cloud_tri_gen.png)
+![cloud_tri_gen.png](./img/cloud_tri_gen.png)
