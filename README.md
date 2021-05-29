@@ -2,6 +2,8 @@
 
 ## Finire il lavoro dei link in views e aggiornare il readme in views e home
 
+## Testare tutti i link messi nei due readme a views
+
 # Twitter Covid19 Visualisation
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
