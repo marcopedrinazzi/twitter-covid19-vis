@@ -164,6 +164,7 @@ chart
 ```
 
 ![bigrams_freq.png](attachment:./img/bigrams_freq.png)
+![bigrams_freq.png](./img/bigrams_freq.png)
 
 The word cloud is created:
 
