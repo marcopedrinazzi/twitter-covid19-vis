@@ -163,7 +163,7 @@ chart = alt.Chart(
 chart
 ```
 
-![img/bigrams_freq.png](attachment:img/bigrams_freq.png)
+![bigrams_freq.png](attachment:./img/bigrams_freq.png)
 
 The word cloud is created:
 
