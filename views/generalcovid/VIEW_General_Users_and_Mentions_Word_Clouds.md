@@ -99,6 +99,9 @@ chart = alt.Chart(
 chart
 ```
 
+![users_count.jpg](./img/users_count.jpg)
+
+
 The users word cloud is created:
 
 
@@ -199,6 +202,9 @@ c = alt.Chart(
 
 c
 ```
+
+![mentions_count.png](./img/mentions_count.png)
+
 
 The mentions word cloud is created:
 

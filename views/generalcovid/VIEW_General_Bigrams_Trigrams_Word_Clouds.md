@@ -284,7 +284,7 @@ c = alt.Chart(
 c
 ```
 
-![tri_freq.png](./img/:tri_freq.png)
+![tri_freq.png](./img/tri_freq.png)
 
 The word cloud is created:
 

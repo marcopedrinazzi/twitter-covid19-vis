@@ -74,7 +74,7 @@ plt.tight_layout(pad = 0)
 #plt.show()
 ```
 
-![wordcloud_fake_users.png](attachment:wordcloud_fake_users.png)
+![wordcloud_fake_users.png](./img/wordcloud_fake_users.png)
 
 ## Mentions
 
@@ -124,4 +124,4 @@ plt.tight_layout(pad = 0)
 #plt.show()
 ```
 
-![wordcloud_fake_mentions.png](attachment:wordcloud_fake_mentions.png)
+![wordcloud_fake_mentions.png](./img/wordcloud_fake_mentions.png)
