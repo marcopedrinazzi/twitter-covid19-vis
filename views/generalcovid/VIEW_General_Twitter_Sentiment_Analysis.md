@@ -197,7 +197,7 @@ print("https://twitter.com/anyuser/status/" + id_neutral[ind])
 
 ![example_sentiment_3.png](./img/example_sentiment_3.png)
 
-### Distribution of sentiment values classified by sentiment category and tweet type (False, Partially False)
+### Distribution of sentiment values classified by sentiment category
 
 
 ```python
@@ -463,9 +463,9 @@ textduec = chartduec.mark_text(baseline='middle').encode(
 
 ![sentiment_heat.png](./img/sentiment_heat.png)
 
-### Distribution of sentiment values classified by sentiment category (tweets with covid19 hashtags)
+### Distribution of sentiment values classified by sentiment category (tweets with COVID-19 hashtags)
 
-We've selected some covid19 hashtags and showed the distribution of their sentiment scores: **covid19, coronavirus, covid, covid-19, covid_19, corona, coronaoutbreak**
+We've selected some COVID-19 hashtags and showed the distribution of their sentiment scores: **covid19, coronavirus, covid, covid-19, covid_19, corona, coronaoutbreak**.
 
 
 ```python
@@ -558,7 +558,7 @@ stripplotcovid
 
 ![sentiment_covid_dist.png](./img/sentiment_covid_dist.png)
 
-### Frequency of positive, neutral, negative tweets (tweets with covid19 hashtags)
+### Frequency of positive, neutral, negative tweets (tweets with COVID-19 hashtags)
 
 
 ```python
@@ -645,7 +645,7 @@ pie_fig_hash.show()
 
 ![_fixed_pie_covid.png](./img/_fixed_pie_covid.png)
 
-### Heatmap AVERAGE sentiment score per day (tweets with covid19 hashtags)
+### Heatmap AVERAGE sentiment score per day (tweets with COVID-19 hashtags)
 
 
 ```python
