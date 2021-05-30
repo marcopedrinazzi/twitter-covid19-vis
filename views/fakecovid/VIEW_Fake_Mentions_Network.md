@@ -74,4 +74,4 @@ net.show("mentions_networks.html")
 ## Legenda 
 **(Zoom in the networks to see their details. The chart is interactive.)**
 
-![image_color_mention_net.png](./img/image_color_mention_net.png)
+![_legenda_net.png](./img/_legenda_net.png)

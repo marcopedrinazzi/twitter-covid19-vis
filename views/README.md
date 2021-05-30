@@ -42,4 +42,4 @@ We have cleaned the main directories **/generalcovid**, **/fakecovid**, **/scatt
 ### [VIEW_Fake_Bigrams_Trigrams_Word_Clouds.md](https://github.com/marcopedrinazzi/twitter-covid19-vis/blob/main/views/fakecovid/VIEW_Fake_Bigrams_Trigrams_Word_Clouds.md)
 
 ## scatter_text_charts/
-### [VIEW_Scatter_Text_Charts.md](https://github.com/marcopedrinazzi/twitter-covid19-vis/tree/main/views/scatter_text_charts)
+### [VIEW_Scatter_Text_Charts.md](https://github.com/marcopedrinazzi/twitter-covid19-vis/blob/main/views/scatter_text_charts/VIEW_Scatter_Text_Charts.md)

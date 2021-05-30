@@ -99,7 +99,7 @@ chart = alt.Chart(
 chart
 ```
 
-![users_count.jpg](./img/users_count.jpg)
+![users_count.png](./img/users_count.png)
 
 
 The users word cloud is created:
