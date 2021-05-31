@@ -857,8 +857,8 @@ alt.hconcat(c1_jul, c2_jul).configure_axis(
 
 ## June 2020
 
-![6_jun2020.png](./img/6_jun2020.png)
+![6_jun2020.png](./img/6_june2020.png)
 
 ## July 2020
 
-![7_july2020.png](./img/7_july2020.png)
+![7_july2020.png](./img/7_jul2020.png)
