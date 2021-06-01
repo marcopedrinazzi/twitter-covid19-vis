@@ -224,7 +224,7 @@ chartdue = alt.Chart(
 ).mark_rect().encode(
     x=alt.X('date(data):O',title="Day"),
     y=alt.Y('month(data):O',title="Month"),
-    color=alt.Color('likes_count:Q', scale=alt.Scale(scheme="turbo"),title="Likes count"),
+    color=alt.Color('likes_count:Q', scale=alt.Scale(scheme="turbo", domain=[1,1700000]),title="Likes count"),
     tooltip=[
         alt.Tooltip('monthdate(data):T', title='Date'),
         alt.Tooltip('likes_count:Q', title='Likes count')
@@ -235,13 +235,19 @@ chartdue = alt.Chart(
 textdue = chartdue.mark_text(baseline='middle').encode(
     text='likes_count:Q',
     color=alt.condition(
-        alt.FieldRangePredicate(field='likes_count', range=[1454000,1455000]),
+        alt.FieldRangePredicate(field='likes_count', range=[264000,726000]),
         alt.value('black'),
         alt.value('white')
     )
 )
 
-(chartdue + textdue).configure_title(
+nulls = chartdue.transform_filter(
+  "datum.likes_count == 0"
+).mark_rect(opacity=0.5).encode(
+  alt.Color('likes_count:N', scale=alt.Scale(scheme='greys'),title="Likes count")
+)
+
+(chartdue + textdue + nulls).configure_title(
     fontSize=17,
     offset=25
 ).configure_axis(
@@ -305,7 +311,7 @@ c = alt.Chart(
 ).mark_rect().encode(
     x=alt.X('date(data):O',title="Day"),
     y=alt.Y('month(data):O',title="Month"),
-    color=alt.Color('retweet_count:Q', title="Retweets count",scale=alt.Scale(scheme="turbo")),
+    color=alt.Color('retweet_count:Q', title="Retweets count",scale=alt.Scale(scheme="turbo", domain=[1,330000])),
     #cool è lo schema
     tooltip=[
         alt.Tooltip('monthdate(data):T', title='Date'),
@@ -317,13 +323,19 @@ c = alt.Chart(
 t = c.mark_text(baseline='middle').encode(
     text='retweet_count:Q',
     color=alt.condition(
-        alt.FieldRangePredicate(field='retweet_count', range=[500000,700000]),
+        alt.FieldRangePredicate(field='retweet_count', range=[55000,167000]),
         alt.value('black'),
         alt.value('white')
     )
 )
 
-(c + t).configure_title(
+nullsr = c.transform_filter(
+  "datum.retweet_count == 0"
+).mark_rect(opacity=0.5).encode(
+  alt.Color('retweet_count:N', scale=alt.Scale(scheme='greys'),title="Retweet count")
+)
+
+(c + t + nullsr).configure_title(
     fontSize=17,
     offset=25
 ).configure_axis(
