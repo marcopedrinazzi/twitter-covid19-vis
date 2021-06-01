@@ -224,7 +224,7 @@ chartb = alt.Chart(
 ).mark_rect().encode(
     x=alt.X('date(data):O',title="Day"),
     y=alt.Y('month(data):O',title="Month"),
-    color=alt.Color('likes_count:Q', scale=alt.Scale(scheme="turbo"),title="Likes count"),
+    color=alt.Color('likes_count:Q', scale=alt.Scale(scheme="turbo", domain=[1,2100000]),title="Likes count"),
     tooltip=[
         alt.Tooltip('monthdate(data):T', title='Date'),
         alt.Tooltip('likes_count:Q', title='Likes count')
@@ -303,7 +303,7 @@ c = alt.Chart(
 ).mark_rect().encode(
     x=alt.X('date(data):O',title="Day"),
     y=alt.Y('month(data):O',title="Month"),
-    color=alt.Color('retweet_count:Q', title="Retweets count", scale=alt.Scale(scheme="turbo")),
+    color=alt.Color('retweet_count:Q', title="Retweets count", scale=alt.Scale(scheme="turbo", domain=[1,8400000])),
     tooltip=[
         alt.Tooltip('monthdate(data):T', title='Date'),
         alt.Tooltip('retweet_count:Q', title='Retweet count')
