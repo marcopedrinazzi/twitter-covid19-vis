@@ -3392,8 +3392,8 @@
   ],
 
   "axes": [
-    {"orient": "left", "scale": "y", "title": "Fake Covid Dataset","labelFontSize":11,"titleFontSize":14},
-    {"orient": "bottom", "scale": "x", "title": "General Covid Dataset","labelFontSize":11,"titleFontSize":14}
+    {"orient": "left", "scale": "y", "title": "Dataset Fake Norm. Count","labelFontSize":11,"titleFontSize":14},
+    {"orient": "bottom", "scale": "x", "title": "Dataset General Norm. Count","labelFontSize":11,"titleFontSize":14}
   ],
   "title": {
   "text": "A frequency comparison between the emojis in the two datasets",

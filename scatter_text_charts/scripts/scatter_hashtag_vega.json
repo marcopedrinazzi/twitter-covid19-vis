@@ -99466,8 +99466,8 @@
   "text": "A frequency comparison between the hashtags in the two datasets",
   "fontSize":18},
   "axes": [
-    {"orient": "left", "scale": "y", "title": "Fake Covid Dataset","labelFontSize":11,"titleFontSize":14},
-    {"orient": "bottom", "scale": "x", "title": "General Covid Dataset","labelFontSize":11,"titleFontSize":14}
+    {"orient": "left", "scale": "y", "title": "Dataset Fake Norm. Count","labelFontSize":11,"titleFontSize":14},
+    {"orient": "bottom", "scale": "x", "title": "Dataset General Norm. Count","labelFontSize":11,"titleFontSize":14}
   ],
 
   "marks": [
