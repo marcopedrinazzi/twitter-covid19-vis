@@ -76,6 +76,10 @@ plt.tight_layout(pad = 0)
 
 ![wordcloud_fake_users.png](./img/wordcloud_fake_users.png)
 
+As we can see, the users that have more written about COVID-19 are WHO, PIBFactCheck...
+<br>This is a strange output...<br>
+Unfortunately, we cannot explain why these relevant users' tweets have been classified as "fake" since we aren't the authors of the dataset.
+
 ## Mentions
 
 We have also filtered all the mentions and then we have calculated the frequency distribution:
