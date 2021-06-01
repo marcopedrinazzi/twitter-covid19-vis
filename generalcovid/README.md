@@ -1,3 +1,1 @@
-# Notes
-
 The main dataset on which we made the views is <b> general_dataset.csv </b>.

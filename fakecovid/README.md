@@ -1,3 +1,1 @@
-# Notes
-
 The main dataset on which we made the views is <b> FINAL_fakecovid_final_filtered_dataset_clean.csv </b>.
