@@ -14,11 +14,11 @@ This work is licensed under a
 
 **The repository is structured as follows:**
 - ***/extra*** contains some scripts and extra stuff we've used to develop the project
-- ***/fakecovid* contains the visualisations about the misinformation on twitter about Covid-19**
-- ***/generalcovid* contains the visualisations about tweets about Covid-19**
-- ***/scatter_text_charts* contains the visualisations about a frequency comparison between the data in the two datasets described below**
-- ***/views* described below**
-- ***/slides* contains the slides we have used for the presentation of our work**
+- ***/fakecovid*** contains the visualisations about the misinformation on twitter about Covid-19
+- ***/generalcovid*** contains the visualisations about tweets about Covid-19
+- ***/scatter_text_charts*** contains the visualisations about a frequency comparison between the data in the two datasets described below
+- ***/views*** described below
+- ***/slides*** contains the slides we have used for the presentation of our work
 
 # Views Folder
 
