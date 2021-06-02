@@ -1,1 +1,3 @@
-The main dataset on which we made the visualisations is <b> general_dataset.csv </b>.
+# Dataset
+
+The main dataset on which we made the visualisations is **general_dataset.csv**.
