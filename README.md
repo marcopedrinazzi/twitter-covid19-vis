@@ -1,4 +1,4 @@
-# Twitter Covid19 Visualisation
+# Twitter Covid19 Visualisation - Scientific Visualization exam at University of Milan 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a
